@@ -1,0 +1,135 @@
+# 一、布局分享
+
+## rem布局
+
+### 概念
+
+rem是css中的一个相对长度单位，它以根元素<html>的font-size值为基准，例如：
+
+html的font-size为16px，1rem就等于16px。
+
+大多数用于自适应布局，不过需要写算法让其根据屏幕的宽度进行自动计算。
+
+[__https://www.linkkap.com/__](https://www.linkkap.com/)
+
+### rem的算法
+
+为了方便计算一般都把宽度为750px的设备的font-size设为100px，相当于把屏幕切成了7.5份，可以根据这个标准来写算法。
+
+```text
+function() {
+	let width = document.documentElement.clientWidth 
+				|| document.body.clientWidth
+    if (width >= 600) {
+		width = 600
+    }
+	document.documentElement.style.fontSize = width / 7.5 + 'px'
+}
+```
+
+### 配合插件
+
+可以去vscode使用px2rem插件，在里面设置html中font-size的值即可转换。
+
+## 响应式布局
+
+### 概念
+
+采用自适应布局和流式布局的综合方式，为不同屏幕分辨率范围创建流式布局。
+
+这种设计方法一般是利用媒体查询进行，优点是多端浏览时样式好看，缺点就是维护麻烦。
+
+### 媒体查询
+
+可以根据各种设备特征和参数的值或者是否存在来调整您的网站或应用。
+
+@media 媒体类型 逻辑操作符*  (媒体特性)* { ...css内容... }
+
+媒体类型(逻辑操作符不是not或only则是可选的，默认为all)：
+
+- all：适用所有设备。
+
+- print：适用于在打印预览模式下在屏幕上查看的分页材料和文档。
+
+- screen：主要用于屏幕。
+
+- speech：主要用于语音合成器。
+
+逻辑操作符：
+
+- and ：将媒体特性与媒体类型或其他媒体特性组合在一起，可以把其当成并(&&)。
+
+- not：不满足媒体特性时生效，对媒体类型和第一个and不生效，使用必须指定媒体类型且只能出现一次，可以把其当成非(!)。
+
+- , ：其后相当于重写一个@media语句，可以把其当成或(||)。
+
+- only：可防止旧版浏览器应用指定的样式，这些浏览器不支持带媒体特性的媒体查询。
+
+媒体特性：
+
+- width：精确宽度。
+
+- min-width：最小宽度。
+
+- max-width：最大宽度。
+
+- height：精确高度。
+
+- min-height：最小高度。
+
+- max-height：最大高度。
+
+使用<style>写媒体查询时要注意顺序问题，后面的同级别样式会覆盖前面的样式。
+
+注意media还可以在<style>, <link>, <source>中使用。
+
+## 圣杯布局和双飞翼布局
+
+### 圣杯布局
+
+为了让中间div内容不被遮挡，将中间div设置了左右padding-left和padding-right后，将左右两个div用display: float并分别配合left属性，以便左右两栏div移动后不遮挡中间div的内部中间div。
+
+### 双飞翼布局
+
+为了让中间div内容不被遮挡，直接在中间div内部创建子div用于放置内容，在该div里用margin-left和margin-right为左右两栏div留出位置。
+
+[__https://juejin.cn/post/6844903574929932301?share_token=8f022b38-40b7-4045-b7c4-4b6d28892015__](https://juejin.cn/post/6844903574929932301?share_token=8f022b38-40b7-4045-b7c4-4b6d28892015)
+
+# 二、瀑布流 js 实现
+
+### 特点：
+
+1、瀑布流布局的特点是等宽不等高。
+
+2、布局过程中将优先向高度最小的列补充数据
+
+### **实现原理：**
+
+先通过计算出一排能够容纳几列元素，然后寻找各列之中所有元素高度之和的最小者，并将新的元素添加到该列上，然后继续寻找所有列的各元素之和的最小者，继续添加至该列上，如此循环下去，直至所有元素均能够按要求排列为止。
+
+### **优点**：
+
+1、因为瀑布流有吸引力，瀑布流会在它的页面底部给你不断地加载新的暗示信息，滑动的时候会不停的出现新的东西，通过给出不完整的视觉图片去吸引你的好奇心，让你停不下来想要不断的向下探索。采用这种方案的产品，往往可以通过瀑布流加强用户的停留时间，提高用户的使用粘度。
+
+
+
+2、用户一扫而过的快速阅读模式，短时间内可以看到大量的信息，瀑布流的懒加载模式，又避免点击的的翻页操作，在最小的操作成本下能够获得最多的内容体验，瀑布流的视觉方式，让人容易沉浸其中，不容易被打断。
+
+
+
+3、另外瀑布流的主要特质就是：定宽而不定高，这样的页面设计区别于传统的矩阵式图片布局模式，巧妙的利用视觉层级，视线的任意流动来缓解视觉的疲劳。
+
+### 应用场景:
+
+瀑布流更适合那些随意浏览，不带目的性的使用场景，就像是在逛街一样，边走边看，同时被街边琳琅满目的商品吸引着，所以比较适合的图片、小说、资讯类的场景，以现有的成功案例来说，以 UGC 为主的相关网站很多在使用瀑布流进行承载。
+
+![](https://tcs-devops.aliyuncs.com/storage/112b6959c813268bbe10c04ec2644b3375f7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTM1NSwiaWF0IjoxNjUxODk2NTU1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmI2OTU5YzgxMzI2OGJiZTEwYzA0ZWMyNjQ0YjMzNzVmNyJ9.XSKeSt6PiyssIqk3CtkHHl1i8Frwd3VpzTc1LIqKXSQ&download=001LhvRkzy7yqD1BozJ8f.jpg "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112b54d2720421341797cf34327f495a12b5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTM1NSwiaWF0IjoxNjUxODk2NTU1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmI1NGQyNzIwNDIxMzQxNzk3Y2YzNDMyN2Y0OTVhMTJiNSJ9.8Ulez7Oz-8vBHBNfc6KEQdXpCFMB6RMf0VMvKyh02ug&download=001LhvRkzy7yqAYoKNpaf.jpg "")
+
+
+
+# 三、grid 布局基础
+
+
+

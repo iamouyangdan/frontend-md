@@ -1,0 +1,276 @@
+# 微前端
+
+微前端就是将不同的功能按照不同的维度拆分成多个子应用。通过主应用来加载这些子应用。
+
+***
+
+对于后端来说，为了解决庞大的一整块后端服务带来的变更与扩展方面的限制，出现了微服务架构。
+
+> 具体地，将应用构建成一组小型服务。这些服务都能够独立部署、独立扩展，每个服务都具有稳固的模块边界，甚至允许使用不同的编程语言来编写不同服务，也可以由不同的团队来管理
+
+越来越重的前端工程也面临同样的问题，自然地想到了将微服务思想应用（照搬）到前端，于是有了 **微前端** 的概念
+
+> 一种由独立交付的多个前端应用组成整体的架构风格。具体的，**将前端应用分解成一些更小、更简单的能够独立开发、测试、部署的小块，而在用户看来仍然是内聚的单个产品**
+
+![](https://tcs-devops.aliyuncs.com/storage/112g0b8817b4987e55fd14d2b8c01bcb9d5f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmcwYjg4MTdiNDk4N2U1NWZkMTRkMmI4YzAxYmNiOWQ1ZiJ9.fgJx1xS8VWt9oyTCI9ktmTrGXXYi2KYIpbIkXalHrWk&download=image.png "")
+
+## 为什么
+
+- 不同团队间开发同一个应用技术栈不同
+
+- 希望每个团队都可以独立开发，独立部署
+
+- 项目中还需要老的应用代码
+
+> 将一个应用划分成若干个子应用，再将子应用打包成一个个的lib，路径切换时加载不同的子应用，这样每个子应用都是独立的，技术栈也就不用再做限制
+
+## 特点
+
+微前端的理念类似于微服务——将庞大的整体拆成可控的小块，并明确它们之间的依赖关系
+
+- 代码库更小，更内聚、可维护性更高
+
+- 松耦合、自治的团队可扩展性更好
+
+- **渐进地升级、更新甚至重写部分前端功能成为了可能**
+
+### 增量升级
+
+旧项目升级的问题
+
+- 技术栈落后，甚至强行混用多种技术栈
+
+- 耦合混乱，不敢动，牵一发何止动全身
+
+- 重构不彻底，重构-烂尾，换个姿势重构-又烂尾
+
+而要对这些代码进行彻底重构的话，**最大的问题是很难有充裕的资源去大刀阔斧地一步到位**，在逐步重构的同时，既要确保中间版本能够平滑过渡，同时还要持续交付新特性
+
+为了实施渐进式重构，我们需要一种增量升级的能力，先让新旧代码和谐共存，再逐步转化旧代码，直到整个重构完成，这种增量升级的能力意味着我们能够对产品功能进行低风险的局部替换，包括升级依赖项、更替架构、UI 改版等
+
+### 独立部署
+
+独立部署的能力在微前端体系中至关重要，能够缩小变更范围，进而降低相关风险
+
+因此，每个微前端都应具备有自己的持续交付流水线（包括构建、测试并部署到生产环境），并且要能独立部署
+
+![](https://tcs-devops.aliyuncs.com/storage/112g9f098fd2a8f245983502a4cce1d131b4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc5ZjA5OGZkMmE4ZjI0NTk4MzUwMmE0Y2NlMWQxMzFiNCJ9.ODknzXZWHA-BOQZ9Irqye3GC52gXlTHAeLEy4134_k4&download=image.png "")
+
+## 实现方案
+
+### 多 Bundle 集成
+
+微前端架构中一般会有个**容器应用（container application）**将各子应用集成起来
+
+- 渲染公共的页面元素，比如 header、footer
+
+- 解决横切关注点（cross-cutting concerns），如身份验证和导航
+
+- 将各个微前端整合到一个页面上，并控制微前端的渲染区域和时机
+
+![](https://tcs-devops.aliyuncs.com/storage/112gc1eb941dfe2c75578a005b228cdbdbcb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdjMWViOTQxZGZlMmM3NTU3OGEwMDViMjI4Y2RiZGJjYiJ9.Gf2kBSS6uIUTAI_4FK1uJhleSIJ7l7f4qGlRHtpW54k&download=image.png "")
+
+集成方式分为 3 类
+
+- 服务端集成：如 SSR 拼装模板
+
+- 构建时集成：如 Code Splitting
+
+- 运行时集成：如通过 iframe、JS、Web Components 等方式
+
+### 运行时集成
+
+将集成时机从构建时推迟到运行时，就能避免发布阶段的耦合
+
+- iframe
+
+- JS：比如前端路由
+
+- Web Components
+
+iframe 无疑是最简单的方式，但很难将应用各个部分联系一起管理
+
+最常见的方式是前端路由，每个子应用暴露出渲染函数，主应用在启动时加载各个子应用的独立 Bundle，之后根据路由规则渲染相应的子应用。目前看来，是**最灵活的方式**
+
+还有一种类似的方式是Web Components，将每个子应用封装成自定义 HTML 元素（而不是前端路由方案中的渲染函数）
+
+![](https://tcs-devops.aliyuncs.com/storage/112g05a78d69e9a1f05b5d05a93938ab406f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmcwNWE3OGQ2OWU5YTFmMDViNWQwNWE5MzkzOGFiNDA2ZiJ9.PMvDYUumtAAKlx4akBH5E6V2yTZJ-458nbIjM8N02HU&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112ga33e1eb372b1cb276cdc2cef6046b1e9?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdhMzNlMWViMzcyYjFjYjI3NmNkYzJjZWY2MDQ2YjFlOSJ9.JYMu6EZfCpnd36apE6o1aSdzy-7wvwPRrzyegDFDoI8&download=image.png "")
+
+### 资源复用
+
+资源复用对于 UI 一致性和代码复用有重要意义，但*并非所有的可复用资源（如组件）都必须在一开始就提出来复用*，建议的做法是前期允许一定程度的冗余，各个 Bundle 在各自的代码库中创建组件，直到形成相对明确的组件 API 时再建立可供复用的公共组件
+
+- 基础资源：完全不含逻辑功能的图标、标签、按钮等
+
+- UI 组件：含有一定 UI 逻辑的搜索框（如自动完成）、表格（如排序、筛选、分页）等
+
+- 业务组件：含有业务逻辑
+
+> **不建议跨子应用复用业务组件**，因为会造成高度耦合，增加变更成本
+
+### 应用间通信
+
+通过自定义事件间接通信是一种避免直接耦合的常用方式，路由参数也可以作为一种通信手段
+
+> 但原则上，无论采用哪种方式，都应该*尽可能减少子应用间的通信*，以避免大量弱依赖造成的强耦合
+
+## 主要目的
+
+- 技术架构上进一步的扩展性（模块边界清晰、依赖明确）
+
+- 开发流程上能独立开发、独立交付
+
+最大的意义在于解锁了*多技术栈并存的能力*，尤其适用于渐进式重构中架构升级过渡期
+
+允许低成本尝试新技术栈，甚至允许选用最合适的技术栈做不同的事情（类似于微服务中允许用不同的语言编写不同服务）
+
+## 优点
+
+- 技术栈无关——框架不限制接入应用的技术栈，微应用具备完全自主权
+
+- 独立开发、独立部署——微应用仓库独立，前后端可独立开发，部署完成后主框架自动完成同步更新
+
+- 增量升级——在面对各种复杂场景时，我们通常很难对一个已经存在的系统做全量的技术栈升级或重构，而微前端是一种非常好的实施渐进式重构的手段和策略
+
+- 独立运行——每个微应用之间状态隔离，运行时状态不共享
+
+## 缺点
+
+- 导致依赖项冗余，增加用户的流量负担
+
+- 独立构建意味着公共资源的冗余，继而增加用户的流量负担
+
+**没有非常理想的解决办法**，一种简单的方案是将公共依赖从（子应用的）构建产物中剔除，但又会引入构建时耦合
+
+
+
+# qiankun
+
+qiankun 是一个基于 [single-spa](https://github.com/CanopyTax/single-spa) 的[微前端](https://micro-frontends.org/)实现库，旨在帮助大家能更简单、无痛的构建一个生产可用微前端架构系统。
+
+
+
+# 项目实践
+
+链股产品系统目前都是放在linkkap-admin这个项目中，用微前端的方式将多个项目合在一起
+
+![](https://tcs-devops.aliyuncs.com/storage/112gbece199edcdc7a4e3def355707336ca7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdiZWNlMTk5ZWRjZGM3YTRlM2RlZjM1NTcwNzMzNmNhNyJ9.YeBiBS73Rv34ClJTrlg6ajPI8QU0QnHoQgKljDNZRSA&download=image.png "")
+
+## 项目结构
+
+![](https://tcs-devops.aliyuncs.com/storage/112gceb7f68a0771c7314ef370de5a594605?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdjZWI3ZjY4YTA3NzFjNzMxNGVmMzcwZGU1YTU5NDYwNSJ9.NPdmB1-zK_TixOLmdz1PLxDariEtivQTUBYd-NVE-0s&download=2022-04-13-15-14-36-image.png "")
+
+## 打包结果
+
+![](https://tcs-devops.aliyuncs.com/storage/112gec9306cae3abdf465f4d4de2c9f97cf0?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdlYzkzMDZjYWUzYWJkZjQ2NWY0ZDRkZTJjOWY5N2NmMCJ9.MT0q3edJZXvLUFzB9CCPDu699SjMkxxS6fLxtrHgLHU&download=image.png "")
+
+## 主应用微前端相关配置
+
+### 配置子应用入口
+
+***main\src\microApp.js***
+
+配置每个子应用的name、entry、activeRule，entry通过cli的环境变量区分是子应用是本地端口还是打包路径，name和activeRule要不相同，否则nginx会匹配错
+
+![](https://tcs-devops.aliyuncs.com/storage/112g72073c4df33ec48ab66e62ae5f3b552c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc3MjA3M2M0ZGYzM2VjNDhhYjY2ZTYyYWU1ZjNiNTUyYyJ9.LkVecPkPn9xqaQjMt_IupE0VxcdD__rT77c7T95alwI&download=2022-04-13-15-15-13-image.png "")
+
+### 配置qiankun应用通信
+
+***main\src\store.js***、***common\src\store\global-register.js***
+
+通过qiankun的api`initGlobalState`初始化全局状态和获取通信的方法
+
+在common中定义一个注册全局store的一个方法，在子应用加载时调用这个方法把通信方法注册到子应用的stroe，名称为global
+
+![](https://tcs-devops.aliyuncs.com/storage/112gb2f0fb83f5aecfc89a03d03aa5e6312f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdiMmYwZmI4M2Y1YWVjZmM4OWEwM2QwM2FhNWU2MzEyZiJ9.pigPaRt-Smtl8jBGphzkmKenwrcLE3PKrY8lta6CC2A&download=2022-04-13-15-15-45-image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112gdd7776e0baec151fa99fde3055bcc829?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdkZDc3NzZlMGJhZWMxNTFmYTk5ZmRlMzA1NWJjYzgyOSJ9.bQVE02TZZdMAQvuWXgrlK77wgYlhlZzkOEjI5IPcys0&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112ga42e14f2c42d364fd3a920dcc90d807e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdhNDJlMTRmMmM0MmQzNjRmZDNhOTIwZGNjOTBkODA3ZSJ9.64MnwW9MPVOkSxEleq-PVTYbFL1KlMNsUwYbCHUm0ps&download=2022-04-13-15-17-02-image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112gc40ac04b8ef04da015ff7029839049ce?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdjNDBhYzA0YjhlZjA0ZGEwMTVmZjcwMjk4MzkwNDljZSJ9.CYMuWDtPC7Z8T3NmvfN8SAT38p9bVaJCxjdpAyFVV24&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112g7b49aad7dead7859e1f5a9b09d404875?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc3YjQ5YWFkN2RlYWQ3ODU5ZTFmNWE5YjA5ZDQwNDg3NSJ9.vqdy_6KqcURxRjyhf6gzP9R1Gd_O-ax3RwwrdSlQnJw&download=image.png "")
+
+### 主应用运行qiankun配置
+
+***main\src\main.js***、***main\src\App.vue***
+
+![](https://tcs-devops.aliyuncs.com/storage/112gea23e67f2e7af8cfe141fc927170cae5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdlYTIzZTY3ZjJlN2FmOGNmZTE0MWZjOTI3MTcwY2FlNSJ9.u_6_ilFOGrXtpf9B973memRf13fcft0lcpK10-8L7To&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112g9937e5ecae3e0e851cf46398617b321f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc5OTM3ZTVlY2FlM2UwZTg1MWNmNDYzOTg2MTdiMzIxZiJ9.581LZqVDYAMlTL1O__VaSgpnHFZpx721WAAZhBIlUbs&download=image.png "")
+
+### 子应用微前端相关配置
+
+***enterprise-administration\vue.config.js***
+
+区分是本地运行和打包运行
+
+![](https://tcs-devops.aliyuncs.com/storage/112g8c8a0e99d97244f82b222a9bb48a31eb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc4YzhhMGU5OWQ5NzI0NGY4MmIyMjJhOWJiNDhhMzFlYiJ9.SwYOj0RSS142WLud9GHFXLLenaKmMBbrboSf1Eq4IRw&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112g5f00ef2f51e8fdc65c4c3056bd6ff856?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc1ZjAwZWYyZjUxZThmZGM2NWM0YzMwNTZiZDZmZjg1NiJ9.4nCDPNhsKmYgZdOzqQAPdAUgL6OSlXouL0qQuYkIQVY&download=image.png "")
+
+优点：简单
+
+存在的问题：子应用里面存在大量重复代码，主应用每次都加载了全部的子应用
+
+### 将子应用公用的组件和工具方法抽出到common目录（类似npm库）
+
+![](https://tcs-devops.aliyuncs.com/storage/112g52cb49ca0ac22412e88ad683b5e9dddf?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc1MmNiNDljYTBhYzIyNDEyZTg4YWQ2ODNiNWU5ZGRkZiJ9.QJl1b886TiMinIOkLOFXUTRhYC6D3UUaj7uELV5lR0U&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112gb2ceda7c9bceee8706b22cd0a17c9495?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdiMmNlZGE3YzliY2VlZTg3MDZiMjJjZDBhMTdjOTQ5NSJ9.eA_u045zvNN77jByiUzSOUGVnOr2t4Q8cKhIneUXuEg&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112ga2726cbc3fb9f3602afcb6df3e37de72?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdhMjcyNmNiYzNmYjlmMzYwMmFmY2I2ZGYzZTM3ZGU3MiJ9.j04qO3UDVFV82fSD7lsuAEmAwVPOS2eKsGfXpFyONTs&download=image.png "")
+
+优化点：减少大量重复代码。缺点：common更新需要重新install
+
+### 将依赖抽离到dll里面
+
+优化点：利用浏览器缓存提升子应用访问速度，减少子应用打包体积
+
+![](https://tcs-devops.aliyuncs.com/storage/112gf8dd948c4e452a31e01fb1f8c7d1032d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdmOGRkOTQ4YzRlNDUyYTMxZTAxZmIxZjhjN2QxMDMyZCJ9.d2XZYQZGInV49xgzD7VDBUWW8BCDZZpNNdTL0snbbLE&download=%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16487860828147.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112gf5c36d5942507cc6e045e14a51c1b12f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdmNWMzNmQ1OTQyNTA3Y2M2ZTA0NWUxNGE1MWMxYjEyZiJ9.jmdFl3zSzT8NjzTT6iUSc0uV5uCS1fXKPoYxV8o9xqY&download=%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16487860926348.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112g6ffd0d97236a7012a14087c0c0019a52?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc2ZmZkMGQ5NzIzNmE3MDEyYTE0MDg3YzBjMDAxOWE1MiJ9.qX1O1Y7rrh7MFv68raff3wflqE1M63Bm7RXC8Rf2Hlg&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112g2bf20ff6dff7ba50b8ed3996a8c8f749?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmcyYmYyMGZmNmRmZjdiYTUwYjhlZDM5OTZhOGM4Zjc0OSJ9.Oxc1Z65MeDxmXkqink_mcLFCocKIEutHekHJEFdZPtM&download=image.png "")
+
+先在主项目中把项目中部分的公告依赖打包成dll，然后在其他项目的vue.config.js中使用这些dll，这样公告的依赖就不会打包进去，也可以使用到依赖
+
+![](https://tcs-devops.aliyuncs.com/storage/112g2a76ee601d041e5a08d31a878b8d8ce4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmcyYTc2ZWU2MDFkMDQxZTVhMDhkMzFhODc4YjhkOGNlNCJ9.QzkIBhsKEi5IO0ERdkJIbKxB6o18pd00xIARwC0SPUk&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112gef6be2fce156cae86e8609b7e7204a68?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdlZjZiZTJmY2UxNTZjYWU4NmU4NjA5YjdlNzIwNGE2OCJ9.PxWAUtPhUKEdd9FRM5tf8-ycqRe7vzGiobSD5icbVEk&download=image.png "")
+
+### 只加载当前菜单需要的子应用
+
+优化点：主应用不用每次都加载全部的子应用
+
+![](https://tcs-devops.aliyuncs.com/storage/112g5c051ff374f8bc40f551c31db9c561d6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc1YzA1MWZmMzc0ZjhiYzQwZjU1MWMzMWRiOWM1NjFkNiJ9.Qf4SNKAap7cupdNrpZ-NjISH5UtpRsR9SRHhswHo7-s&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112g434ee14426233a30e15a2a7b68482783?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc0MzRlZTE0NDI2MjMzYTMwZTE1YTJhN2I2ODQ4Mjc4MyJ9.l2HqwmXrzL5VB4qK56ROPlLcvG0zPUXbBm7PYE0FDg4&download=image.png "")
+
+通过文档知道在start方法中prefetch是控制预加载的应用，之前是全部加载，改成先在主应用的菜单接口请求后，匹配菜单中需要的应用，再进行预加载，避免当前项目加载到不需要的子应用
+
+![](https://tcs-devops.aliyuncs.com/storage/112ga780c18da1b02a604496bb5fa3d01fec?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdhNzgwYzE4ZGExYjAyYTYwNDQ5NmJiNWZhM2QwMWZlYyJ9.Bb7JfNwdmePK7oNWOM0XDeAAAfnixeKLIkAN3t1UahM&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112g7d65c72c6f31a2b0bb248795b0b3651a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMwNiwiaWF0IjoxNjUxODk2NTA2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc3ZDY1YzcyYzZmMzFhMmIwYmIyNDg3OTViMGIzNjUxYSJ9.BwFi4Vl4sLt0AgyHFEhCmo8UQrAFjelpBMbZrhHyaMs&download=image.png "")
+
+主题 :rikka的快速会议
+
+日期 :2022-02-22 19:06:42
+
+录制文件：https://meeting.tencent.com/v2/cloud-record/share?id=95c2c665-19b3-4675-b57c-5017d7848e84&from=3
+
+
+
+
+
+
+
+
+
+
+

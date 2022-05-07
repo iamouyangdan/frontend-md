@@ -1,0 +1,58 @@
+# 切图基本要素
+
+- 确定元素位置、大小
+
+- 确定元素颜色、形状（阴影、圆角等）等
+
+- 元素交互动画
+
+# 前端切图
+
+- 位置：根据ui稿给定位置，一般不直接给定元素大小；通过html标签或`z-index` 确定层级关系
+
+- 颜色、形状：直接使用`css` 属性就可进行设置
+
+- 交互动画：使用`@keyframe` 或者通过`js` 操作动画
+
+# IOS切图
+
+- 位置：（原生）根据ui稿计算元素位置，同时计算元素大小，在元素大小发生变化时，通过代码进行重新计算元素的位置、大小；若使用三方库可以达到与前端切图相近的体验；
+
+- 颜色、形状：颜色可以通过添加`layer` 进行配置，也可以直接设置`backgroundColor` ，形状则只能通过`layer` 进行设置，且过程繁杂；在同时有圆角以及阴影时，操作复杂（貌似需要叠加`layer` 实现）
+
+- 交互动画：使用代码操作动画
+
+# 差异
+
+- 位置、大小的确定：前端在渲染时，父元素可以根据子元素大小进行调整，而ios则只能由子元素适应父元素（原生），在子元素大小变化时，需要重新计算父元素的大小、位置
+
+- 形状：ios设置元素形状过程复杂，而前端则可以使用`css` 直接设置；ios原生不能直接设置内边距以及外边距（貌似）
+
+# 实际样例
+
+![](https://tcs-devops.aliyuncs.com/storage/11291496a6d855d2e0b5f9c30868e64c3fe6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTM4MywiaWF0IjoxNjUxODk2NTgzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjkxNDk2YTZkODU1ZDJlMGI1ZjljMzA4NjhlNjRjM2ZlNiJ9._AxF3jgjfv64gq0ev57S59r56KdaBqawFd6Zv6CAiRI&download=image.png "")
+
+- 在使用ios切图时，这共有三个元素类：文案标签、文案后的圆角框、以及上方的正三角标签
+
+- 前端则可以使用一个标签以及简单的css样式即可实现上面的ui
+
+- 在文案内容变化时，同时需要计算文字长度动态设置文案后的圆角框的大小（原生）
+
+# ios切图体验
+
+- 使用ios原生切图的体验有点类似使用`canvas` 画图，元素大小、位置变化需要自行维护
+
+- 设置元素的阴影、形状比较复杂
+
+- 在使用`frame` 切图时想预览则只能打包到模拟器，再走流程
+
+- ios使用自动布局（`Masonry` ）可以相对降低切图复杂度，但某些元素（例如列表里的元素）的大小仍然需要自行控制
+
+
+
+
+
+
+
+
+

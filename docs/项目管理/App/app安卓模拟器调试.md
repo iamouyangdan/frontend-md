@@ -1,0 +1,26 @@
+## 一、下载安卓模拟器
+
+这里使用的是网易MuMu模拟器，下载地址：
+
+
+
+## 二、运行项目
+
+1、打开HBuilder X，导出项目
+
+2、点击菜单栏--运行项目--运行到手机或模拟器--ADB路径设置
+
+![](https://tcs-devops.aliyuncs.com/storage/112g8dd049c3c779c01144d46f4daab34886?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDk5NywiaWF0IjoxNjUxODk2MTk3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc4ZGQwNDljM2M3NzljMDExNDRkNDZmNGRhYWIzNDg4NiJ9.Y4m5k3tUhw45YqeArjsD4RHSjaySJwxvZ3CwcRF7P0s&download=image.png "")
+
+3、配置ADB路径，一般路径是/emulator/nemu/vmonitor/bin/adb_server.exe
+
+![](https://tcs-devops.aliyuncs.com/storage/112g537270bc165a58d90cf75bae7d1c7a3d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDk5NywiaWF0IjoxNjUxODk2MTk3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc1MzcyNzBiYzE2NWE1OGQ5MGNmNzViYWU3ZDFjN2EzZCJ9.eHczGjPj26z74_loi-yfgKmwfggOn8XD35doOYq1Mgk&download=image.png "")
+
+4、运行模拟器
+
+5、重启HBuilder X
+
+6、点击菜单栏--运行--运行到手机或模拟器--运行到设备
+
+![](https://tcs-devops.aliyuncs.com/storage/112gbf425fc695af7ff1ce4508f7a6a0e0d1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDk5NywiaWF0IjoxNjUxODk2MTk3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdiZjQyNWZjNjk1YWY3ZmYxY2U0NTA4ZjdhNmEwZTBkMSJ9.Fm3eUIao6DFqvnwIeMA3oF6Mf_lZ3XMl9aYlv31PRW4&download=image.png "")
+

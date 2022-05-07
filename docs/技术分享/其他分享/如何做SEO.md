@@ -1,0 +1,200 @@
+## 1、SEO是什么？
+
+**全称：**Search English Optimization，搜索引擎优化。自从有了搜索引擎，SEO便诞生了。
+
+**存在的意义：**为了提升网页在搜索引擎自然搜索结果中的收录数量以及排序位置而做的优化行为。简言之，就是希望百度等搜索引擎能多多我们收录精心制作后的网站，并且在别人访问时网站能排在前面。
+
+**分类：**`白帽SEO`和`黑帽SEO`。白帽SEO，起到了改良和规范网站设计的作用，使网站对搜索引擎和用户更加友好，并且网站也能从搜索引擎中获取合理的流量，这是搜索引擎鼓励和支持的。黑帽SEO，利用和放大搜索引擎政策缺陷来获取更多用户的访问量，这类行为大多是欺骗搜索引擎，如：假链接，网页劫持等手段，一般搜索引擎公司是不支持与鼓励的，被发现后容易被封禁。
+
+
+
+## 2、为什么要做SEO？
+
+1、精准引流：SEO不仅能为我们的网页提高流量，还能带来较为精准的流量。一味投放广告、广撒网的方式带来的流量不一定是有效流量。用户无意中看到这些信息，不一定有相应的需求，这些用户流量转化率较低。用户通过搜索方式了解到我们的信息，才更有可能成为我们的用户，因为用户是有需求才会到网络上搜索。
+
+2、降低推广成本：搜索引擎推广成本较高，做好SEO可大大降低推广成本。而且也能防止恶意点击。
+
+3、效果更持久：搜索引擎推广的方式往往只是短期能达到推广的效果，而SEO是一种更长期的方式，过了好几年之后还能稳定的获取流量，效果比较持续。
+
+## 3、如何做SEO？
+
+要做好SEO，就得明白搜索引擎是如何是爬取内容的，怎样才能更能方便搜索引擎爬取内容，搜索引擎高效地爬取到我们的内容，需要我们的内容符合什么条件?
+
+### 1、搜索引擎如何获取海量数据
+
+- 爬取：根据关键词，爬取网站页面。在网站页面中获取到相关链接，继续往下层爬取。
+
+- 分析：分析、解析页面内容。分析页面是否包含关键词内容。
+
+- 取舍：丢弃无关内容保留关键信息。爬取超过一定层数的网页会被认为是无价值的，直接舍弃。
+
+### 2、常见的SEO做法有哪些?
+
+（1）对网站的标题、关键字、描述精心设置，反映网站的定位，让搜索引擎明白网站是做什么的；
+
+（2）网站内容优化：内容与关键字的对应，增加关键字的密度；
+
+（3）在网站上合理设置Robot.txt文件；
+
+（4）生成针对搜索引擎友好的网站地图；
+
+（5）增加外部链接，到各个网站上宣传；(友情链接)
+
+### 3、具体做法？如何入手？
+
+**（1）网站布局优化**
+
+- 结构尽量简单，提倡扁平化结构，目录层数不要过深
+
+- 控制首页链接数量
+
+- 控制页面大小，减少http请求，提高加载速度
+
+- 布局细节：
+
+导航优化：导航采用文字的方式，若使用图片需添加 alt 和 title 属性，方便搜索引擎爬取
+
+设置面包屑导航
+
+**（2）网页代码优化**
+
+- `<title>`**标题**：只强调重点即可，尽量把重要的关键词放在前面，关键词不要重复出现，尽量做到每个页面的`<title>`标题中不要设置相同的内容。
+
+- `<meta keywords>`标签：**关键词**，列举出几个页面的重要关键字即可，切记过分堆砌。
+
+- `<meta description>`标签：**网页描述**，需要高度概括网页内容，切记不能太长，过分堆砌关键词，每个页面也要有所不同。
+
+- 优化`meta`标签的关键词，启用Keep-Alive；为每个页面单独命名，要符合页面内容
+
+- `<body>`中的标签：尽量让代码**语义化**，在适当的位置使用适当的标签，用正确的标签做正确的事。让阅读源码者和“搜索引擎”都一目了然。比如：`h1-h6`是用于标题类的，`<nav>`标签是用来设置页面主导航的，表格使用`<caption>`标签
+
+- `<a>`标签：页内链接，要加`title` 属性加以说明，让访客和 “爬虫” 知道。而外部链接，链接到其他网站的，则需要加上`el="nofollow"`属性, 告诉 “爬虫” 不要爬，因为一旦“爬虫”爬了外部链接之后，就不会再回来了。页内连接尽量使用`<a>`标签，而不是JS事件绑定。
+
+- `<img>`应使用 “alt”，“title” 属性加以说明
+
+- 文本缩进不要使用`&nbsp;`用CSS解决
+
+- 少使用 iframe，搜索引擎不会爬取iframe里面的内容
+
+**（3）HTML结构优化**
+
+结构简洁，不要过分嵌套，或者使用复杂的结构。例如一个文章展示的页面结构可以这样写：
+
+![](https://tcs-devops.aliyuncs.com/storage/1127c60aa9462e1e2dec9709a960a83b8e52?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjdjNjBhYTk0NjJlMWUyZGVjOTcwOWE5NjBhODNiOGU1MiJ9.meiyfmVL1VZTT_hewNbaypnE_eGXXEnleMUM68ho1qY&download=image.png "")
+
+```text
+<body>
+  <!-- 头部 -->
+  <header></header>
+  <!-- 导航 -->
+  <nav></nav>
+  <!-- 正文内容 -->
+  <article>
+    <!-- 章节 -->
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+  </article>
+  <!-- 其他内容 -->
+  <aside></aside>
+  <!-- 底部 -->
+  <footer></footer>
+</body>
+```
+
+
+
+**（4）关键词优化**
+
+- 关键词选择：主关键词、品牌关键词、长尾关键词
+
+- 关键词分布：金字塔结构、垂直拓展
+
+- 关键词密度：一般2%~8%左右适宜
+
+![](https://tcs-devops.aliyuncs.com/storage/1127711345a194fd4784f91e339054b127fc?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc3MTEzNDVhMTk0ZmQ0Nzg0ZjkxZTMzOTA1NGIxMjdmYyJ9.T7sWLdOzOg8aXpVBMrWtGIyN-3enQEawcDx6mmfKNB4&download=image.png "")
+
+**（5）合理设置Robot.txt文件**
+
+Robot.txt是一种存放于网站根目录下的ASCII编码文件。告诉网络搜索引擎，哪些内容可以被爬取，那些内容不应该被爬取。
+
+常见写法：
+
+不允许 /admin/ 目录下的文件被访问，可以访问 /images/ 目录下的文件。
+
+```text
+User-agent:*
+Disallow:/admin/
+Allow:/images/
+
+```
+
+### 4、优秀网站举例
+
+以下以`https://www.huawei.com`为例，还有其他很多优秀的网站如：`https://www.samsung.com/cn`、`https://www.mi.com` 等。
+
+截几张官网代码截图，大家参考一下:
+
+![](https://tcs-devops.aliyuncs.com/storage/112711390196f20214aaff2704e78fedf5ad?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjcxMTM5MDE5NmYyMDIxNGFhZmYyNzA0ZTc4ZmVkZjVhZCJ9.7HLqa9PppqR5aTv3NwFkGDqghKUKklhKPxGplT4F6TU&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112718a11414a320da64c01ca307e463b4eb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjcxOGExMTQxNGEzMjBkYTY0YzAxY2EzMDdlNDYzYjRlYiJ9.J6Z-gEU-f7vO3HG6Mt2lp7IzopqDjrR-WseqA65A8ZA&download=image.png "")
+
+- 在华为这个官网里面，用了大量的`meta`标签，提炼出精确的关键词用`meta`去描述他的网站，让搜索引擎的爬虫去爬取。这些是我们开发网站时经常忽略的点。
+
+- 这里面也使用了`header`、`nav`、`footer`等语义化的标签，更方便搜索引擎识别。
+
+- 重要页面跳转使用 `a` 标签，方便搜索引擎识别到下级页面
+
+## 4、如何检验SEO的效果
+
+可以通过一些外部的工具辅助校验，如：站长工具SEO综合查询 [__https://seo.chinaz.com/__](https://seo.chinaz.com/)
+
+同样以huawei.com 为例，查询结果如下图：
+
+![](https://tcs-devops.aliyuncs.com/storage/112729b3785d18ba9cce37a2d3b508f0510d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjcyOWIzNzg1ZDE4YmE5Y2NlMzdhMmQzYjUwOGYwNTEwZCJ9.eAxsmquLJ3GNOpPDs0WmslyOgNSxUrdOyX9pDV8Nc34&download=image.png "")
+
+![](https://tcs-devops.aliyuncs.com/storage/112787b1ae8b02fb6311758ddea7bfbd5984?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc4N2IxYWU4YjAyZmI2MzExNzU4ZGRlYTdiZmJkNTk4NCJ9.-Gnl0-bVYPFwm_EfdaAz4uvZitRWt0OAuYyDLpFVXwU&download=image.png "")
+
+可以检测出网站的描述、流量、PC端和移动端的关键词数量，以及各搜索引擎收录的关键词数据。
+
+
+
+## 黑帽SEO
+
+所有使用作弊或可疑手段的，都可称为黑帽SEO。里面步骤和过程都比较复杂，很多都是钻搜索引擎的漏洞，被发现后会被搜索引擎屏蔽，要经过一段比较长的时间才能恢复，这种做法比较影响品牌信誉，一般不推荐这么做。这里介绍一些常用的黑帽SEO做法，了解即可：
+
+1、博客作弊
+
+- BLOG群发作弊
+
+- BLOG群作弊（创建大量博客账号，发表某关键词链接文章。通过链接推动关键词排名）
+
+- BLOG隐藏链接作弊
+
+2、页面跳转
+
+3、偷换页面
+
+这是为SEO设计的高度优化的网页，当网站在获得理想排名后，用普通页面来替换优化过的页面。
+
+4、桥页
+
+针对某一个关键字专门做一个优化页面，将链接指向或者重定向到目标页面，而且桥页本身无实际内容，只是针对搜索引擎的关键字堆砌而已。
+
+5、关键词堆积
+
+6、隐藏页面
+
+还有其他许多黑帽SEO的做法，有兴趣的朋友可以自己了解学习。
+
+
+
+# 工具
+
+[__https://blog.csdn.net/dingshao1114/article/details/106155064__](https://blog.csdn.net/dingshao1114/article/details/106155064)
+
+## 参考文章
+
+
+
