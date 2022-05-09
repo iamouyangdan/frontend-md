@@ -6,8 +6,10 @@ module.exports = defaultTheme({
     repo: 'https://gitee.com/ouyangdan/frontend-md.git',
     logo: '/images/mine.png',
     navbar, 
-    // sidebar, 
-    sidebar: 'auto',
+    sidebar, 
+    toggleSidebar: 'toggle sidebar',
+    sidebarDepth: 2,
+    // sidebar: 'auto',
     // locales: {
     //     '/': {
     //         navbar, 
