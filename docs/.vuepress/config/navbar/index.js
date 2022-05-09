@@ -2,23 +2,23 @@ module.exports = [
     // NavbarItem
     {
         text: '新员工指南',
-        link: '/新人入门',
+        link: '/新人入门/',
     },
     {
         text: '编码规范',
-        link: '/编码规范/前端规范文档.md',
+        link: '/编码规范/',
     },
     {
         text: '项目管理',
-        link: '/项目管理/项目搭建.md',
+        link: '/项目管理/',
     },
     {
         text: '技术分享',
-        link: '/技术分享/技术分享介绍.md',
+        link: '/技术分享/',
     },
     {
         text: '前端规划',
-        link: '/前端规划/前端工作规划.md',
+        link: '/前端规划/',
     },
     // NavbarGroup
     // {

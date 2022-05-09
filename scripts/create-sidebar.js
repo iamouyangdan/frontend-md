@@ -14,24 +14,22 @@ function getDirName(targetDir) {
 }
 
 function getDirStructure(targetDir, subDirName, list = []) {
-    console.log(targetDir, subDirName)
+    
     const dir = path.resolve(_targetDir, targetDir, subDirName)
     const res = fs.statSync(dir)
     const dirName = getDirName(targetDir)
-
+    console.log('targetDir', targetDir, subDirName)
     
-    const subPath = !targetDir ? subDirName : `./${targetDir}/${subDirName}`
+    const subPath = !targetDir ? subDirName : `${targetDir}/${subDirName}`
     // 文件
     if(res.isFile()) {      
-        return {text: dirName , children: [subPath]}
+        console.log('sugDirName', targetDir, subDirName, subPath)
+        const item = {text: dirName , children: [subPath]}
+        return item
     }
     // 目录
     const files = fs.readdirSync(dir)
     const dirNameList = files
-    const obj = {
-        text: subDirName,
-        children: []
-    }
     dirNameList.forEach(key => {
         const subDir = path.resolve(dir, key)
         
@@ -40,38 +38,53 @@ function getDirStructure(targetDir, subDirName, list = []) {
   
         if(res.isDirectory()){
             console.log('subPath', subPath)
-            list.push(getDirStructure(subPath, key, list))
+            // list.push(getDirStructure(subPath, key, list))
+            getDirStructure(subPath, key, list)
             return 
         }
-        const name = `./${subPath}/${key}`
-        if (targetDir) {
-            obj.children.push(name)
-        }else {
-            list[0] = list[0] || {
-                text: subDirName,
-                children: []
-            }
-            list[0].children.push(name)
-        } 
+        const name = `/${subPath}/${key}`
+        console.log('1', targetDir, name, subDirName)
+        if(key === 'README.md' || !/\.md$/.test(key)) return ;
+        
+        let i = list.findIndex(i => i && i.text === subDirName)
+        console.log('iii', i, name)
+        if(!targetDir) i = 0;
+        if(i === -1) i = list.length || 1
+        console.log('iiia', list, i, name)
+        list[i] = list[i] || {
+            text: subDirName,
+            children: []
+        }
+        list[i].children.push(name)
+        // if (/\.md$/.test(targetDir)) {
+        //     console.log('1', targetDir, name, subDirName)
+            
+        // }else {
+        //     console.log('2', targetDir, name, subDirName)
+            
+        //     item = item || {
+        //         text: subDirName,
+        //         children: []
+        //     }
+        //     item.children.push(name)
+        // } 
     })
-    obj.children.sort((a,b)=>{return a - b});
-    // target.push(obj)
-    return obj
+    // obj.children.sort((a,b)=>{return a - b});
+    // return obj
 }
 
 function genSidebar(targetDir, sidebarPath, target = {}) {
     // 初始化分级目录，其他级别为子数组
     const files = fs.readdirSync(targetDir)
-    const dirNameList = files.filter(item => item.indexOf('.') !== 0)
+    const dirNameList = files.filter(item => item !== 'README.md' && item.indexOf('.') !== 0)
     dirNameList.forEach(key => {     
-        if(key === 'README.md') return true
         const children = []
         getDirStructure('', key, children)  
         target[`/${encodeURI(key)}/`] = children
     })
     
     const content = `module.exports = ${JSON.stringify(target, undefined, 2)}`;
-    console.log(content)
+    // console.log(content)
     fs.writeFile(sidebarPath, content, { encoding: 'utf8' }, err => {console.log(err);});     
 
 }
