@@ -1,5 +1,5 @@
 # console 技巧
-# 简介
+## 简介
 
 Console 对象用于 JavaScript 调试。
 
@@ -19,13 +19,13 @@ Console 对象常见的两个用途：
 
 
 
-# console对象方法
+## console对象方法
 
 ![](https://cdn.nlark.com/yuque/0/2021/png/2181619/1635065434366-91d49914-03e7-4231-bd6a-6433369872e5.png "")
 
 
 
-# console对象方法的使用
+## console对象方法的使用
 
 ## assert()
 
@@ -296,7 +296,7 @@ console.warn("警告")
 
 
 
-# console占位符
+## console占位符
 
 | 占位符      | 作用               |
 | -------- | ---------------- |
@@ -315,7 +315,7 @@ console.log("%d年%d月%d日",2021,10,26);
 console.log('%c雷\n神','color:red;font-size:50px;background:url("https://p9-passport.byteacctimg.com/img/user-avatar/c00d0e8abc382d1e49a0d5003960f6f3~300x300.image");background-size:100%')
 ```
 
-# node.js中的console
+## node.js中的console
 
 node.js中可以创建Console实例，stdout 是用于打印日志或信息输出的可写流。 stderr 用于警告或错误输出。
 
@@ -364,7 +364,7 @@ console.dirxml()
 
 
 
-# 资料
+## 资料
 
 
 

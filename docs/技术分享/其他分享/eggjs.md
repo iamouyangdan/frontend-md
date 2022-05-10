@@ -5,7 +5,7 @@
 npm init egg --type=simple
 ```
 
-# 二、目录结构
+## 二、目录结构
 
 ```text
 .
@@ -53,7 +53,7 @@ npm init egg --type=simple
 
 ```
 
-# 三、运行环境
+## 三、运行环境
 
 ## 1、本地开发env=local
 
@@ -89,7 +89,7 @@ npm i egg-bin --save-dev
 
   ⭐ `app.config.env`获取应用当前的运行环境。
 
-# 四、router
+## 四、router
 
 用于配置 URL 路由规则
 
@@ -183,7 +183,7 @@ module.exports = app => {
 };
 ```
 
-# 五、Controller
+## 五、Controller
 
 用于解析用户的输入，处理后返回相应的结果
 
@@ -236,7 +236,7 @@ class DemoController extends Controller {
 }
 ```
 
-# 六、Service
+## 六、Service
 
 用于做业务逻辑封装的一个抽象层
 
@@ -263,7 +263,7 @@ module.exports = UserService;
 
 同[__Controller属性__](https://thoughts.aliyun.com/workspaces/5fed373424a729001f173188/docs/623307de2c4c490001c7321a?scroll-to-block=623307ffcb03e55b7b380c50)
 
-# 七、中间件
+## 七、中间件
 
 ## 1、配置
 
@@ -315,7 +315,7 @@ module.exports = (app) => {
 };
 ```
 
-# 八、MySQL
+## 八、MySQL
 
 框架提供了 `egg-mysql`插件来访问 MySQL 数据库
 
@@ -555,7 +555,7 @@ const results = await this.app.mysql.query('update posts set hits = (hits + ?) w
 => update posts set hits = (hits + 1) where id = 1;
 ```
 
-# 九、应用部署
+## 九、应用部署
 
  [egg-scripts](https://github.com/eggjs/egg-scripts) 来支持线上环境的运行和停止
 

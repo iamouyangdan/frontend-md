@@ -1,5 +1,5 @@
 # uniapp打包并发布到蒲公英平台
-# 一、打包
+## 一、打包
 
 1、在dcloud注册账号：
 
@@ -83,7 +83,7 @@ HBuilderX还没登录，则需要登录dcloud的账号：
 
 ![](https://tcs-devops.aliyuncs.com/storage/112hb8d6411f5bf2023cdd6c20ebf0866d4e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhiOGQ2NDExZjViZjIwMjNjZGQ2YzIwZWJmMDg2NmQ0ZSJ9._AjRIKAZdnNBIJruonRlfifr9e5jRDt9-MtxIfXseTc&download=image.png "")
 
-# 二、发布
+## 二、发布
 
 1、在蒲公英平台注册一个账号
 

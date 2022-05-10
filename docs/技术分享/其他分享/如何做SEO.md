@@ -1,3 +1,4 @@
+# 如何做SEO
 ## 1、SEO是什么？
 
 **全称：**Search English Optimization，搜索引擎优化。自从有了搜索引擎，SEO便诞生了。
@@ -124,8 +125,10 @@ Robot.txt是一种存放于网站根目录下的ASCII编码文件。告诉网络
 不允许 /admin/ 目录下的文件被访问，可以访问 /images/ 目录下的文件。
 
 ```text
-User-agent:*
-Disallow:/admin/
+User-agent:*
+
+Disallow:/admin/
+
 Allow:/images/
 
 ```
@@ -190,7 +193,7 @@ Allow:/images/
 
 
 
-# 工具
+## 工具
 
 [__https://blog.csdn.net/dingshao1114/article/details/106155064__](https://blog.csdn.net/dingshao1114/article/details/106155064)
 

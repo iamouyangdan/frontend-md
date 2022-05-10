@@ -1,5 +1,5 @@
 # HTML+CSS3新特性
-# HTML5新特性
+## HTML5新特性
 
 - 语义化标签
 
@@ -13,19 +13,19 @@
 
 | 标签         | 描述                |
 | ---------- | ----------------- |
-| <header>   | 定义了文档的头部区域        |
-| <footer>   | 定义了文档的尾部区域        |
-| <nav>      | 定义文档的导航           |
-|  <section> |  定义文档中的节          |
-|  <article> |  定义文章             |
-|  <aside>   |  定义页面以外的内容        |
-|  <details> | 定义用户可以看到或者隐藏的额外细节 |
-|  <summary> | 标签包含details元素的标题  |
-|  <dialog>  | 定义对话框             |
-| <figure>   | 定义自包含内容，如图表       |
-| <main>     | 定义文档主内容           |
-| <mark>     | 定义文档的主内容          |
-| <time>     | 定义日期/时间           |
+| `<header>`   | 定义了文档的头部区域        |
+| `<footer>`   | 定义了文档的尾部区域        |
+| `<nav>`      | 定义文档的导航           |
+|  `<section>` |  定义文档中的节          |
+|  `<article>` |  定义文章             |
+|  `<aside>`   |  定义页面以外的内容        |
+|  `<details>` | 定义用户可以看到或者隐藏的额外细节 |
+|  `<summary>` | 标签包含details元素的标题  |
+|  `<dialog>`  | 定义对话框             |
+| `<figure>`   | 定义自包含内容，如图表       |
+| `<main>`     | 定义文档主内容           |
+| `<mark>`     | 定义文档的主内容          |
+| `<time>`     | 定义日期/时间           |
 
 ![](https://tcs-devops.aliyuncs.com/storage/112bf0b472eccc0e3d15af75919eb0a62130?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTM2OSwiaWF0IjoxNjUxODk2NTY5LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmJmMGI0NzJlY2NjMGUzZDE1YWY3NTkxOWViMGE2MjEzMCJ9.UZQnjltejViHgrDF4DvhInjLrPLAtUV4pbx59P0BHU8&download=image.png "")
 
@@ -49,12 +49,12 @@
 
 ### 新增表单元素
 
-| <datalist> | 用户会在他们输入数据时看到域定义选项的下拉列表 |
+| `<datalist>` | 用户会在他们输入数据时看到域定义选项的下拉列表 |
 | ---------- | ----------------------- |
-| <progress> | 进度条，展示连接/下载进度           |
-| <meter>    | 刻度值，用于某些计量，例如温度、重量等     |
-| <keygen>   | 提供一种验证用户的可靠方法生成一个公钥和私钥  |
-| <output>   | 用于不同类型的输出比如尖酸或脚本输出      |
+| `<progress>` | 进度条，展示连接/下载进度           |
+| `<meter>`    | 刻度值，用于某些计量，例如温度、重量等     |
+| `<keygen>`   | 提供一种验证用户的可靠方法生成一个公钥和私钥  |
+| `<output>`   | 用于不同类型的输出比如尖酸或脚本输出      |
 
 ### 新增表单属性
 
@@ -65,13 +65,13 @@
 | pattern      | 描述一个正则表达式验证输入的值           |
 | min/max      | 设置元素最小/最大值                |
 | step         | 为输入域规定合法的数字间隔             |
-| height/wdith | 用于image类型<input>标签图像高度/宽度 |
+| height/wdith | 用于image类型`<input>`标签图像高度/宽度 |
 | autofocus    | 规定在页面加载时，域自动获得焦点          |
-| multiple     | 规定<input>元素中可选择多个值        |
+| multiple     | 规定`<input>`元素中可选择多个值        |
 
 ## 音视频
 
-> 音频： <audio src=""></audio>
+> 音频： `<audio src=""></audio>`
 
 ```text
 <audio controls>    //controls属性提供添加播放、暂停和音量控件。
@@ -81,7 +81,7 @@
 </audio>
 ```
 
-> 视频：<video src=""></video>
+> 视频：`<video src=""></video>`
 
 ```text
 <video width="320" height="240" controls>
@@ -144,7 +144,7 @@ sessionStorage.key(i)
 
 > 与`sessionStorage`使用无差别，但数据可永久存在
 
-# CSS3新特性
+## CSS3新特性
 
 > 选择器、边框、背景、渐变、文本效果、字体、转换和变形、过渡、动画、多列、盒子模型、弹性盒子模型、多媒体查询等等
 

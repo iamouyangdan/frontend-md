@@ -1,5 +1,5 @@
 # axios源码浅读与async_await实现原理
-# axios简介
+## axios简介
 
 > [axios文档](http://www.axios-js.com/zh-cn/docs/index.html)
 
@@ -23,7 +23,7 @@
 
     - 支持`Promise` API
 
-# `axios`适配器
+## `axios`适配器
 
 - 使用方法
 
@@ -43,7 +43,7 @@ axios.get('url', {
 })
 ```
 
-# `axios`拦截器
+## `axios`拦截器
 
 - 请求拦截器
 
@@ -82,7 +82,7 @@ request(config) {
 }
 ```
 
-# `axios`请求取消
+## `axios`请求取消
 
 - 使用
 
@@ -232,7 +232,7 @@ function CancelToken(executor) {
 
     - 为什么要使用`Promise`接收取消请求的`reason`？使用`Promise`的作用是什么？
 
-# `async/await`实现原理
+## `async/await`实现原理
 
 
 
@@ -314,7 +314,7 @@ function demoPromise() {
 demoPromise()
 ```
 
-# 相关链接
+## 相关链接
 
 
 

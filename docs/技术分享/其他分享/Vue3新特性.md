@@ -1,5 +1,5 @@
 # Vue3新特性
-# 一、demo:
+## 一、demo:
 
 [https://github.com/Pizhong/vue3-new-feature](https://github.com/Pizhong/vue3-new-feature)
 
@@ -7,7 +7,7 @@ or
 
 [https://gitee.com/pizhong/vue3-new-feature](https://gitee.com/pizhong/vue3-new-feature)
 
-# 二、v-for中的Ref数组
+## 二、v-for中的Ref数组
 
 1、官方地址：[https://v3.cn.vuejs.org/guide/migration/array-refs.html#%E8%BF%81%E7%A7%BB%E7%AD%96%E7%95%A5](https://v3.cn.vuejs.org/guide/migration/array-refs.html#%E8%BF%81%E7%A7%BB%E7%AD%96%E7%95%A5)
 
@@ -21,7 +21,7 @@ vue3中，我们需要定义一个数组，并且通过一个ref绑定的函数�
 
 
 
-# 三、$children
+## 三、$children
 
 1、官方地址：[https://v3.cn.vuejs.org/guide/migration/children.html#%E6%A6%82%E8%A7%88](https://v3.cn.vuejs.org/guide/migration/children.html#%E6%A6%82%E8%A7%88)
 
@@ -33,7 +33,7 @@ vue3中，我们需要定义一个数组，并且通过一个ref绑定的函数�
 
 
 
-# 四、slot插槽
+## 四、slot插槽
 
 1、例子演示
 
@@ -45,7 +45,7 @@ vue3中，我们需要定义一个数组，并且通过一个ref绑定的函数�
 
 
 
-# 五、Composition API
+## 五、Composition API
 
 1、官方地址：[https://v3.cn.vuejs.org/guide/composition-api-introduction.html](https://v3.cn.vuejs.org/guide/composition-api-introduction.html)
 
@@ -67,7 +67,7 @@ setup函数中的this修改成了 undefined
 
 
 
-# 六、setup
+## 六、setup
 
 1、官方地址：[https://v3.cn.vuejs.org/guide/composition-api-setup.html#%E5%8F%82%E6%95%B0](https://v3.cn.vuejs.org/guide/composition-api-setup.html#%E5%8F%82%E6%95%B0)
 
@@ -91,7 +91,7 @@ setup函数中的this修改成了 undefined
 
 ③ `slots`：和vue2中的插槽使用类似
 
-# 七、setup中的生命周期
+## 七、setup中的生命周期
 
 1、官方地址：[https://v3.cn.vuejs.org/guide/composition-api-lifecycle-hooks.html](https://v3.cn.vuejs.org/guide/composition-api-lifecycle-hooks.html)
 
@@ -99,7 +99,7 @@ setup函数中的this修改成了 undefined
 
 
 
-# 八、computed、watch
+## 八、computed、watch
 
 1、官方地址：[https://v3.cn.vuejs.org/api/computed-watch-api.html#computed](https://v3.cn.vuejs.org/api/computed-watch-api.html#computed)
 
@@ -119,7 +119,7 @@ setup函数中的this修改成了 undefined
 
 
 
-# 九、拓展：
+## 九、拓展：
 
 1、关于vue2和vue3响应式的区别
 
@@ -141,7 +141,7 @@ setup函数中的this修改成了 undefined
 
 
 
-# 十、思考：
+## 十、思考：
 
 在什么情况下会使用vue3开发新项目？
 

@@ -1,11 +1,11 @@
 # CSS 布局
-# 一、布局分享
+## 一、布局分享
 
 ## rem布局
 
 ### 概念
 
-rem是css中的一个相对长度单位，它以根元素<html>的font-size值为基准，例如：
+rem是css中的一个相对长度单位，它以根元素`<html>`的font-size值为基准，例如：
 
 html的font-size为16px，1rem就等于16px。
 
@@ -80,9 +80,9 @@ function() {
 
 - max-height：最大高度。
 
-使用<style>写媒体查询时要注意顺序问题，后面的同级别样式会覆盖前面的样式。
+使用`<style>`写媒体查询时要注意顺序问题，后面的同级别样式会覆盖前面的样式。
 
-注意media还可以在<style>, <link>, <source>中使用。
+注意media还可以在`<style>`, `<link>`, `<source>`中使用。
 
 ## 圣杯布局和双飞翼布局
 
@@ -96,7 +96,7 @@ function() {
 
 [__https://juejin.cn/post/6844903574929932301?share_token=8f022b38-40b7-4045-b7c4-4b6d28892015__](https://juejin.cn/post/6844903574929932301?share_token=8f022b38-40b7-4045-b7c4-4b6d28892015)
 
-# 二、瀑布流 js 实现
+## 二、瀑布流 js 实现
 
 ### 特点：
 
@@ -130,7 +130,7 @@ function() {
 
 
 
-# 三、grid 布局基础
+## 三、grid 布局基础
 
 
 

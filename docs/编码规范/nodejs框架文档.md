@@ -5,7 +5,7 @@ eggjs文档：[__https://www.eggjs.org/zh-CN__](https://www.eggjs.org/zh-CN)
 
 
 
-# 1、代码结构
+## 1、代码结构
 
 ```text
 
@@ -50,7 +50,7 @@ eggjs文档：[__https://www.eggjs.org/zh-CN__](https://www.eggjs.org/zh-CN)
 
 ![](https://tcs-devops.aliyuncs.com/storage/112gdf2c95508211dc555c17fa269f000804?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdkZjJjOTU1MDgyMTFkYzU1NWMxN2ZhMjY5ZjAwMDgwNCJ9.XGZOzjBH-HbN4hENAGmsydVAyIn06Jm-NN_jubsAXzE&download=image.png "")
 
-# 2、配置信息
+## 2、配置信息
 
 以 config/config.local.js 为例
 
@@ -189,7 +189,7 @@ module.exports = {
 
 
 
-# 3、数据库
+## 3、数据库
 
 **示例数据库文件在 sql 目录中，可以导入到本地数据库使用。**
 
@@ -378,7 +378,7 @@ const res = this.ctx.model.A.findAndCountAll({
 
 ```
 
-# 4、微服务
+## 4、微服务
 
 ## （1）配置注册微服务
 
@@ -466,7 +466,7 @@ class MeasureService extends Service {
 module.exports = MeasureService;
 ```
 
-# 5、如何编写一个接口
+## 5、如何编写一个接口
 
 ## （1）编写 Controller
 
@@ -563,7 +563,7 @@ module.exports = app => {
 
 文档：[__https://www.eggjs.org/zh-CN/basics/router#太多路由映射__](https://www.eggjs.org/zh-CN/basics/router#太多路由映射)
 
-# 6、事务
+## 6、事务
 
 事务是使用 sequelizerc 框架的`transaction`方法实现的，为了方便统一处理，在baseService中封装了 transaction() 方法用于事务操作。
 
@@ -639,7 +639,7 @@ module.exports = MeasureService;
 
 
 
-# 7、与旧版框架的差异
+## 7、与旧版框架的差异
 
 ## （1）微服务
 

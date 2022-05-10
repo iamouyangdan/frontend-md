@@ -1,5 +1,5 @@
 # 微前端+qiankun介绍
-# 微前端
+## 微前端
 
 微前端就是将不同的功能按照不同的维度拆分成多个子应用。通过主应用来加载这些子应用。
 
@@ -147,13 +147,13 @@ iframe 无疑是最简单的方式，但很难将应用各个部分联系一起�
 
 
 
-# qiankun
+## qiankun
 
 qiankun 是一个基于 [single-spa](https://github.com/CanopyTax/single-spa) 的[微前端](https://micro-frontends.org/)实现库，旨在帮助大家能更简单、无痛的构建一个生产可用微前端架构系统。
 
 
 
-# 项目实践
+## 项目实践
 
 链股产品系统目前都是放在linkkap-admin这个项目中，用微前端的方式将多个项目合在一起
 

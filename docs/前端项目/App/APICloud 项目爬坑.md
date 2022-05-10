@@ -110,7 +110,7 @@ if (window.isPc()) {
 
 **App.vue**
 
-```javascript
+```js
 <template>
   <div id="app">
     <img src="../../image/loading.gif" />
@@ -129,37 +129,26 @@ export default {
     // console.log('进入root页面')
   },
   methods: {
-	// 页面跳转
-	// 基于apicloud框架api的跳转
-	order() {
-	  window.api.openWin({
-		name: 'order',
-		url: 'order.html'
-	  })
-	},
-
-	// 新框架中对跳转的二次封装
-	mine() {
-	  app.openView('views/mine/mine', {
-        param: {
-          mineId: id
-        }
+    // 页面跳转
+    // 基于apicloud框架api的跳转
+    order() {
+      window.api.openWin({
+      name: 'order',
+      url: 'order.html'
       })
-	}
+    },
 
+    // 新框架中对跳转的二次封装
+    mine() {
+      app.openView('views/mine/mine', {
+          param: {
+            mineId: id
+          }
+        })
+    }
+  }
 }
 </script>
-<style scoped lang="scss">
-#app{
-  height: 100%;
-  display: flex;
-  background: #f6f6f6;
-  align-items: center;
-  justify-content: center;
-  font-weight: bolder
-}
-</style>
-
 ```
 
 **打包路径**
@@ -196,7 +185,7 @@ APICloud 集成了包括窗口系统、应用管理、网络通信、数据存�
 
 ### 1. 什么是浮动窗口？
 
-浮动窗口产生的背景是，安卓机上只有<body>节点产生的滚动才具有流畅的原生弹动效果，<div>或其他标签产生的滚动则很生硬，那在 APP 上要做局部滚动怎么办呢，我们通过在当前 webview 上覆盖一个小点的 webview ，来实现平顺的局部滚动，非常像 web 开发中的<iframe>，这就是浮动窗口。浮动窗口与主窗口具有从属关系，浮动窗口不能调用关闭方法关闭自己的父窗口。而不用<iframe>的原因在于其兼容问题。
+浮动窗口产生的背景是，安卓机上只有`<body>`节点产生的滚动才具有流畅的原生弹动效果，`<div>`或其他标签产生的滚动则很生硬，那在 APP 上要做局部滚动怎么办呢，我们通过在当前 webview 上覆盖一个小点的 webview ，来实现平顺的局部滚动，非常像 web 开发中的`<iframe>`，这就是浮动窗口。浮动窗口与主窗口具有从属关系，浮动窗口不能调用关闭方法关闭自己的父窗口。而不用`<iframe>`的原因在于其兼容问题。
 
 ### 2. 窗口之间怎么传参？
 

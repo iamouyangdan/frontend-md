@@ -1,10 +1,10 @@
 # Typescript基础与进阶
 
-# Typescript基础
+## Typescript基础
 
 
 
-# Typescript进阶
+## Typescript进阶
 
 ## 一、类型别名
 
@@ -906,7 +906,7 @@ interface Alarm {
 
 类的合并与接口的合并规则一致。
 
-# 学习资料
+## 学习资料
 
 
 

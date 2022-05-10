@@ -1,5 +1,5 @@
 # PC网页生成PDF方案
-# 生成PDF
+## 生成PDF
 
 通过发送GET请求生成PDF，请求的URL地址格式如下：
 
@@ -13,13 +13,13 @@ demo如下：
 
  
 
-# 下载PDF
+## 下载PDF
 
 ![](https://tcs-devops.aliyuncs.com/storage/1126d4f060c7e396f83e7b53f6ef0c1baca0?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTk3NSwiaWF0IjoxNjUxODk3MTc1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjZkNGYwNjBjN2UzOTZmODNlN2I1M2Y2ZWYwYzFiYWNhMCJ9.rzLX4a6EOMdQoBJiXCVrajn9Vyy7wEVmOzhECwf-8kA&download=image.png "")
 
  
 
-# 实现思路
+## 实现思路
 
 基于nodejs + puppeteer的服务端生成PDF方案：
 
@@ -35,7 +35,7 @@ demo如下：
 
 
 
-# 服务器部署步骤
+## 服务器部署步骤
 
 1. linux服务器安装nodejs，参考：[https://www.myfreax.com/how-to-install-node-js-on-centos-7/](https://www.myfreax.com/how-to-install-node-js-on-centos-7/)
 
@@ -103,7 +103,7 @@ location ~* /.*(pdf)$ {
 
  
 
-# 总结
+## 总结
 
 此方案可以满足网页生成PDF的绝大部分使用场景，理论上可以实现将**任意网页**完美转换为PDF文件，可以作为一个**通用性的PDF生成工具**。
 
@@ -119,7 +119,7 @@ location ~* /.*(pdf)$ {
 
  
 
-# 参考资料
+## 参考资料
 
 > [__https://github.com/simonwoo/disease-report-server__](https://github.com/simonwoo/disease-report-server)
 

@@ -1,9 +1,9 @@
 # JavaScript基础(一)
-# 前言
+## 前言
 
 基础很重要，只有基础好才会很少出`bug`，大多数的`bug`都是基础不扎实造成的。
 
-# 一、数据类型
+## 一、数据类型
 
 **值类型(基本类型)**：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol、BigInt。
 
@@ -409,7 +409,7 @@ console.log(obj + 1);
 
 
 
-# 二、ES6
+## 二、ES6
 
 > **ES5之后的JS语法统称ES6，语法参考：**[__https://es6.ruanyifeng.com/__](https://es6.ruanyifeng.com/#README)
 
@@ -888,7 +888,7 @@ const fn = () =>{
 
 如果并发请求时，只要其中一个异步函数处理完成，就返回结果，要用到`Promise.race()`。
 
-# 三、数组
+## 三、数组
 
 ![](https://tcs-devops.aliyuncs.com/storage/112c36797b8998a05c714e216ccd8e689f05?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU4NCwiaWF0IjoxNjUxODk2Nzg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmMzNjc5N2I4OTk4YTA1YzcxNGUyMTZjY2Q4ZTY4OWYwNSJ9.lviwHWhEbQaLNhlSq1jdUhzpvquaYR9jenm74OoP93I&download=image.png "")
 

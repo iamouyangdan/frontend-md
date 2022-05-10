@@ -9,7 +9,7 @@
 ## 安装（Install）
 
 ```bash
-# vuepress v2
+## vuepress v2
 npm i vuepress-plugin-auto-sidebar-navbar -D
 ```
 ## 快速使用（Usage）
@@ -48,7 +48,7 @@ autoSort: -1
 `b.md`内容如下：
 
 ```md
-# 文件b
+## 文件b
 ```
 
 则`sidebar`显示内容：

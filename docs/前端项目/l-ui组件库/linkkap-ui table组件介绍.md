@@ -1,5 +1,5 @@
 # l-ui table组件介绍
-# 目的
+## 目的
 
 介绍这个表格组件需要实现的功能和目前开发的情况和疑问点
 
@@ -7,7 +7,7 @@
 
 
 
-# 产品需求说明
+## 产品需求说明
 
 [__https://shimo.im/docs/xPwRQKPhypHHXYkQ__](https://shimo.im/docs/xPwRQKPhypHHXYkQ)
 
@@ -17,7 +17,7 @@
 
 面包屑在管理后台项目中修改了，搜索栏还未有使用需求和开发
 
-# 表格组件功能需求和目前开发情况
+## 表格组件功能需求和目前开发情况
 
 需求任务：[__https://devops.aliyun.com/project/60b88437749ddb003fdc0ecc/story/section/all__](https://devops.aliyun.com/project/60b88437749ddb003fdc0ecc/story/section/all)
 

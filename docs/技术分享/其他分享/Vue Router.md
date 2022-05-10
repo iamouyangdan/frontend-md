@@ -198,7 +198,7 @@ const router = new VueRouter({
 
 | 声明式                     | 编程式              |
 | ----------------------- | ---------------- |
-| <router-link :to="..."> | router.push(...) |
+| `<router-link :to="...">` | router.push(...) |
 
 ```text
 // 字符串路径

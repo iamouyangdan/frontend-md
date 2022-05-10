@@ -1,5 +1,5 @@
 # babel文档
-# 1. 原理
+## 1. 原理
 
 Babel 是一个 JavaScript 编译器，主要用于将采用 ECMAScript 2015+ 语法编写的代码转换为向后兼容的 JavaScript 语法，以便能够运行在当前和旧版本的浏览器或其他环境中。下面列出的是 Babel 能为你做的事情：
 
@@ -138,7 +138,7 @@ Babel 的三个主要处理步骤分别是： 解析（parse），转换（trans
 
 babel 的插件有两种，一种是**语法插件**，这类插件是在解析阶段辅助解析器（Babylon）工作；另一类插件是**转译插件**，这类插件是在转换阶段参与进行代码的转译工作，这也是我们使用 babel 最常见也最本质的需求。
 
-# 2. 集成（@babel/cli）
+## 2. 集成（@babel/cli）
 
 Babel 自带了一个内置的 CLI 命令行工具，可通过命令行编译文件。
 
@@ -208,7 +208,7 @@ $ npx babel src --out-dir lib
 
 现在运行`npm run build`效果也是一样的, `-d`是`--out-dir`的缩写...(我们使用上面的 `--out-dir` 选项。你可以通过使用 `--help` 运行它来查看 cli 工具接受的其余选项。但对我们来说最重要的是 `--plugins` 和 `--presets`。)
 
-# 3. 插件 plugins
+## 3. 插件 plugins
 
 插件的本质就是一个 js 程序，指示着 Babel 如何对代码进行转换。因此除了通过 npm 引入，还可以编写自己的插件来应用你想要的任何代码转换。
 
@@ -234,7 +234,7 @@ const fn = function () {
 console.log(fn());
 ```
 
-# 4. 预设 presets
+## 4. 预设 presets
 
 如果想要转换 ES6+ 的其它代码为 ES5, 我们可以使用 presets 来代替预先设定的一组插件, 而不用逐一添加我们想要的所有插件。这里可以理解为一个 preset 就是一组插件的集合。跟 plugins 一样, 我们可以创建自己的 preset。
 
@@ -291,7 +291,7 @@ console.log(num);
 
 求幂运算符被转换为成`Math.pow()`。函数参数的最后一个逗号也被去掉了。
 
-# 5. 配置文件
+## 5. 配置文件
 
 上面都是终端命令来进行转换，在实际使用上，我们更加偏向于**配置文件。**
 
@@ -435,7 +435,7 @@ console.log(fn());
 console.log(num);
 ```
 
-# 6. polyfill
+## 6. polyfill
 
 Plugins是提供的插件，例如箭头函数转普通函数`@babel/plugin-transform-arrow-functions`。Presets 是一组 Plugins 的集合。**而 Polyfill 是对执行环境或者其它功能的一个补充.**
 

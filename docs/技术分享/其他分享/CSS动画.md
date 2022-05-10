@@ -1,5 +1,5 @@
 # CSS动画
-# 一、animation
+## 一、animation
 
 | 值                         | 描述                                            |
 | ------------------------- | --------------------------------------------- |
@@ -136,7 +136,7 @@ function start() {
 animation: name duration timing-function delay iteration-count direction;
 ```
 
-# 二、tansition
+## 二、tansition
 
 | 值                          | 描述                         |
 | -------------------------- | -------------------------- |
@@ -161,7 +161,7 @@ animation: name duration timing-function delay iteration-count direction;
 transition: property duration timing-function delay;
 ```
 
-# 三、transform
+## 三、transform
 
 ## 1、rotate 旋转
 

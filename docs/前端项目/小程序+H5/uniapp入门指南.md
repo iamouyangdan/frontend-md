@@ -1,5 +1,5 @@
 # uniapp入门指南
-# 什么是uni-app
+## 什么是uni-app
 
 `uni-app` 是一个使用 [Vue.js](https://vuejs.org/) 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉/淘宝）、快应用等多个平台。
 
@@ -9,7 +9,7 @@
 
 
 
-# 快速上手
+## 快速上手
 
 `uni-app`支持通过 HBuilderX可视化界面、`vue-cli`命令行 两种方式快速创建项目。
 
@@ -41,7 +41,7 @@ vue create -p dcloudio/uni-preset-vue demo-uni
 
 
 
-# 如何学习
+## 如何学习
 
 **uni-app官方推荐**
 
@@ -57,7 +57,7 @@ vue create -p dcloudio/uni-preset-vue demo-uni
 
 
 
-# 开发规范
+## 开发规范
 
 - 页面文件遵循 [Vue 单文件组件 (SFC) 规范](https://vue-loader.vuejs.org/zh/spec.html)
 
@@ -75,11 +75,11 @@ vue create -p dcloudio/uni-preset-vue demo-uni
 
 
 
-# [目录结构](https://uniapp.dcloud.io/frame?id=%e7%9b%ae%e5%bd%95%e7%bb%93%e6%9e%84)
+## [目录结构](https://uniapp.dcloud.io/frame?id=%e7%9b%ae%e5%bd%95%e7%bb%93%e6%9e%84)
 
 
 
-# 核心知识
+## 核心知识
 
 ## 生命周期
 
