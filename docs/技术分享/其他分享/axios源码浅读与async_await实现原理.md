@@ -1,3 +1,4 @@
+# axios源码浅读与async_await实现原理
 # axios简介
 
 > [axios文档](http://www.axios-js.com/zh-cn/docs/index.html)
@@ -174,9 +175,11 @@ function dispatchRequest(config) {
       throwIfCancellationRequested(config)
       
       // ...
-    }
+    }
+
     return Promise.reject(reason)
-  })
+  })
+
 }
 ```
 

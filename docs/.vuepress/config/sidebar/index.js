@@ -152,15 +152,15 @@ module.exports = {
     {
       "text": "App",
       "children": [
-        "/项目管理/App/内衣云App端开发文档补充_1.md",
+        "/项目管理/App/内衣云App端开发文档补充.md",
         "/项目管理/App/内衣云App入门.md",
         "/项目管理/App/uniapp打包（安卓、IOS）及发布到蒲公英平台.md",
         "/项目管理/App/uniapp打包.md",
         "/项目管理/App/VSCode开发APICloud项目.md",
-        "/项目管理/App/App安卓模拟器调试_1.md",
+        "/项目管理/App/App安卓模拟器调试.md",
         "/项目管理/App/APICloud 项目爬坑.md",
-        "/项目管理/App/APICloud 调试简易指南_1.md",
-        "/项目管理/App/APICloud 代码逻辑梳理_1.md"
+        "/项目管理/App/APICloud 调试简易指南.md",
+        "/项目管理/App/APICloud 代码逻辑梳理.md"
       ]
     },
     {

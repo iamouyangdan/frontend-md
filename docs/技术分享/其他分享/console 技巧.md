@@ -1,3 +1,4 @@
+# console 技巧
 # 简介
 
 Console 对象用于 JavaScript 调试。

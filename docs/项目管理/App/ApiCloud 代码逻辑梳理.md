@@ -1,3 +1,4 @@
+# APICloud代码逻辑梳理
 因为 ApiCloud 项目代码太多，看得有点眼花缭乱。故此以底部栏组件的工作流程为例，稍微梳理一下项目的运行逻辑，加深理解。
 
 先放上项目的文件结构
@@ -83,7 +84,8 @@ $api.ready(() => {
 			case 'user':
 				if (!this.gotoPersonalCenter()) return;
 				userR.user();
-				break;			
+				break;
+			
 		}
 	} else {
 		if (active == 'user') {
@@ -124,7 +126,8 @@ alias: {
 
 ```
 
-其中，@R是 src/script/routing，即关于页面跳转的部分。这里截取 routing 目录下 index-R.js 的一部分代码。
+
+其中，@R是 src/script/routing，即关于页面跳转的部分。这里截取 routing 目录下 index-R.js 的一部分代码。
 
 ```javascript
 import $api from '@U/api'
@@ -152,7 +155,8 @@ export default{
 
 ```javascript
 import Vue from 'vue'
-import Footer from "@P/common/footer-P"
+
+import Footer from "@P/common/footer-P"
 import $api from '@U/api'
 import commonR from '@R/common-R'
 
@@ -237,15 +241,18 @@ $api.init(index);
 
 ```javascript
 import Vue from 'vue'
-import VueFilter from '@U/vueFilter'
+
+import VueFilter from '@U/vueFilter'
 import Footer from "@P/common/footer-P"
 import App from '@V/index/index-V.vue'
-import $api from '@U/api'
+import $api from '@U/api'
+
 import commonR from '@R/common-R'
 VueFilter.init(Vue);
 
 //注册路由
-commonR.register();
+commonR.register();
+
 
 var index = {
   createFooter() {
@@ -294,14 +301,19 @@ $api.init(index);
 
 ```html
 <!DOCTYPE html>
-<html>
-<head>...</head>
+<html>
+
+<head>
+...</head>
 
 <body>
     <header id="header"></header>
     <div id="app"></div>
-    <footer id="footer"></footer> 
-</body>
+    <footer id="footer"></footer>
+ 
+
+</body>
+
 </html>
 
 

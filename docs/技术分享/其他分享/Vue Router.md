@@ -1,9 +1,4 @@
-
-
-
-
-
-
+# Vue Router
 ## 一、Vue Router（路由）介绍
 
 官网介绍：
@@ -234,7 +229,8 @@ router.beforeEach((to, from, next) => {
   // TODO 可以用于权限判断 根据用户权限改变目标页面
   if (to.name !== 'Login' && !isAuthenticated) {
 	next({ name: 'Login' })
-  } else {
+  }
+ else {
 	next()
   }
 

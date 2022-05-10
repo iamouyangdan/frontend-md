@@ -1,3 +1,4 @@
+# JavaScript基础(一)
 # 前言
 
 基础很重要，只有基础好才会很少出`bug`，大多数的`bug`都是基础不扎实造成的。
@@ -193,7 +194,10 @@ Boolean(new Error()) // true
 Boolean(Symbol()) // true
 ```
 
-> 5种虚值有：`undefined、null、+-0、NaN、false、'' `
+> 5种虚值有：`undefined
+、null
+、+-0
+、NaN、false、'' `
 
 ### 隐式类型转换
 

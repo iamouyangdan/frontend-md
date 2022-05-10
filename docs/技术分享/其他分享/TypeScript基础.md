@@ -1,4 +1,4 @@
-
+# TypeScript基础
 
 ### 1、什么是TypeScript
 
@@ -252,7 +252,8 @@ jQuery('#id');
 通常我们会把声明语句放到一个单独的文件（`jQuery.d.ts`）中，这就是声明文件，声明文件必需以 `.d.ts` 为后缀。
 
 ```text
-// jQuery.d.ts
+// jQuery.d.ts
+
 declare var jQuery: (selector: string) => any;
 ```
 

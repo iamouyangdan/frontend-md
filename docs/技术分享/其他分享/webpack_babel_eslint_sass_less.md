@@ -1,5 +1,5 @@
 
-
+# webpack_babel_eslint_sass_less
 一、webpack的基本概念
 
         **webpack** 是一个用于现代 JavaScript 应用程序的 *静态模块打包工具*。当 webpack 处理应用程序时，它会在内部从一个或多个入口点构建一个 依赖图，然后将你项目中所需的每一个模块组合成一个或多个 *bundles*，它们均为静态资源，用于展示你的内容。
@@ -75,11 +75,13 @@ module: {
 ```text
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-module.exports = {
+module.exports = {
+
   mode: 'production',
   entry: {
     app: './src/index.js',
-    print: './src/print.js'
+    print: './src/print.js'
+
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -179,7 +181,8 @@ p { @include sexy-border(blue); }
 
 ```text
 .button-basic  {
-  border: none;
+  border: none;
+
   cursor: pointer; padding: 15px 30px;
   text-align: center;
   font-size: 16px;
@@ -245,7 +248,8 @@ Less 混合
 ```text
 .p1{
   color:red;
-}
+}
+
 .p2{
    background : #DAA520;
   .p1;
