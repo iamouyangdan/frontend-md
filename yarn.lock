@@ -1423,6 +1423,11 @@ vue@^3.2.33:
     "@vue/server-renderer" "3.2.33"
     "@vue/shared" "3.2.33"
 
+vuepress-plugin-auto-sidebar-navbar@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-auto-sidebar-navbar/-/vuepress-plugin-auto-sidebar-navbar-1.0.0.tgz#7776bc70becb2dcabeab20e037d5d9e3505cbdc6"
+  integrity sha512-4k2c94LLmbkAcz9sImXwO1cXpZp1HcVTbCeZjcjkk1iHRbVC5GpmOSoH4P5gkq/dEay7F4kal8fflk1HEyYK9A==
+
 vuepress-plugin-auto-sidebar@^2.4.0-alpha.5:
   version "2.4.0-alpha.5"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-auto-sidebar/-/vuepress-plugin-auto-sidebar-2.4.0-alpha.5.tgz#9578c63c99e3b317c530070f214bd15540404e07"

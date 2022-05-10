@@ -14,11 +14,8 @@ module.exports =  [
     externalLinkIconPlugin({
         // 配置项
     }),
-    require('../plugins/auto-sidebar')(),
-    // ["vuepress-plugin-auto-sidebar", {
-    // require('../vuepress-plugin-auto-sidebar')({
-    //     output: {
-    //         filename: './config/sidebar/index'
-    //     }
-    // })
+    require('vuepress-plugin-auto-sidebar-navbar')({
+        sidebarUrl: '.vuepress/config/sidebar/index.js',
+        navbarUrl: '.vuepress/config/navbar/index.js',
+    }),
 ]

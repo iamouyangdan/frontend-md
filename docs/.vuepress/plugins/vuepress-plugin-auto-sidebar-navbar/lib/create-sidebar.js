@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-
+const { mkdirSync } = require('./utils')
 // 递归生成目录结构
 function genDirStructure(rootDir, targetDir, subDirName, list = []) {
     // 搜索当前目录为所在数组的第几项，若未搜索到，说明为新的目录，此时数组新建一项用来保存新目录
@@ -38,10 +38,10 @@ function sortSidebar(rootDir, target = {}, sortFn) {
     // 默认依次对sort、name、createTime、updateTime多字段按从小到大的顺序排序
     const sortList = (a, b) => {
         if(sortFn) return sortFn(a, b)
-        if (a.sort !== b.sort) return a.sort < b.sort ? 1 : -1
-        if (a.name !== b.name) return a.name < b.name ? 1 : -1
-        else if (a.createTime !== b.createTime) return a.createTime < b.createTime ? 1 : -1
-        else if (a.updateTime !== b.updateTime) return a.updateTime < b.updateTime ? 1 : -1
+        if (a.sort !== b.sort) return a.sort < b.sort ? -1 : 1
+        if (a.name !== b.name) return a.name < b.name ? -1 : 1
+        else if (a.createTime !== b.createTime) return a.createTime < b.createTime ? -1 : 1
+        else if (a.updateTime !== b.updateTime) return a.updateTime < b.updateTime ? -1 : 1
     }
     Object.keys(target).forEach(key => {
         const items = target[key] || []
@@ -68,6 +68,8 @@ function sortSidebar(rootDir, target = {}, sortFn) {
 function genSidebar(sourceDir, sidebarPath, target = {}, sortFn) {
     if(!sourceDir) throw new Error('sourceDir参数不允许为空')
     if(!sidebarPath) throw new Error('sidebarPath参数不允许为空')
+
+    mkdirSync(sidebarPath)
     // 初始化分级目录，其他级别为子数组
     const files = fs.readdirSync(sourceDir)
     const dirNameList = files.filter(item => item !== 'README.md' && item.indexOf('.') !== 0)

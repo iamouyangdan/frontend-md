@@ -1,5 +1,5 @@
 ---
-autoSort: 1
+autoSort: -1
 ---
 # 内衣云App入门
 # 项目介绍

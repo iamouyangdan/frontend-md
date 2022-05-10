@@ -9,12 +9,4 @@ module.exports = defaultTheme({
     sidebar, 
     toggleSidebar: 'toggle sidebar',
     sidebarDepth: 2,
-    // sidebar: 'auto',
-    // locales: {
-    //     '/': {
-    //         navbar, 
-    //         sidebar, 
-    //     }
-    // },
-     
 })
