@@ -1,3 +1,4 @@
+# VSCode开发APICloud项目
 可以使用官方apicloud studio、sublime编辑器进行开发，本文推荐使用微软的VS Code来开D:\NYY\apicloud-app\package.json发，需要安装apicloud插件和EsLint插件，下载地址[__VS Code download__](https://code.visualstudio.com/) ,下面介绍安装方法。
 
  

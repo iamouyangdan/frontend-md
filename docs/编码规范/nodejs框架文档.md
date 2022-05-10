@@ -1,3 +1,4 @@
+# nodejs框架文档
 eggjs文档：[__https://www.eggjs.org/zh-CN__](https://www.eggjs.org/zh-CN)
 
 框架代码地址：[__https://codeup.aliyun.com/5f009f6e6a575d7f23661045/frontend/nodejs-frame__](https://codeup.aliyun.com/5f009f6e6a575d7f23661045/frontend/nodejs-frame)
@@ -66,7 +67,8 @@ eggjs文档：[__https://www.eggjs.org/zh-CN__](https://www.eggjs.org/zh-CN)
 ```text
 
 module.exports = {
-  ...
+
+  ...
   sequelize: {
     enable: true,
     package: 'egg-sequelize',
@@ -92,7 +94,8 @@ module.exports = {
 ```text
 
 module.exports = {
-  ...
+
+  ...
   redis: {
     enable: true,
     package: 'egg-redis',
@@ -165,7 +168,8 @@ ctx.logger.error(new Error('whoops'));
 
 ```text
 module.exports = {
-  ...
+
+  ...
   nacos: {
     enable: true,
     env: [ 'dev', 'prod' ],
@@ -196,7 +200,8 @@ module.exports = {
 ① 在项目根目录创建一个 .sequelizerc 文件，指定各项配置读取路径
 
 ```javascript
-'use strict';
+'use strict';
+
 const path = require('path');
 
 module.exports = {
@@ -473,7 +478,8 @@ module.exports = MeasureService;
 const Controller = require('../../core/baseController');
 
 class MeasureController extends Controller {
-
+
+
   // 搜索列表
   async search() {
     const { current, size, companyName, startTime, endTime } = this.ctx.request.query;
@@ -570,7 +576,8 @@ Controller
 
 const Controller = require('../../core/baseController');
 class MeasureController extends Controller {
-
+
+
   // 事务
   async transactionProcessing() {
     const res = await this.ctx.service.measure.transactionProcessing();
@@ -642,7 +649,8 @@ config/plugin.js
 
 ```text
 module.exports = {
-  ...
+ 
+ ...
   nacos: {
     enable: true,
     package: 'eggjs-nacos',
