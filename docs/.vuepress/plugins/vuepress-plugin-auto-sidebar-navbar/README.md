@@ -32,6 +32,16 @@ module.exports = {
   })
 }
 ```
+## 插件默认参数
+传参方式为：`require('vuepress-plugin-auto-sidebar-navbar')(options)`，其中`options`默认为以下参数：
+```js
+options = {
+    skipSidebar: false, // 默认生成sidebar
+    skipNavbar: false, // 默认生成navbar
+    sidebarUrl: '.vuepress/sidebar.js', // sidebar路径
+    navbarUrl: '.vuepress/navbar.js', // navbar路径
+}
+```
 ## 自动排序
 
 1. `sidebar`（侧边栏）根据md文件内容排序，排序规则为：`autoSort: {number}`中的`number`从小到大排序，其中`number`默认为 0。
@@ -49,7 +59,7 @@ autoSort: -1
 `b.md`内容如下：
 
 ```md
-## 文件b
+# 文件b
 ```
 
 则`sidebar`显示内容：
@@ -69,7 +79,7 @@ module.exports = {
   plugins: [
     ...,
   	require('vuepress-plugin-auto-sidebar-navbar')({
-  		sortFn: (a, b) => {
+  	sortFn: (a, b) => {
   		if (a.sort !== b.sort) return a.sort < b.sort ? -1 : 1
         	if (a.name !== b.name) return a.name < b.name ? -1 : 1
         	else if (a.createTime !== b.createTime) return a.createTime < b.createTime ? -1 : 1

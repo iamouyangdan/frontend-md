@@ -15,6 +15,7 @@ module.exports = defaultTheme({
     themePlugins: {
         // only enable git plugin in production mode
         git: isProd,
+        activeHeaderLinks: true
     },
     // theme-level locales config
     locales: {

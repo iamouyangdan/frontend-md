@@ -236,7 +236,7 @@
     "markdown-it-emoji" "^2.0.0"
     "mdurl" "^1.0.1"
 
-"@vuepress/plugin-active-header-links@2.0.0-beta.43":
+"@vuepress/plugin-active-header-links@^2.0.0-beta.43", "@vuepress/plugin-active-header-links@2.0.0-beta.43":
   "integrity" "sha512-I3dzOVO6zD7z31U0SuRYOwE5bLpFN0Crdwurr3PoSK6MJwAJ4IkKplKfGAJnhQFUXzYteg6I8PJS34AFrLrxnQ=="
   "resolved" "https://registry.npmjs.org/@vuepress/plugin-active-header-links/-/plugin-active-header-links-2.0.0-beta.43.tgz"
   "version" "2.0.0-beta.43"
@@ -3372,14 +3372,14 @@
     "@vue/shared" "3.2.33"
 
 "vuepress-plugin-auto-sidebar-navbar@^1.0.0":
-  "integrity" "sha512-nEhxbo57IOZPhscilYacrwRx9+HbdkSvepGIUjO7tsRnxa17oPvWXOQL++fIaTKxhNiBC9XfJqpwHA+sqdcWAg=="
-  "resolved" "https://registry.npmjs.org/vuepress-plugin-auto-sidebar-navbar/-/vuepress-plugin-auto-sidebar-navbar-1.0.3.tgz"
-  "version" "1.0.3"
+  "integrity" "sha512-N9h82ACHmFchhU/l8JdLeEfVSi/MgBy7UUuSDUdFg+TnBcHQOlQYkZHk255RX4qe6YMPBfAUAFDelBlW947r2A=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-auto-sidebar-navbar/-/vuepress-plugin-auto-sidebar-navbar-1.0.7.tgz"
+  "version" "1.0.7"
 
 "vuepress-plugin-markdown-checkbox@^1.0.0":
-  "integrity" "sha512-hH2GIscdYByoP/RfNFXYoiaWYziNvtr8ZeIU2Dhz26xO18r9o+gtAV2fngTxo0JEONZXEw3VUUkfljGx3v9kZQ=="
-  "resolved" "https://registry.npmjs.org/vuepress-plugin-markdown-checkbox/-/vuepress-plugin-markdown-checkbox-1.0.2.tgz"
-  "version" "1.0.2"
+  "integrity" "sha512-A6V4jFoF0tABTsnG+ZygpkKagbNXuqu+VrxkdnzMRx32OG3GC7zxPY7v3+CGBAhh3J8sdETCay5VXR8K7tQIOw=="
+  "resolved" "https://registry.npmjs.org/vuepress-plugin-markdown-checkbox/-/vuepress-plugin-markdown-checkbox-1.0.3.tgz"
+  "version" "1.0.3"
 
 "vuepress-vite@2.0.0-beta.43":
   "integrity" "sha512-AJQJ60eKZE+tqB1A+079Zu2mssOuM95/I1qA5a5ORqjm+3gKf+opzqs8beXJDu/POOoAaWYgif4Ak9mVKGygHQ=="
