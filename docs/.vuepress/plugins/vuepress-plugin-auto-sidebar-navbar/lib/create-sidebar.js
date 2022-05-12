@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const { mkdirSync } = require('./utils')
+const { mkdirSync, sortDefault, getSortRule, getFileContent } = require('./utils')
 // 递归生成目录结构
 function genDirStructure(rootDir, targetDir, subDirName, list = []) {
     // 搜索当前目录为所在数组的第几项，若未搜索到，说明为新的目录，此时数组新建一项用来保存新目录
@@ -25,7 +25,7 @@ function genDirStructure(rootDir, targetDir, subDirName, list = []) {
             return 
         }    
         // 过滤README.md和非md文件
-        if(key === 'README.md' || !/\.md$/.test(key)) return ;
+        if(!/\.md$/.test(key)) return ;
         
         const name = `/${subPath}/${key}`
         list[i].children.push(name)
@@ -38,29 +38,28 @@ function sortSidebar(rootDir, target = {}, sortFn) {
     // 默认依次对sort、name、createTime、updateTime多字段按从小到大的顺序排序
     const sortList = (a, b) => {
         if(sortFn) return sortFn(a, b)
-        if (a.sort !== b.sort) return a.sort < b.sort ? -1 : 1
-        if (a.name !== b.name) return a.name < b.name ? -1 : 1
-        else if (a.createTime !== b.createTime) return a.createTime < b.createTime ? -1 : 1
-        else if (a.updateTime !== b.updateTime) return a.updateTime < b.updateTime ? -1 : 1
+        return sortDefault(a, b)
     }
     Object.keys(target).forEach(key => {
         const items = target[key] || []
         items.forEach(item => {
-            const sortRule = []
+            const _rules = []
             item.children.forEach(fileUrl => {
                 const filePath = path.resolve(rootDir, '.' + fileUrl)
-                const content = fs.readFileSync(filePath, { encoding: 'utf8' })                
-                const fileStat = fs.statSync(filePath)
-                const rule = {url: fileUrl, name: fileUrl.slice(fileUrl.lastIndexOf('/') + 1, fileUrl.length),  sort: 0, createTime: fileStat.birthtime, updateTime: fileStat.mtime}
+                const content = getFileContent(filePath)
+                const rule = getSortRule(filePath, fileUrl)
                 const res = content.match(/---(\n|\s)*autoSort:\s*(-?[0-9]*)(\n|\s)*---/)
+                // 默认将README置顶
+                if(rule.name === 'README.md') rule.sort = -9999
+
                 if(res) {
-                    console.log('sort', fileUrl, Number(res[2]))
+                    // console.log('sort', fileUrl, Number(res[2]))
                     rule.sort = Number(res[2])
-                }
-                sortRule.push(rule)
+                }              
+                _rules.push(rule)
             })
-            sortRule.sort(sortList)
-            item.children = sortRule.map(i => i.url)
+            _rules.sort(sortList)
+            item.children = _rules.map(i => i.url)
         })
     })
 }

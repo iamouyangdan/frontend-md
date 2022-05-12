@@ -3,15 +3,16 @@ const theme = require('./config/theme.config')
 module.exports = {
     base: '/frontend-md/',
     lang: 'zh-CN',
-    title: 'ouyangdan',
-    description: '这是我的第一个 VuePress 站点',
+    title: '前端文档库',
+    description: '基于 VuePress 搭建的在线文档库',
+    
     head: [
         [
           'link',
           {
             rel: 'icon',
             type: 'image/png',
-            href: `/images/mine.png`,
+            href: `/frontend-md/images/mine.png`,
           },
         ],
         ['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],

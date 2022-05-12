@@ -32,11 +32,12 @@ module.exports = {
   })
 }
 ```
-## sidebar自动排序
+## 自动排序
 
-注：根据`autoSort: {number}`中的`number`从小到大排序。`number`默认为0。
+1. `sidebar`（侧边栏）根据md文件内容排序，排序规则为：`autoSort: {number}`中的`number`从小到大排序，其中`number`默认为 0。
+2. `navbar`（导航栏）根据目录中的README.md文件内容排序，排序规则为：`autoNavSort: {number}`中的`number`从小到大排序，其中`number`默认为 0。
 
-如`a.md`内容如下：
+以`sidebar`为例，`a.md`内容如下：
 
 ```md
 ---
@@ -69,7 +70,7 @@ module.exports = {
     ...,
   	require('vuepress-plugin-auto-sidebar-navbar')({
   		sortFn: (a, b) => {
-  			if (a.sort !== b.sort) return a.sort < b.sort ? -1 : 1
+  		if (a.sort !== b.sort) return a.sort < b.sort ? -1 : 1
         	if (a.name !== b.name) return a.name < b.name ? -1 : 1
         	else if (a.createTime !== b.createTime) return a.createTime < b.createTime ? -1 : 1
         	else if (a.updateTime !== b.updateTime) return a.updateTime < b.updateTime ? -1 : 1

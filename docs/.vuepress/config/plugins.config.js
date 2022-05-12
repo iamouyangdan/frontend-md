@@ -11,6 +11,9 @@ module.exports =  [
     externalLinkIconPlugin({
         // 配置项
     }),
+    // require('../plugins/vuepress-plugin-markdown-checkbox')({}),
+    require('vuepress-plugin-markdown-checkbox')({}),
+    // require('../plugins/vuepress-plugin-auto-sidebar-navbar')({
     require('vuepress-plugin-auto-sidebar-navbar')({
         sidebarUrl: '.vuepress/config/sidebar/index.js',
         navbarUrl: '.vuepress/config/navbar/index.js',

@@ -3,6 +3,7 @@ module.exports = {
     {
       "text": "前端规划",
       "children": [
+        "/前端规划/README.md",
         "/前端规划/前端工作规划.md",
         "/前端规划/低代码平台.md",
         "/前端规划/低代码平台数据库.md",
@@ -18,6 +19,7 @@ module.exports = {
     {
       "text": "前端项目",
       "children": [
+        "/前端项目/README.md",
         "/前端项目/项目搭建.md",
         "/前端项目/生产环境发布前端页面.md"
       ]
@@ -39,6 +41,7 @@ module.exports = {
     {
       "text": "l-ui组件库",
       "children": [
+        "/前端项目/l-ui组件库/README.md",
         "/前端项目/l-ui组件库/linkkap-ui table组件介绍.md",
         "/前端项目/l-ui组件库/前端引入iconfont阿里巴巴矢量图标库.md"
       ]
@@ -67,6 +70,7 @@ module.exports = {
     {
       "text": "技术分享",
       "children": [
+        "/技术分享/README.md",
         "/技术分享/技术分享介绍.md",
         "/技术分享/前端技术培训说明.md"
       ]
@@ -125,6 +129,7 @@ module.exports = {
     {
       "text": "新人入门",
       "children": [
+        "/新人入门/README.md",
         "/新人入门/新员工指南.md",
         "/新人入门/新员工指南（前端实习）.md",
         "/新人入门/日报汇报格式.md",
@@ -174,6 +179,7 @@ module.exports = {
     {
       "text": "编码规范",
       "children": [
+        "/编码规范/README.md",
         "/编码规范/前端规范文档.md",
         "/编码规范/ESlint规范.md",
         "/编码规范/nodejs框架文档.md",
