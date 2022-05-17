@@ -14,7 +14,7 @@ npm i vuepress-plugin-auto-sidebar-navbar -D
 ```
 ## 快速使用（Usage）
 
-VuePress v2](https://v2.vuepress.vuejs.org/zh/) 不再支持插件修改 sidebar，所以你需要在`.vuepress/config.js`自行引入生成的 `sidebar.js` 和`navbar.js`文件。
+[VuePress v2](https://v2.vuepress.vuejs.org/zh/) 不再支持插件修改 sidebar，所以你需要在`.vuepress/config.js`自行引入生成的 `sidebar.js` 和`navbar.js`文件。
 
 ```js
 const { defaultTheme } = require('@vuepress/theme-default')

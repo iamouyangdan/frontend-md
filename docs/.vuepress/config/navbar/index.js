@@ -23,5 +23,10 @@ module.exports = [
     "activeMatch": "/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE/",
     "link": "/前端项目/",
     "text": "前端项目"
+  },
+  {
+    "activeMatch": "/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95/",
+    "link": "/前端面试/",
+    "text": "前端面试"
   }
 ]

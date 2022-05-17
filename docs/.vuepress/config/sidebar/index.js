@@ -15,6 +15,15 @@ module.exports = {
       ]
     }
   ],
+  "/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95/": [
+    {
+      "text": "前端面试",
+      "children": [
+        "/前端面试/README.md",
+        "/前端面试/算法.md"
+      ]
+    }
+  ],
   "/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE/": [
     {
       "text": "前端项目",
