@@ -25,8 +25,8 @@ module.exports = [
     "text": "前端项目"
   },
   {
-    "activeMatch": "/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95/",
-    "link": "/前端面试/",
-    "text": "前端面试"
+    "activeMatch": "/%E9%AB%98%E7%BA%A7%E9%9D%A2%E8%AF%95/",
+    "link": "/高级面试/",
+    "text": "高级面试"
   }
 ]

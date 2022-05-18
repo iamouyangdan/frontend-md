@@ -8,9 +8,9 @@
 **值类型(基本类型)**：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol、BigInt。
 
 > **注：**
-
+>
 > `Symbol` 是 ES6 引入了一种新的原始数据类型，表示独一无二的值。
-
+>
 > `BigInt` 是一种内置对象，它提供了一种方法来表示大于  `2^53 - 1`  的整数。这原本是 Javascript中可以用 `Number` 表示的最大数字。
 
 **引用数据类型**：
@@ -97,7 +97,7 @@ console.log(
 
 ### toString
 
-```text
+```js
 // Vue 源码的检测方法
 let _toString = Object.prototype.toString;
 
@@ -122,7 +122,7 @@ function isPlainObject (obj) {
 
 答案：
 
-```text
+```js
 var a = {
   value: 0,
   valueOf: function() {
@@ -135,7 +135,7 @@ console.log(a == 1 && a == 2);//true
 
 问题2：
 
-```text
+```js
 var result = 100 + true + 21.2 + null + undefined + "Tencent" + [] + null + 9 + false;
 // result应该是？
 ```
@@ -150,7 +150,7 @@ var result = 100 + true + 21.2 + null + undefined + "Tencent" + [] + null + 9 + 
 
 ☀️**显式类型强制转换**是指当开发人员通过编写适当的代码用于在类型之间进行转换，比如：`Number(value)、String(value)、Boolean(value)`
 
-```text
+```js
 // 数值：转换后还是原来的值
 Number(123) // 123
 
@@ -178,7 +178,7 @@ Number([ 1, 2, 3 ])
 Number([ 5 ])
 ```
 
-```text
+```js
 String(123) // "123"
 String('abc') // "abc"
 String(true) // "true"
@@ -387,7 +387,7 @@ null===undefined     //false
 
 问题：下面代码在控制台运行的打印结果是什么？
 
-```text
+```js
 var obj = {
   value: 3,
   valueOf() {
@@ -594,7 +594,7 @@ arrNew = [1,2,3]
 
 取值在程序中非常常见，比如从对象`obj`中取值。
 
-```text
+```js
 const obj = {
     a:1,
     b:2,
@@ -604,7 +604,7 @@ const obj = {
 }
 ```
 
-```text
+```js
 const a = obj.a;
 const b = obj.b;
 const c = obj.c;
@@ -614,14 +614,14 @@ const e = obj.e;
 
 或者
 
-```text
+```js
 const f = obj.a + obj.d;
 const g = obj.c + obj.e;
 ```
 
 **改进**：
 
-```text
+```js
 const {a,b,c,d,e} = obj;
 const f = a + d;
 const g = c + e;
@@ -629,7 +629,7 @@ const g = c + e;
 
 解构后的属性名不一致时：
 
-```text
+```js
 const {a:a1} = obj;
 console.log(a1);// 1
 ```
@@ -638,7 +638,7 @@ console.log(a1);// 1
 
 ES6的解构赋值虽然好用。但是要注意解构的对象不能为`undefined`、`null`。否则会报错，故要给被解构的对象一个默认值。
 
-```text
+```js
 const {a,b,c,d,e} = obj || {};
 ```
 
@@ -646,7 +646,7 @@ const {a,b,c,d,e} = obj || {};
 
 比如合并两个数组，合并两个对象。
 
-```text
+```js
 const a = [1,2,3];
 const b = [1,5,6];
 const c = a.concat(b);//[1,2,3,1,5,6]
@@ -662,7 +662,7 @@ const obj = Object.assign({}, obj1, obj2);//{a:1,b:1}
 
 **改进**
 
-```text
+```js
 const a = [1,2,3];
 const b = [1,5,6];
 const c = [...new Set([...a,...b])];//[1,2,3,5,6]
@@ -678,7 +678,7 @@ const obj = {...obj1,...obj2};//{a:1,b:1}
 
 ### 三、关于拼接字符串
 
-```text
+```js
 const name = '小明';
 const score = 59;
 let result = '';
@@ -691,7 +691,7 @@ if(score > 60){
 
 **改进**
 
-```text
+```js
 const name = '小明';
 const score = 59;
 const result = `${name}${score > 60?'的考试成绩及格':'的考试成绩不及格'}`;
@@ -699,7 +699,7 @@ const result = `${name}${score > 60?'的考试成绩及格':'的考试成绩不�
 
 ### 四、关于if中判断条件
 
-```text
+```js
 if(
     type == 1 ||
     type == 2 ||
@@ -712,7 +712,7 @@ if(
 
 **改进**
 
-```text
+```js
 const condition = [1,2,3,4];
 
 if( condition.includes(type) ){
@@ -724,7 +724,7 @@ if( condition.includes(type) ){
 
 在项目中，一些没分页的列表的搜索功能由前端来实现，搜索一般分为精确搜索和模糊搜索。搜索也要叫过滤，一般用`filter`来实现。
 
-```text
+```js
 const a = [1,2,3,4,5];
 const result = a.filter( 
   item =>{
@@ -737,7 +737,7 @@ const result = a.filter(
 
 `find`方法中找到符合条件的项，就不会继续遍历数组。
 
-```text
+```js
 const a = [1,2,3,4,5];
 const result = a.find( 
   item =>{
@@ -750,7 +750,7 @@ const result = a.find(
 
 一个部门JSON数据中，属性名是部门id，属性值是个部门成员id数组集合，现在要把有部门的成员id都提取到一个数组集合中。
 
-```text
+```js
 const deps = {
 '采购部':[1,2,3],
 '人事部':[5,8,12],
@@ -769,7 +769,7 @@ member = [...new Set(member)]
 
 **改进**
 
-```text
+```js
 const deps = {
     '采购部':[1,2,3],
     '人事部':[5,8,12],
@@ -787,13 +787,13 @@ let member = Object.values(deps).flat(Infinity);
 
 ### 七、关于获取对象属性值的吐槽
 
-```text
+```js
 const name = obj && obj.name;
 ```
 
 **改进**
 
-```text
+```js
 const name = obj?.name;
 ```
 
@@ -801,7 +801,7 @@ const name = obj?.name;
 
 当给对象添加属性时，如果属性名是动态变化的，该怎么处理。
 
-```text
+```js
 let obj = {};
 let index = 1;
 let key = `topic${index}`;
@@ -810,7 +810,7 @@ obj[key] = '话题内容';
 
 **改进**
 
-```text
+```js
 let obj = {};
 let index = 1;
 obj[`topic${index}`] = '话题内容';
@@ -820,7 +820,7 @@ obj[`topic${index}`] = '话题内容';
 
 在处理输入框相关业务时，往往会判断输入框未输入值的场景。
 
-```text
+```js
 if(value !== null && value !== undefined && value !== ''){
     //...
 }
@@ -828,7 +828,7 @@ if(value !== null && value !== undefined && value !== ''){
 
 参考：
 
-```text
+```js
 if((value??'') !== ''){
   //...
 }
@@ -838,7 +838,7 @@ if((value??'') !== ''){
 
 异步函数很常见，经常是用 Promise 来实现。
 
-```text
+```js
 const fn1 = () =>{
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -865,7 +865,7 @@ const fn = () =>{
 
 **改进**
 
-```text
+```js
 const fn = async () =>{
   const res1 = await fn1();
   const res2 = await fn2();
@@ -878,7 +878,7 @@ const fn = async () =>{
 
 但是要做并发请求时，还是要用到`Promise.all()`。
 
-```text
+```js
 const fn = () =>{
    Promise.all([fn1(),fn2()]).then(res =>{
        console.log(res);// [1,2]
@@ -896,7 +896,7 @@ const fn = () =>{
 
 测试大量数据的数组时可以这样生成：
 
-```text
+```js
 // fill
 const arr = new Array(100).fill(0).map((item, index) => index + 1)
 
@@ -911,7 +911,7 @@ const ary = [...Array(100).keys()]
 
 ### 数组解构赋值应用
 
-```text
+```js
 // 交换变量
 [a, b] = [b, a]
 [o.a, o.b] = [o.b, o.a]
@@ -921,7 +921,7 @@ const [a, ...rest] = [...'asdf'] // a：'a'，rest: ["s", "d", "f"]
 
 ### 数组浅拷贝
 
-```text
+```js
 const arr = [1, 2, 3]
 const arrClone = [...arr]
 // 对象也可以这样浅拷贝
@@ -933,7 +933,7 @@ const objClone = { ...obj }
 
 ### 数组合并
 
-```text
+```js
 const arr1 = [1, 2, 3]
 const arr2 = [4, 5, 6]
 const arr3 = [7, 8, 9]
@@ -944,7 +944,7 @@ const arr = [...arr1, ...arr2, ...arr3]
 
 ### 数组去重
 
-```text
+```js
 const arr = [1, 1, 2, 2, 3, 4, 5, 5]
 const newArr = [...new Set(arr)]
 ```
@@ -953,7 +953,7 @@ const newArr = [...new Set(arr)]
 
 ### 数组取交集
 
-```text
+```js
 const a = [0, 1, 2, 3, 4, 5]
 const b = [3, 4, 5, 6, 7, 8]
 const duplicatedValues = [...new Set(a)].filter(item => b.includes(item))
@@ -962,7 +962,7 @@ duplicatedValues // [3, 4, 5]
 
 ### 数组取差集
 
-```text
+```js
 const a = [0, 1, 2, 3, 4, 5]
 const b = [3, 4, 5, 6, 7, 8]
 const diffValues = [...new Set([...a, ...b])].filter(item => !b.includes(item) || !a.includes(item)) // [0, 1, 2, 6, 7, 8]
@@ -970,7 +970,7 @@ const diffValues = [...new Set([...a, ...b])].filter(item => !b.includes(item) |
 
 ### 数组转对象
 
-```text
+```js
 const arr = [1, 2, 3, 4]
 const newObj = {...arr} // {0: 1, 1: 2, 2: 3, 3: 4}
 const obj = {0: 0, 1: 1, 2: 2, length: 3}
@@ -982,7 +982,7 @@ let newArr = Array.from(obj) // [0, 1, 2]
 
 ### 数组摊平
 
-```text
+```js
 const obj = {a: '群主', b: '男群友', c: '女裙友', d: '未知性别'}
 const getName = function (item) { return item.includes('群')}
 // 方法1
@@ -1001,7 +1001,7 @@ const flatArr = Object.values(obj).flat().filter(getName)
 
 `filter`、`map`方法返回值仍旧是一个数组，所以可以搭配其他数组遍历方法混合使用。注意遍历越多效率越低~
 
-```text
+```js
 const arr = [1, 2, 3, 4, 5]
 const value = arr
     .map(item => item * 3)
@@ -1012,21 +1012,21 @@ const value = arr
 
 ### 检测数组所有元素是否都符合判断条件
 
-```text
+```js
 const arr = [1, 2, 3, 4, 5]
 const isAllNum = arr.every(item => typeof item === 'number')
 ```
 
 ### 检测数组是否有元素符合判断条件
 
-```text
+```js
 const arr = [1, 2, 3, 4, 5]
 const hasNum = arr.some(item => typeof item === 'number')
 ```
 
 ### 找到第一个符合条件的元素/下标
 
-```text
+```js
 const arr = [1, 2, 3, 4, 5]
 const findItem = arr.find(item => item === 3) // 返回子项
 const findIndex = arr.findIndex(item => item === 3) // 返回子项的下标
@@ -1043,7 +1043,7 @@ const index = arr.indexOf(3)
 
 `array.includes()` 返回布尔值，`array.indexOf()` 返回数组子项的索引。`indexOf` 一定要在需要索引值的情况下使用。
 
-```text
+```js
 const arr = [1, 2, 3, 4, 5]
 
 // 使用indexOf，需要用到索引值
@@ -1062,7 +1062,7 @@ if (!isExist) {
 
 `array.indexOf()`找 `NaN` 会找不到，返回`-1`，`array.includes()`能找到，返回`true`
 
-```text
+```js
 [NaN].includes(NaN) // true
 [NaN].indexOf(NaN) // -1
 ```
@@ -1071,7 +1071,7 @@ if (!isExist) {
 
 `array.find()`返回值是第一个符合条件的数组子项，`array.findIndex()` 返回第一个符合条件的数组子项的下标，`array.some()` 返回有无复合条件的子项，如有返回`true`，若无返回`false`。注意这三个都是短路操作，即找到符合条件的之后就不在继续遍历。在需要数组的子项的时候使用`array.find()` ；需要子项的索引值的时候使用 `array.findIndex()` ；而若只需要知道有无符合条件的子项，则用 `array.some()`。
 
-```text
+```js
 const arr = [{label: '男', value: 0}, {label: '女', value: 1}, {label: '不男不女', value: 2}]
 
 // 使用some
@@ -1097,7 +1097,7 @@ if (~index) {
 
 建议在只需要布尔值的时候和数组子项是字符串或数字的时候使用 `array.some()`：
 
-```text
+```js
 // 当子包含数字0的时候可能出错
 const arr = [0, 1, 2, 3, 4]
 
@@ -1138,7 +1138,7 @@ if (isExist) { // isExist此时是''，隐式转换为布尔值后是false
 
 由于 es6 原生提供了 `Set` 数据结构，而 `Set` 可以保证子项不重复，且和数组转换十分方便，所以在一些可能会涉及重复添加的场景下可以直接使用 `Set` 代替 `Array`，避免了多个地方重复判断是否已经存在该子项。
 
-```text
+```js
 const set = new Set()
 set.add(1)
 set.add(1)
@@ -1155,7 +1155,7 @@ const arr = [...set] // arr: [1]
 
 假如有如下每个元素都由字母's'加数字组成的数组`arr`，现在找出其中最大的数字：（`arr`不为空）
 
-```text
+```js
 const arr = ['s0', 's4', 's1', 's2', 's8', 's3']
 
 // 方法1  进行了多次遍历，低效
@@ -1171,7 +1171,7 @@ const maxS = arr.reduce((prev, cur) => {
 
 1. 利用`reduce` 输出一个数组/对象
 
-```text
+```js
 const arr = [1, 2, 3, 4, 5]
 
  // 方法1  遍历了两次，效率低
@@ -1185,7 +1185,7 @@ const value = arr.reduce((prev, curr) => {
 
 掌握了上面两种用法，结合实际需要，就可以用 `reduce/reduceRight` 实现各种奇巧淫技了。实例：利用 `reduce` 做下面这样的处理来生成想要的 html 字符串：
 
-```text
+```js
 // 后端返回数据
 const data = {
   'if _ then s9': [
@@ -1219,7 +1219,7 @@ const html = `
 
 生成的 html 结构如下：
 
-```text
+```html
 <ul class="nlp-notify-body">            
   <li>
     <p>if _ then s9</p>
@@ -1237,7 +1237,7 @@ const html = `
 
 这里还有一个替代 `reverse` 函数的技巧由于 `array.reverse()` 函数会改变原数组自身，这样就限制了一些使用场景。如果我想要一个不会改变数组自身的 `reverse` 函数呢？拿走！
 
-```text
+```js
 const myReverse = (arr = []) => {
     return  arr.reduceRight((prev, cur) => [...prev, cur], []) // 也可以返回逗号表达式 (prev.push(cur), prev)
 }

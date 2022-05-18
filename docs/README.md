@@ -15,8 +15,12 @@ features:
   - title: 要求二
     details: 每个 md 文档必须且仅只有一个一级标题。一级标题用于在 sidebar 中显示对应的二级菜单。若存在多个一级标题时，sidebar 取第一个一级标题。
   - title: 要求三
-    details: 若当前系统为 Windows 系统，发布页面请在项目根目录运行 ./scripts/deploy.bat 。
+    details: md文件内容中不能出现process.env.*。若出现此关键字，可能会出现打开当前页面报错的情况。
   - title: 要求四
+    details: md文件内容中使用代码块标志时，需要指定代码块的语言类型，如```js。若则可能会出现打开当前页面报错的情况。
+  - title: 要求五
+    details: 若当前系统为 Windows 系统，发布页面请在项目根目录运行 ./scripts/deploy.bat 。
+  - title: 要求六
     details: 若当前系统为 Linux 系统，发布页面请在项目根目录运行 sh ./scripts/deploy.sh 。
 footer: MIT Licensed | Copyright © 2022 ouyangdan
 ---
