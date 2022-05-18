@@ -208,6 +208,7 @@ module.exports = {
       "text": "高级面试",
       "children": [
         "/高级面试/README.md",
+        "/高级面试/自我介绍.md",
         "/高级面试/简历.md",
         "/高级面试/HTML+CSS知识.md",
         "/高级面试/JavaScript基础.md",
