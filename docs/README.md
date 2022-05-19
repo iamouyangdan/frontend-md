@@ -27,3 +27,7 @@ footer: MIT Licensed | Copyright © 2022 ouyangdan
 ::: warning
 如存在以上问题，可能`npm run docs:dev`本地开发时没问题，但是会导致`vuepress2.x`打包编译`npm run docs:build`报错或最终页面显示异常，所以请务必严格遵守要求。
 :::
+
+::: tip 附录资料
+- [markdown可用的表情包](https://github.com/ikatyang/emoji-cheat-sheet)
+:::

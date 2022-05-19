@@ -3,6 +3,10 @@ autoNavSort: -1
 ---
 # 新人入门
 
+::: tip 附录
+- [千牵入门文档汇总](https://shimo.im/docs/V5qeWOoNP9IbF8AJ)
+- [链股系统梳理](https://shimo.im/docs/HvDhPh8HhGTDDGYW)
+:::
 ## 全职岗位
 [新员工指南入口](./%E6%96%B0%E5%91%98%E5%B7%A5%E6%8C%87%E5%8D%97.md)
 
