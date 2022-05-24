@@ -48,7 +48,7 @@ eggjs文档：[__https://www.eggjs.org/zh-CN__](https://www.eggjs.org/zh-CN)
 
 ```
 
-![](https://tcs-devops.aliyuncs.com/storage/112gdf2c95508211dc555c17fa269f000804?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdkZjJjOTU1MDgyMTFkYzU1NWMxN2ZhMjY5ZjAwMDgwNCJ9.XGZOzjBH-HbN4hENAGmsydVAyIn06Jm-NN_jubsAXzE&download=image.png "")
+![](/images/编码规范/image1.png "")
 
 ## 2、配置信息
 
@@ -56,7 +56,7 @@ eggjs文档：[__https://www.eggjs.org/zh-CN__](https://www.eggjs.org/zh-CN)
 
 ## （1）mysql 和 redis 配置
 
-![](https://tcs-devops.aliyuncs.com/storage/112gd6bc8c61b1e6617d201a1e33e7565c61?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdkNmJjOGM2MWIxZTY2MTdkMjAxYTFlMzNlNzU2NWM2MSJ9.joV3knFWSvU5j3zpRGp0MPZqXo1EUCILx263vq-1FTw&download=image.png "")
+![](/images/编码规范/image2.png "")
 
 ### MySQL
 
@@ -77,11 +77,11 @@ module.exports = {
 }
 ```
 
-![](https://tcs-devops.aliyuncs.com/storage/112g686c15c09898296ff316d44a3ab6bec7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc2ODZjMTVjMDk4OTgyOTZmZjMxNmQ0NGEzYWI2YmVjNyJ9.Ks8ALVhxch_YsPzp84hSglN9NOvy61z1cn0vHpv6w4U&download=image.png "")
+![](/images/编码规范/image3.png "")
 
 ②在 config/config.local.js 中配置如下:
 
-![](https://tcs-devops.aliyuncs.com/storage/112gc6fc4cfa652a26795f17e72b385b483a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdjNmZjNGNmYTY1MmEyNjc5NWYxN2U3MmIzODViNDgzYSJ9.s1kB20ie-HtE3lXHwrc5SRvX-zCxFnHXtvZH__PLGo8&download=image.png "")
+![](/images/编码规范/image4.png "")
 
 文档：[__https://www.eggjs.org/zh-CN/tutorials/sequelize__](https://www.eggjs.org/zh-CN/tutorials/sequelize)
 
@@ -106,7 +106,7 @@ module.exports = {
 
 ②在 config/config.local.js 中配置如下:
 
-![](https://tcs-devops.aliyuncs.com/storage/112gbf136929878648bd7f59a494dba9cab7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdiZjEzNjkyOTg3ODY0OGJkN2Y1OWE0OTRkYmE5Y2FiNyJ9.q9MSUSARNZuQtrqF9oGfSooB-tEa9gp2nmr1vs87Hw0&download=image.png "")
+![](/images/编码规范/image5.png "")
 
 ## （2）日志
 
@@ -145,7 +145,7 @@ module.exports = {
 
 **部分日志内容:**
 
-![](https://tcs-devops.aliyuncs.com/storage/112gf66d091f31174453c94f2e35807bcc08?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdmNjZkMDkxZjMxMTc0NDUzYzk0ZjJlMzU4MDdiY2MwOCJ9.CFt3ULrlWGeCXoluRJBrA2_KuZ-xoDb2vZ8JRqcbOO0&download=image.png "")
+![](/images/编码规范/image6.png "")
 
 **日志打印：**
 
@@ -181,7 +181,7 @@ module.exports = {
 
 ②在 config/config.local.js 中配置如下:
 
-![](https://tcs-devops.aliyuncs.com/storage/112gb18ee4a2a9ae27c00760a5ef327eba9c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdiMThlZTRhMmE5YWUyN2MwMDc2MGE1ZWYzMjdlYmE5YyJ9.IuvHgD5h3tc6yL8GpNJx6m9D3h7RRM2x_XVcXSIp-b8&download=image.png "")
+![](/images/编码规范/image7.png "")
 
 文档地址：[__https://github.com/1981430140/eggjs-nacos__](https://github.com/1981430140/eggjs-nacos)
 
@@ -353,9 +353,9 @@ AModel.hasMany(BModel, {
 
 model 的关联只需要关联一次， 无需每次查询都进行关联， 所以把关联统一在 app/core/associateModel.js 中写关联的处理逻辑。并在 app.js 中进行初始化。
 
-![](https://tcs-devops.aliyuncs.com/storage/112h0550a8f5c0c493b8b74f600071e5dc19?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmgwNTUwYThmNWMwYzQ5M2I4Yjc0ZjYwMDA3MWU1ZGMxOSJ9.ZdqmMCUHnA3xztfk2KVx6b9ou0uQj4BFWoKF5EfugrQ&download=image.png "")
+![](/images/编码规范/image8.png "")
 
-![](https://tcs-devops.aliyuncs.com/storage/112h81567160e6033250c774135851d2b8fd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg4MTU2NzE2MGU2MDMzMjUwYzc3NDEzNTg1MWQyYjhmZCJ9.Jws75-3CoLv0Pev5rnQEFKlMWvk1OD5ba9MEhJhg_Cw&download=image.png "")
+![](/images/编码规范/image9.png "")
 
 ### （2）使用 include 参数查询
 
@@ -738,7 +738,7 @@ egg-sequelize：[__https://www.eggjs.org/zh-CN/tutorials/sequelize__](https://ww
 
 baseController 和 baseService 中已经封装了相应的方法。
 
-![](https://tcs-devops.aliyuncs.com/storage/112ha51c249c406186644f61d9440fdccfd8?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhhNTFjMjQ5YzQwNjE4NjY0NGY2MWQ5NDQwZmRjY2ZkOCJ9.e_bH_dTr7KdvlVvIYfEiqOmfpYZOOHcnJYWWCI-p68Y&download=image.png "")
+![](/images/编码规范/image10.png "")
 
 
 
@@ -746,7 +746,7 @@ baseController 和 baseService 中已经封装了相应的方法。
 
 在 application-local.yml 中配置对应项目的微服务名， 请求域名。运行服务即可
 
-![](https://tcs-devops.aliyuncs.com/storage/112h5323d743546b36a23c42ac365c59127d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwOTQ0OCwiaWF0IjoxNjUxOTA0NjQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg1MzIzZDc0MzU0NmIzNmEyM2M0MmFjMzY1YzU5MTI3ZCJ9.62oSBOBZc2M5inaGwMHkc3vcFTKsQagGx49gFxd6DhU&download=image.png "")
+![](/images/编码规范/image11.png "")
 
 
 
@@ -756,7 +756,7 @@ baseController 和 baseService 中已经封装了相应的方法。
 
 主题 :nodejs微前端框架介绍
 
-录制文件：https://meeting.tencent.com/v2/cloud-record/share?id=304f4fde-de87-44f6-aae0-8fb1c05f2ccb&from=3
+[录制文件](https://meeting.tencent.com/v2/cloud-record/share?id=304f4fde-de87-44f6-aae0-8fb1c05f2ccb&from=3)
 
 
 
