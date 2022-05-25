@@ -107,7 +107,7 @@ vue create -p dcloudio/uni-preset-vue demo-uni
 
 ## 跨端开发注意点
 
-![](https://tcs-devops.aliyuncs.com/storage/1127313ac817047e2d1013ccb5b826ecf523?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTkzMCwiaWF0IjoxNjUxODk3MTMwLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjczMTNhYzgxNzA0N2UyZDEwMTNjY2I1YjgyNmVjZjUyMyJ9.LD6-lbGg08wseMGgjB9XLY4bdUnOK8kCO5sKj-VxVz0&download=image.png "")
+![](/images/auto/uniapp%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/image1.png)
 
 
 

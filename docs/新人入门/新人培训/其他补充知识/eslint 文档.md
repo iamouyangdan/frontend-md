@@ -25,7 +25,7 @@ npm install eslint --save-dev
 ./node_modules/.bin/eslint --init
 ```
 
-![](https://tcs-devops.aliyuncs.com/storage/112d7bf0f8f1f60a6a49d8813aa54183926b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTk5NCwiaWF0IjoxNjUxODk3MTk0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmQ3YmYwZjhmMWY2MGE2YTQ5ZDg4MTNhYTU0MTgzOTI2YiJ9.uPguUVVf4A-wT__eDhpcJNcbdUVsZ2wYH2tzgNN1ZA0&download=image.png "")
+![](/images/auto/eslint%20%E6%96%87%E6%A1%A3/image1.png)
 
 可以运行 ESLint 在任何文件或目录如下: `./node_modules/.bin/eslint index.js`。
 
@@ -59,7 +59,7 @@ eslint index.js
 
 **那么我想在我一边写代码的时候就能直接看到错误，然后就能直接随手改正错误，这要怎么做呢？**这时 eslint 的 vscode 插件诞生了。
 
-![](https://tcs-devops.aliyuncs.com/storage/112d4e658e17783fea366e6d01805db75c15?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTk5NCwiaWF0IjoxNjUxODk3MTk0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmQ0ZTY1OGUxNzc4M2ZlYTM2NmU2ZDAxODA1ZGI3NWMxNSJ9.xBGr__SP5hCQGtCbw1aJ9PPS3yB_LhDMBhTK0zypWg8&download=image.png "")
+![](/images/auto/eslint%20%E6%96%87%E6%A1%A3/image2.png)
 
 配置保存时自动修复：打开 vscode 的 setting.json 文件，添加如下语句。
 

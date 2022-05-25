@@ -11,11 +11,11 @@
 
 2、点击菜单栏--运行项目--运行到手机或模拟器--ADB路径设置
 
-![](https://tcs-devops.aliyuncs.com/storage/112g8dd049c3c779c01144d46f4daab34886?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDk5NywiaWF0IjoxNjUxODk2MTk3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc4ZGQwNDljM2M3NzljMDExNDRkNDZmNGRhYWIzNDg4NiJ9.Y4m5k3tUhw45YqeArjsD4RHSjaySJwxvZ3CwcRF7P0s&download=image.png "")
+![](/images/auto/App%E5%AE%89%E5%8D%93%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%B0%83%E8%AF%95/image1.png)
 
 3、配置ADB路径，一般路径是/emulator/nemu/vmonitor/bin/adb_server.exe
 
-![](https://tcs-devops.aliyuncs.com/storage/112g537270bc165a58d90cf75bae7d1c7a3d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDk5NywiaWF0IjoxNjUxODk2MTk3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc1MzcyNzBiYzE2NWE1OGQ5MGNmNzViYWU3ZDFjN2EzZCJ9.eHczGjPj26z74_loi-yfgKmwfggOn8XD35doOYq1Mgk&download=image.png "")
+![](/images/auto/App%E5%AE%89%E5%8D%93%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%B0%83%E8%AF%95/image2.png)
 
 4、运行模拟器
 
@@ -23,5 +23,5 @@
 
 6、点击菜单栏--运行--运行到手机或模拟器--运行到设备
 
-![](https://tcs-devops.aliyuncs.com/storage/112gbf425fc695af7ff1ce4508f7a6a0e0d1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDk5NywiaWF0IjoxNjUxODk2MTk3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdiZjQyNWZjNjk1YWY3ZmYxY2U0NTA4ZjdhNmEwZTBkMSJ9.Fm3eUIao6DFqvnwIeMA3oF6Mf_lZ3XMl9aYlv31PRW4&download=image.png "")
+![](/images/auto/App%E5%AE%89%E5%8D%93%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%B0%83%E8%AF%95/image3.png)
 

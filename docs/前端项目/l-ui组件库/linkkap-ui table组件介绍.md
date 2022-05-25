@@ -99,22 +99,22 @@ Vue['#uiConfig'] = {
 Vue.use(LinkkapUi)
 ```
 
-![](https://tcs-devops.aliyuncs.com/storage/11279ff9b73c219686a0759a852740bfbb3a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ0MiwiaWF0IjoxNjUxODk2NjQyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc5ZmY5YjczYzIxOTY4NmEwNzU5YTg1Mjc0MGJmYmIzYSJ9.H-Yl6LFuogGspq3a52cKcQ8U8kpWNfziOJLTLFbLaYI&download=1627268226(1).png "")
+![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image1.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/11278bccbf9e4a1015e9775be064c625573e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ0MiwiaWF0IjoxNjUxODk2NjQyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc4YmNjYmY5ZTRhMTAxNWU5Nzc1YmUwNjRjNjI1NTczZSJ9.hPuzscc77Jao8H7jxY5SMT6klxwpR07hYAS_s75IVq4&download=1627268392(1).png "")
+![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image2.png)
 
 ## 使用说明
 
-![](https://tcs-devops.aliyuncs.com/storage/112766bfc2c0ee03a5ca14583270d2e61f62?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ0MiwiaWF0IjoxNjUxODk2NjQyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc2NmJmYzJjMGVlMDNhNWNhMTQ1ODMyNzBkMmU2MWY2MiJ9.AiRKbS-934Oy5UXNFBIFh6VXFKdXtZdGSB_Rbz9tysw&download=image.png "")
+![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image3.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112785b20005f30888e7a915bfce4c52588a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ0MiwiaWF0IjoxNjUxODk2NjQyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc4NWIyMDAwNWYzMDg4OGU3YTkxNWJmY2U0YzUyNTg4YSJ9.iE0G_jZ6RGt2TsKRf7eUXpMPv3r0bD168cNjmfutVhE&download=image.png "")
+![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image4.png)
 
 ## 
 项目地址
 
 https://codeup.aliyun.com/5f009f6e6a575d7f23661045/frontend/linkkap-ui/tree/develop
 
-![](https://tcs-devops.aliyuncs.com/storage/1127adb16edce8953535d855e38d5267ab0b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ0MiwiaWF0IjoxNjUxODk2NjQyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjdhZGIxNmVkY2U4OTUzNTM1ZDg1NWUzOGQ1MjY3YWIwYiJ9.61i6WEG_DGxJTHSmIvx0btU1DWGk3EhVuzFbE3-WFvM&download=1627268733(1).png "")
+![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image5.png)
 
 
 

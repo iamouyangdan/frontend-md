@@ -11,11 +11,11 @@ git由以下几个部分构成，具体关系如图所示：
 
 工作区、版本库、暂存区、分支
 
-![](https://tcs-devops.aliyuncs.com/storage/112a9d844d63fa19b25b432f90167d3755a2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmE5ZDg0NGQ2M2ZhMTliMjViNDMyZjkwMTY3ZDM3NTVhMiJ9.zbR9x5pAdqfbSl4j0z6jhDWLf1plt2M3VJRi8JTZsuM&download=git.jpg "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image1.png)
 
 git一次完整的提交流程：
 
-![](https://tcs-devops.aliyuncs.com/storage/112a21cf657310656ba8d38b894c9471e891?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmEyMWNmNjU3MzEwNjU2YmE4ZDM4Yjg5NGM5NDcxZTg5MSJ9.74qD-rnD_cDW8ylFl30VK0EI_2DhmYtUuOpoKXB25Ag&download=gitProcess.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image2.png)
 
 ### 基本操作
 
@@ -79,51 +79,51 @@ $ git status
 
 1、获取GIT项目地址远程仓库地址
 
-![](https://tcs-devops.aliyuncs.com/storage/112a034aa52be4786c69346002c53bcfa452?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmEwMzRhYTUyYmU0Nzg2YzY5MzQ2MDAyYzUzYmNmYTQ1MiJ9.1bFZ4NEo0RolPdb5stwe30fR20Y-oH56BOLPgZYtNYE&download=gitUrl.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image3.png)
 
 2、将远程仓库克隆到本地（git clone <远程仓库地址>）
 
-![](https://tcs-devops.aliyuncs.com/storage/112a73dd34c8b50b3490532a1c841944094d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmE3M2RkMzRjOGI1MGIzNDkwNTMyYTFjODQxOTQ0MDk0ZCJ9.1a5C0wwqGN4yZUaic0BXJQWlidpmdpkYVa1bDBhQLN0&download=gitClone.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image4.png)
 
 3、切换分支（git checkout <分支名>）
 
-![](https://tcs-devops.aliyuncs.com/storage/112ab24ee393c0d7616d7c0a1f3f05f2d640?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmFiMjRlZTM5M2MwZDc2MTZkN2MwYTFmM2YwNWYyZDY0MCJ9.grErsAsFyjFOPiGJrLrcfU2dOikGLSL-HoIYT8-V5PI&download=gitCheckout.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image5.png)
 
 ## 代码提交示例
 
 1、先查看工作区中的文件更改（git status）
 
-![](https://tcs-devops.aliyuncs.com/storage/112a67ca9712c6297a1853c99aa9c2785b1f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmE2N2NhOTcxMmM2Mjk3YTE4NTNjOTlhYTljMjc4NWIxZiJ9.R2xD5-z5VeXtnQEFHyZZ8M6fl_EICdZwzb9WW94bAQY&download=gitStatus.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image6.png)
 
 2、确认文件修改情况后把需要提交的文件添加到暂存区（git add <文件目录>）
 
-![](https://tcs-devops.aliyuncs.com/storage/112a3e165441f0023e9574375669c50ce9e4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmEzZTE2NTQ0MWYwMDIzZTk1NzQzNzU2NjljNTBjZTllNCJ9.nQqLodUXxZYhcqmEAmR9HVB1EhCnCrAqsBJwybIq6CY&download=gitAdd.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image7.png)
 
 3、确认文件是否添加到暂存区（git status）
 
-![](https://tcs-devops.aliyuncs.com/storage/112a8b6a70b58d5fff7c4e08810eeb041930?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmE4YjZhNzBiNThkNWZmZjdjNGUwODgxMGVlYjA0MTkzMCJ9.d4Lgc0no1X4-qtiID0eex6EIbV088qB6PXWtNw05mIU&download=gitAddStatus.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image8.png)
 
 4、把暂存区的文件提交到本地版本库的分支，并查看是否提交成功（git commit -m <版本描述>）
 
-![](https://tcs-devops.aliyuncs.com/storage/112a13806e8b419877a452a11ab5b3b2b375?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmExMzgwNmU4YjQxOTg3N2E0NTJhMTFhYjViM2IyYjM3NSJ9.uLMQtoCYvuqBZ05mY3f8d8Kyj6IurXYkza8aVpPZa_8&download=gitCommit.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image9.png)
 
 5、合并远程版本库代码，并提交本地版本库分支代码到远程仓库分支（git pull 和 git push）
 
 远程版本库没有代码改动，直接提交即可
 
-![](https://tcs-devops.aliyuncs.com/storage/112ac8e2d870fa860c0b7b6e15123558ecb9?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmFjOGUyZDg3MGZhODYwYzBiN2I2ZTE1MTIzNTU4ZWNiOSJ9.ptvsXUZncKadpjoYgp_N2Q3hrt6IrWapd2mUeOzaCik&download=gitPush.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image10.png)
 
 ## 代码冲突
 
 在以上的"代码提交示例"中，执行 git pull 操作的时候有可能会出现代码冲突：
 
-![](https://tcs-devops.aliyuncs.com/storage/112a248b760855c9b94eb7f1f3e53ae60503?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmEyNDhiNzYwODU1YzliOTRlYjdmMWYzZTUzYWU2MDUwMyJ9.rPTy8Mw-qIi4hsCqUzvBehe5G11quJGiPE8BMU4Y1TY&download=gitConflict.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image11.png)
 
 冲突原因：远程分支的更改与本地分支中的更改在同一个地方
 
 冲突解决：找到发生冲突部分的代码，本地版本（Current Change）与远程版本（Incoming Change）比较，选择正确的版本。或者选择保留双方代码，再手动修改代码解决问题。
 
-![](https://tcs-devops.aliyuncs.com/storage/112ad8d6eca58db507211b3a2587ca0fa701?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMDg4NiwiaWF0IjoxNjUxODk2MDg2LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmFkOGQ2ZWNhNThkYjUwNzIxMWIzYTI1ODdjYTBmYTcwMSJ9.cZzZ-P3pJmTe879o9ZmRxa5cOw_4YVeX6P8cLg1N-V4&download=gitConflictSolve.png "")
+![](/images/auto/Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/image12.png)
 
 解决冲突后再按照，"代码提交示例"的步骤重新提交代码。**注意要解决冲突之后再提交，不要提交有冲突的代码**
 

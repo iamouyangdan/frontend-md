@@ -9,25 +9,25 @@
 
 2、创建应用、生成一个APP id
 
-![](https://tcs-devops.aliyuncs.com/storage/112h98d48028574d3b8b2356ee902ca8568f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg5OGQ0ODAyODU3NGQzYjhiMjM1NmVlOTAyY2E4NTY4ZiJ9.h8QosIl8-A_MsSyz0ch2pOVhmhnK52QA0sv_wUZFd84&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image1.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112h7a70f40f7d8dd2cba88771d651a24603?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg3YTcwZjQwZjdkOGRkMmNiYTg4NzcxZDY1MWEyNDYwMyJ9.SddWR2uGyej2StVa-ikwhAMCJfTjvfqrEfQLA5KgCK8&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image2.png)
 
 3、导入项目
 
 可以本地目录导入或者git 克隆下来。
 
-![](https://tcs-devops.aliyuncs.com/storage/112hb135725df6862d34cfce6c2e98140a1b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhiMTM1NzI1ZGY2ODYyZDM0Y2ZjZTZjMmU5ODE0MGExYiJ9.sRQc-UDnVbvfh5nGIsAtcu8KhTN8gSxBXMsiAzSylS4&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image3.png)
 
 git 克隆要在HBuilderX安装git插件：
 
-![](https://tcs-devops.aliyuncs.com/storage/112h366cb74b2558460f93ac17ce8f29d189?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmgzNjZjYjc0YjI1NTg0NjBmOTNhYzE3Y2U4ZjI5ZDE4OSJ9.WEB_Y3jBAx56baueir1G9Pi3tyo_5j7x6g-GFHpICHc&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image4.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112hc96153ca275347a4efeb8336b6800b8b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhjOTYxNTNjYTI3NTM0N2E0ZWZlYjgzMzZiNjgwMGI4YiJ9.D8BpNDOUEOozrKIKnHqvM4kmUBObeaBUqi9FL2O-JLM&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image5.png)
 
 HBuilderX编辑器安装了Git，还需要安装TortoiseGit依赖。TortoiseGit下载完成后，安装是一直next就可！下载链接：[__https://tortoisegit.org/download/__](https://tortoisegit.org/download/)
 
-![](https://tcs-devops.aliyuncs.com/storage/112h393873dce76daa6c94b04fd2f6575c68?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmgzOTM4NzNkY2U3NmRhYTZjOTRiMDRmZDJmNjU3NWM2OCJ9.84aaEh2K-80gLA8vAXneqfO7Qe4-c8vjQ5oABFHy77c&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image6.png)
 
 
 
@@ -35,21 +35,21 @@ HBuilderX编辑器安装了Git，还需要安装TortoiseGit依赖。TortoiseGit�
 
 4、打包 在HBuilderX的菜单-发行-原生APP云打包
 
-![](https://tcs-devops.aliyuncs.com/storage/112hb03f35afa281f1f9b8a82252c2374ae7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhiMDNmMzVhZmEyODFmMWY5YjhhODIyNTJjMjM3NGFlNyJ9.NLiZzko75icXrsm4R7niVVdvJNcMYaFTEeuRQcuHx0E&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image7.png)
 
 HBuilderX还没登录，则需要登录dcloud的账号：
 
-![](https://tcs-devops.aliyuncs.com/storage/112hf574345e5016455ad8f6b9fa27f527c4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhmNTc0MzQ1ZTUwMTY0NTVhZDhmNmI5ZmEyN2Y1MjdjNCJ9.QJXOGXxKYT0lytxNtabjq0Flc1MPtfHKH-scYuLhBDg&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image8.png)
 
 ## 打包安卓端
 
 选选择Android（apk包），打包配置设置选红色箭头的
 
-![](https://tcs-devops.aliyuncs.com/storage/112h6290791e6af2fe126159e2e5b8a77b2a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg2MjkwNzkxZTZhZjJmZTEyNjE1OWUyZTViOGE3N2IyYSJ9.y84zB9wAh0E2TNeGnWcnU4-cZXi4EaQpxpYu-5iUauk&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image9.png)
 
 ## 打包IOS端
 
-![](https://tcs-devops.aliyuncs.com/storage/112h6c829400f4e531c10254894d5119ff02?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg2YzgyOTQwMGY0ZTUzMWMxMDI1NDg5NGQ1MTE5ZmYwMiJ9.t3wcefDPfiE699FTRWWkPh7pS9EqcMO1UP_oRnz8XVs&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image10.png)
 
 选择IOS的选ios(ipa包)。
 
@@ -57,31 +57,31 @@ HBuilderX还没登录，则需要登录dcloud的账号：
 
 - 可能会遇到的问题：此应用DCloud APPID非当前账号所有。解决方法是在manifest.json文件重新获取APPID。
 
-![](https://tcs-devops.aliyuncs.com/storage/112hc754f824e296e605d01f3ca480a0f1a2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhjNzU0ZjgyNGUyOTZlNjA1ZDAxZjNjYTQ4MGEwZjFhMiJ9.KdU3bcbJcL6hmN_xDbbIJKf9wDCvKcQKg4GbVAlJ2Gw&download=%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16510578075793.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image11.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112h2e379a193702415d8c25ace147d726ef?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmgyZTM3OWExOTM3MDI0MTVkOGMyNWFjZTE0N2Q3MjZlZiJ9.N599qdjSOWiYa7QeeVMtX2okFWzXcngS-p4-m2Xlusw&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image12.png)
 
 - 遇到权限的相关问题，需要在开发中心进行实名认证，实名认证需要人工审核，等待时间为一个工作日内。
 
-![](https://tcs-devops.aliyuncs.com/storage/112ha9563b02d8eaaad846776c2cab525752?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhhOTU2M2IwMmQ4ZWFhYWQ4NDY3NzZjMmNhYjUyNTc1MiJ9.Yn96ZP4rDOeyTudmeO2L1sJTqZmjIypGWSY1mTNrPKY&download=%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16510720158587.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image13.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112h7d556c8abb182fcf0000f4cf9df76fec?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg3ZDU1NmM4YWJiMTgyZmNmMDAwMGY0Y2Y5ZGY3NmZlYyJ9.B1C_Pc2jP5MOuD7lb-QFlH5pHZ8pwYy1mjQUZ_8_rsA&download=%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16510720547611.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image14.png)
 
 - 遇到打包校验直接选择继续打包
 
-![](https://tcs-devops.aliyuncs.com/storage/112h89573fd942f0c17abc9c5911ecb09321?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg4OTU3M2ZkOTQyZjBjMTdhYmM5YzU5MTFlY2IwOTMyMSJ9.N1NlCSxgm9kqmHOWxl4gxn2rMLO2XQeLQ-teMPQSUwg&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image15.png)
 
 5、等待打包
 
-![](https://tcs-devops.aliyuncs.com/storage/112h01b677b016be3c9f5e98cc927fb00fd2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmgwMWI2NzdiMDE2YmUzYzlmNWU5OGNjOTI3ZmIwMGZkMiJ9.I38bb_TGgqleXYGH38iAheQFfFv9UmteevPcOGgwpLU&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image16.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112hc5724a3efec8b989d296691405146fad?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhjNTcyNGEzZWZlYzhiOTg5ZDI5NjY5MTQwNTE0NmZhZCJ9.EbdZQg0FJh57Q3YC2rFSHXAwap70-EFFD6oNJQ5MW-Y&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image17.png)
 
 6、下载打包完成的apk文件，然后发布到蒲公英平台。
 
 下载地址: https://ide.dcloud.net.cn/build/download/1ba5c2e0-c642-11ec-a8ba-d51f97271f5d 
 
-![](https://tcs-devops.aliyuncs.com/storage/112hb8d6411f5bf2023cdd6c20ebf0866d4e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhiOGQ2NDExZjViZjIwMjNjZGQ2YzIwZWJmMDg2NmQ0ZSJ9._AjRIKAZdnNBIJruonRlfifr9e5jRDt9-MtxIfXseTc&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image18.png)
 
 ## 二、发布
 
@@ -91,17 +91,17 @@ HBuilderX还没登录，则需要登录dcloud的账号：
 
 2、登录蒲公英平台进行发布
 
-![](https://tcs-devops.aliyuncs.com/storage/112h023913c8d0041717b2c737b5f3b5a3d2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmgwMjM5MTNjOGQwMDQxNzE3YjJjNzM3YjVmM2I1YTNkMiJ9.N_fuqNsiui-AIr3gAgbXYtP2_tok7z3QgaeyHlUHybQ&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image19.png)
 
 3、然后上传ipa文件或者apk文件，这文件是在BuilderX打包完成时生成的。
 
-![](https://tcs-devops.aliyuncs.com/storage/112h0fd5ed3399e2036dd577de1920394f2e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmgwZmQ1ZWQzMzk5ZTIwMzZkZDU3N2RlMTkyMDM5NGYyZSJ9.84Gj1m5Goo-HLIM7z9OtMHp65uVGRPpDvUej6bmVnUE&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image20.png)
 
 发布成功之后可以进行下载安装。
 
-![](https://tcs-devops.aliyuncs.com/storage/112hea308d92c51def33fa9c2e48d2e3a037?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmhlYTMwOGQ5MmM1MWRlZjMzZmE5YzJlNDhkMmUzYTAzNyJ9.Ram7kyPMmwuj9mnDqj_3MSbcGAVC5CtQMQT99ANPl4Q&download=image.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image21.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112h41b1c64fa33d927a4322d97dc150eee4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY4NCwiaWF0IjoxNjUxODk2ODg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmg0MWIxYzY0ZmEzM2Q5MjdhNDMyMmQ5N2RjMTUwZWVlNCJ9.Mbu8fc-wqsCnD7lPqks2EJranDpG09ubqSJSJjBAeyw&download=QRCode_258.png "")
+![](/images/auto/uniapp%E6%89%93%E5%8C%85%EF%BC%88%E5%AE%89%E5%8D%93%E3%80%81IOS%EF%BC%89%E5%8F%8A%E5%8F%91%E5%B8%83%E5%88%B0%E8%92%B2%E5%85%AC%E8%8B%B1%E5%B9%B3%E5%8F%B0/image22.png)
 
 
 

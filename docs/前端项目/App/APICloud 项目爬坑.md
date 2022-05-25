@@ -38,11 +38,11 @@ AVM 是一个跨端的高性能 JavaScript 框架，更趋近于原生的编程�
 
 ## （二）**目录结构**
 
-![](https://tcs-devops.aliyuncs.com/storage/1129f5b72e41de7036708d00affd53297982?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjlmNWI3MmU0MWRlNzAzNjcwOGQwMGFmZmQ1MzI5Nzk4MiJ9.xMfaA5Bd67HBD1sVoosG3xL4nB9xltFwm1VoWlKcMyk&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image1.png)
 
 页面目录 views 按照模块来进行划分，一个模块由多个页面构成，一个页面又由一个 window 和多个 frame 构成。最终打包出的 html 文件由 main.js+App.vue 生成。
 
-![](https://tcs-devops.aliyuncs.com/storage/1129654f22540ad3fd62ceab5ca7adbe0fcd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjk2NTRmMjI1NDBhZDNmZDYyY2VhYjVjYTdhZGJlMGZjZCJ9._xJ6VahCOORrMg8eMz6ZMDjxr06n-ipKUud70YDuCA8&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image2.png)
 
 window 与 frame 是 APICloud 中比较重要的两大组件，它们之间有相似之处也有不同。
 
@@ -153,11 +153,11 @@ export default {
 
 **打包路径**
 
-![](https://tcs-devops.aliyuncs.com/storage/112970e81d7a3046cde997d74e639b433662?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjk3MGU4MWQ3YTMwNDZjZGU5OTdkNzRlNjM5YjQzMzY2MiJ9.qillG7r_6eafc8VFuTCUVSfqJi6UvDC49Rd0D8t1Fxs&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image3.png)
 
 **config.xml**
 
-![](https://tcs-devops.aliyuncs.com/storage/11299383cd58eaaa024add82589be3c37c9c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjk5MzgzY2Q1OGVhYWEwMjRhZGQ4MjU4OWJlM2MzN2M5YyJ9.ZE2T27xX7scbYmge507ZkJbFMG9raS7qHzwbI3JtNXk&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image4.png)
 
 ## （三）**窗口系统**
 
@@ -205,11 +205,11 @@ APICloud 集成了包括窗口系统、应用管理、网络通信、数据存�
 
 ## （一）项目需求
 
-![](https://tcs-devops.aliyuncs.com/storage/1129a18062324a2fe27e7594a4b0c95f4037?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjlhMTgwNjIzMjRhMmZlMjdlNzU5NGE0YjBjOTVmNDAzNyJ9.xe7eD0VkbOrXyvmm44cTvRt7iqCbJT9uJcvsOz818Ds&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image5.png)
 
 在文章详情页面中，底部评论的输入栏如上图所示。这是一个假的输入框，并不能真的进行输入。当用户点击它时，它会被真正的输入框替换掉，同时输入框会自动进入聚焦状态（如下图所示，手机端会弹出软键盘）。
 
-![](https://tcs-devops.aliyuncs.com/storage/1129654196c56ae8f8a91ab599540172dc95?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjk2NTQxOTZjNTZhZThmOGE5MWFiNTk5NTQwMTcyZGM5NSJ9.D8ttJ0IPZllQ-CcdT4egWb6PlmxvdJZNLXwsPQFZP80&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image6.png)
 
 输入框代码结构如下。当用户点击输入框时，inWriting 的值会取反，以此切换真假输入框。
 
@@ -261,7 +261,7 @@ js 作为主要运行在浏览器的脚本语言，主要用途之一是操作 D
 
 - micro-task: `process.nextTick`、`Promise`、`async/await` 、`MutationObserver` 
 
-![](https://tcs-devops.aliyuncs.com/storage/1129e71ad7ab0aa33d4cb23dae5d35f3cb16?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjllNzFhZDdhYjBhYTMzZDRjYjIzZGFlNWQzNWYzY2IxNiJ9.Lb0MrGibt-sojoF00JPPN4TEYM9Q1z4InXCHhUGhQNk&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image7.png)
 
 所有同步任务都在主线程上执行，形成一个执行栈。当主线程中的执行栈为空时，会检查任务队列是否为空，如果为空则继续检查；如不为空，则开始执行第一个宏任务，执行完后执行该宏任务产生的微任务，若微任务在执行过程中产生了新的微任务，则继续执行微任务，微任务执行完毕后，再回到宏任务中进行下一轮循环。
 
@@ -443,13 +443,13 @@ this.$emit('update:foo', newValue)
 
 EventBus 又称事件总线，相当于一个全局的仓库，任何组件都可以去这个仓库里获取事件。
 
-![](https://tcs-devops.aliyuncs.com/storage/11291757b511dcc63e105c84c1ed22d88d87?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjkxNzU3YjUxMWRjYzYzZTEwNWM4NGMxZWQyMmQ4OGQ4NyJ9.r3bUzwZz990ObP28XfrgQLumdxajsS9cLHpdUaVuuL4&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image8.png)
 
 **EventBus 图解 **
 
 当从页面组件 A 跳转到页面组件 B 的时候，两个组件的生命周期如下：
 
-![](https://tcs-devops.aliyuncs.com/storage/11294b48cd2ca7d1decf4dd5b9519daa6fbd?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQ1NywiaWF0IjoxNjUxODk2NjU3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjk0YjQ4Y2QyY2E3ZDFkZWNmNGRkNWI5NTE5ZGFhNmZiZCJ9.DpDEAdzp3ppuFIbzkDVwRtq6XxO-tHQs2ukQc0MDkT0&download=image.png "")
+![](/images/auto/APICloud%20%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image9.png)
 
  
 

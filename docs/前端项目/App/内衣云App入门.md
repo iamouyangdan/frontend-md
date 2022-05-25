@@ -18,7 +18,7 @@ autoSort: -1
 
 ## 功能脑图
 
-![](https://tcs-devops.aliyuncs.com/storage/102801c99ad11f9e199e50d964c5cb228d5e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MiwiaWF0IjoxNjUxODk2MjQyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzEwMjgwMWM5OWFkMTFmOWUxOTllNTBkOTY0YzVjYjIyOGQ1ZSJ9.6wMRD_6IgDvi_obyCkniVEYa92kplsGbvdeqgr6al9k&download=%E5%86%85%E8%A1%A3%E4%BA%91%E5%B7%B2%E6%B7%BB%E5%8A%A01.png "")
+![](/images/auto/%E5%86%85%E8%A1%A3%E4%BA%91App%E5%85%A5%E9%97%A8/image1.png)
 
 
 

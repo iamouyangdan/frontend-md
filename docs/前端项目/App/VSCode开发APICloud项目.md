@@ -7,13 +7,13 @@
 
  双击文件安装，打开应用，点击左侧导航搜索apicloud插件
 
-![](https://tcs-devops.aliyuncs.com/storage/112846210998df1e8708f7fcf55c5a45ba8d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjg0NjIxMDk5OGRmMWU4NzA4ZjdmY2Y1NWM1YTQ1YmE4ZCJ9.yN0FiilSTt8Z5LCOfbAWaFaRx7p48SR-XohbZFbcCFg&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image1.png)
 
 搜索截图
 
 
 
-![](https://tcs-devops.aliyuncs.com/storage/11283b20802a85a7ad946ecb00963f7b66a4?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjgzYjIwODAyYTg1YTdhZDk0NmVjYjAwOTYzZjdiNjZhNCJ9.Aq1oo6VK8GkdLPhS-2k3Mv4yGRHyi3wdXoBFQVM18R4&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image2.png)
 
  
 
@@ -21,7 +21,7 @@
 
 VS Code打开代码widget，在vscode控制台按下Alt + w 启动wifi调试，监听的端口可以在vscode控制台输出中查看，如下图所示。
 
-![](https://tcs-devops.aliyuncs.com/storage/11281b2f5c1f581261cb4189e34bf931b67e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjgxYjJmNWMxZjU4MTI2MWNiNDE4OWUzNGJmOTMxYjY3ZSJ9.qdeVgPlMo6VAMiEskg_ZgfXF26cg2GZ-xet85Uh1eto&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image3.png)
 
 Vscode 输出控制台查看监听的IP、端口
 
@@ -29,7 +29,7 @@ Vscode 输出控制台查看监听的IP、端口
 
 1）执行alt+w时若报错如下：
 
-![](https://tcs-devops.aliyuncs.com/storage/1128d040eca6f6fd85da1fad4ad58f144081?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjhkMDQwZWNhNmY2ZmQ4NWRhMWZhZDRhZDU4ZjE0NDA4MSJ9.5ktNSiVUws0iIrPAdoTEvsikWvZMdyeyNYBlTYLbKwo&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image4.png)
 
 解决方法：卸载apicloud，重新下载，然后重启试试
 
@@ -39,7 +39,7 @@ Vscode 输出控制台查看监听的IP、端口
 
 。
 
-![](https://tcs-devops.aliyuncs.com/storage/1128f2c6e230b35d0164a573367eb811d733?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjhmMmM2ZTIzMGIzNWQwMTY0YTU3MzM2N2ViODExZDczMyJ9.WLzvcKP1jN7uJJ1eDO3crQM3krMUHZwNx_AFXErlDbk&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image5.png)
 
 > 下载链接：
 
@@ -49,13 +49,13 @@ Vscode 输出控制台查看监听的IP、端口
 
 问题1：扫码若显示过期，登录APIcloud官网，网址：[https://www.apicloud.com/console](https://www.apicloud.com/console)
 
-![](https://tcs-devops.aliyuncs.com/storage/11288b9f1177d33ba31e1121df6cb5b414a6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjg4YjlmMTE3N2QzM2JhMzFlMTEyMWRmNmNiNWI0MTRhNiJ9.EQ1ECADh2bAHggYO_Ka3pAnMu4Xp-_PLn-5XzYDozrg&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image6.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/11283ed9ea6f44583c203d56d9532044ae8b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjgzZWQ5ZWE2ZjQ0NTgzYzIwM2Q1NmQ5NTMyMDQ0YWU4YiJ9.OKWp3aJTpiu1a2RR5ySkxt5FJ7NDSBYARPJydKJG7_M&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image7.png)
 
 问题2：手机若提示如下图
 
-![](https://tcs-devops.aliyuncs.com/storage/1128d7f826e6ae44af24e5a424cadce8c09f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjhkN2Y4MjZlNmFlNDRhZjI0ZTVhNDI0Y2FkY2U4YzA5ZiJ9.3fTySjoxO_j7Ie_yWI-8-VP_TO7u9-oQss84k15L8g0&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image8.png)
 
 1）首先确认是否连接同一个网络
 
@@ -65,7 +65,7 @@ Vscode 输出控制台查看监听的IP、端口
 
 手机连接公司wifi，手机和电脑要连接同一个局域网。打开要调试的App，点击右侧悬浮球，接上监听的IP、端口，**使用Alt + i **，增量更新代码（第一次启动APP是全量更新），当悬浮球编程绿色的时候，恭喜你，入坑了！现在可以开始APP的开发，修改代码后Alt + i真机查看效果，所有输出都会打印到控制台。
 
-![](https://tcs-devops.aliyuncs.com/storage/1128f62b7462be0f7bf9cde263103bd3a32a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTA0MywiaWF0IjoxNjUxODk2MjQzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjhmNjJiNzQ2MmJlMGY3YmY5Y2RlMjYzMTAzYmQzYTMyYSJ9.ze9EAJPrO9b-BMrpRfyTWOMzBondz1hEHZkFfzZBofY&download=image.png "")
+![](/images/auto/VSCode%E5%BC%80%E5%8F%91APICloud%E9%A1%B9%E7%9B%AE/image9.png)
 
 App输入监听的IP、端口
 
