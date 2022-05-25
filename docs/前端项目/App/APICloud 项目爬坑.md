@@ -443,11 +443,13 @@ this.$emit('update:foo', newValue)
 
 EventBus 又称事件总线，相当于一个全局的仓库，任何组件都可以去这个仓库里获取事件。
 
+
 ![](/images/auto/APICloud%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image8.png)
 
 **EventBus 图解 **
 
 当从页面组件 A 跳转到页面组件 B 的时候，两个组件的生命周期如下：
+
 
 ![](/images/auto/APICloud%E9%A1%B9%E7%9B%AE%E7%88%AC%E5%9D%91/image9.png)
 
