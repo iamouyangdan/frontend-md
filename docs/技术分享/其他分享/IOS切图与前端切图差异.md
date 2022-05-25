@@ -31,7 +31,7 @@
 
 ## 实际样例
 
-![](https://tcs-devops.aliyuncs.com/storage/11291496a6d855d2e0b5f9c30868e64c3fe6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTM4MywiaWF0IjoxNjUxODk2NTgzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjkxNDk2YTZkODU1ZDJlMGI1ZjljMzA4NjhlNjRjM2ZlNiJ9._AxF3jgjfv64gq0ev57S59r56KdaBqawFd6Zv6CAiRI&download=image.png "")
+![](/images/auto/IOS切图与前端切图差异/image1.png)
 
 - 在使用ios切图时，这共有三个元素类：文案标签、文案后的圆角框、以及上方的正三角标签
 

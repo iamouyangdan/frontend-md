@@ -73,13 +73,13 @@ methods: {
 
 
 
-![](https://tcs-devops.aliyuncs.com/storage/1128648b71cb9b5af9884b8a9214ce2b0f3d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQzNywiaWF0IjoxNjUxODk2NjM3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjg2NDhiNzFjYjliNWFmOTg4NGI4YTkyMTRjZTJiMGYzZCJ9.PFG8-kmcuZkdup6MrTOSw2-uEPiBZkOsd-nlJjnG3xM&download=image.png "")
+![](/images/auto/%E8%AE%BE%E8%AE%A1store%E7%9A%84%E7%94%A8%E6%B3%95/image1.png)
 
 
 
 ## vuex基本使用
 
-![](https://tcs-devops.aliyuncs.com/storage/1128a88577f77682274b4ef79d17f98930a5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTQzNywiaWF0IjoxNjUxODk2NjM3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjhhODg1NzdmNzc2ODIyNzRiNGVmNzlkMTdmOTg5MzBhNSJ9.xLjOoH5KbxMcy3YBkVj6Lq7QuiQ8tBq6KiojlAtWUtQ&download=image.png "")
+![](/images/auto/%E8%AE%BE%E8%AE%A1store%E7%9A%84%E7%94%A8%E6%B3%95/image2.png)
 
 ```javascript
 import first from '../../api/first'

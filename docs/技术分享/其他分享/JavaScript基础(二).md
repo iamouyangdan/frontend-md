@@ -11,7 +11,7 @@
 
 我们现在浏览器默认的事件触发是遵循**DOM事件流**规则。
 
-![](https://tcs-devops.aliyuncs.com/storage/112c50ad348d26c0ccb8a4995ce85f2b4409?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU3MywiaWF0IjoxNjUxODk2NzczLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmM1MGFkMzQ4ZDI2YzBjY2I4YTQ5OTVjZTg1ZjJiNDQwOSJ9.KI5MEwKah9-V45F5qz8j6_HzFCQznqujPniid-D-oGc&download=image.png "")
+![](/images/auto/JavaScript基础(二)/image1.png)
 
 ```text
 <div class="red">
@@ -43,7 +43,7 @@
 
 由于事件冒泡机制， 有些场景中我们需要阻止事件的继续传递。例如我们常见的购物车页面，数量增减的点击事件需要阻止事件的继续传递。
 
-![](https://tcs-devops.aliyuncs.com/storage/112c32752b4f00badd5dc5956a4e3a041746?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU3MywiaWF0IjoxNjUxODk2NzczLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmMzMjc1MmI0ZjAwYmFkZDVkYzU5NTZhNGUzYTA0MTc0NiJ9.7PbDJVNSt-Ixb_jDZBBTuBKlaQJY97UtZ3S4NYSovgQ&download=df32dc5e89eaac65c23b2bd9be42255.jpg "")
+![](/images/auto/JavaScript基础(二)/image2.png)
 
 
 
@@ -74,7 +74,7 @@ console.log(whiteDog.wang())  // 汪汪汪
 
 构造函数和实例原型之间的关系：
 
-![](https://tcs-devops.aliyuncs.com/storage/112c44e8f22ef6b9a95bc39da711880c89f2?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU3MywiaWF0IjoxNjUxODk2NzczLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmM0NGU4ZjIyZWY2YjlhOTViYzM5ZGE3MTE4ODBjODlmMiJ9.5hWEKJTdrtA7jHhWksrUFxsf14qL8qFdKOxr4IoWj-g&download=image.png "")
+![](/images/auto/JavaScript基础(二)/image3.png)
 
 
 
@@ -92,7 +92,7 @@ console.log(dog.__proto__ === Dog.prototype); // true
 
 关系: 
 
-![](https://tcs-devops.aliyuncs.com/storage/112c9caab585e3b316de0e756c1e41313103?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU3MywiaWF0IjoxNjUxODk2NzczLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmM5Y2FhYjU4NWUzYjMxNmRlMGU3NTZjMWU0MTMxMzEwMyJ9.BT4G8l-Rgr9HSykgDCJsSEE-7tI-Roc7Ahrenvb8Vlg&download=image.png "")
+![](/images/auto/JavaScript基础(二)/image4.png)
 
 ### 3、constructor
 
@@ -156,7 +156,7 @@ console.log(blackDog.__proto__.__proto__ === Object.prototype) // true
 
 关系图: 
 
-![](https://tcs-devops.aliyuncs.com/storage/112c75ef61d6b10112928ad03fb5a24de6c3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU3MywiaWF0IjoxNjUxODk2NzczLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmM3NWVmNjFkNmIxMDExMjkyOGFkMDNmYjVhMjRkZTZjMyJ9.mLV5dtDay7PjCEsvHcv-L1UaaTO67qq6Zds0y8twHeo&download=image.png "")
+![](/images/auto/JavaScript基础(二)/image5.png)
 
 
 
@@ -170,7 +170,7 @@ console.log(blackDog.__proto__.__proto__ === Object.prototype) // true
 
 Object.prototype.__proto__ 的值为 null ， 或者说 Object.prototype 没有原型。
 
-![](https://tcs-devops.aliyuncs.com/storage/112c0c2bc1f11b2ce78b86081bb4f1df7c3a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU3MywiaWF0IjoxNjUxODk2NzczLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmMwYzJiYzFmMTFiMmNlNzhiODYwODFiYjRmMWRmN2MzYSJ9.nyFc0vzXtWrQWI0z1e5jQD6Gbr9xENcXFkoUfr6JJYQ&download=image.png "")
+![](/images/auto/JavaScript基础(二)/image6.png)
 
 **原型链**: 相互关联的原型组成的链状结构就是原型链（橙色）
 

@@ -81,7 +81,7 @@
 
 结构简洁，不要过分嵌套，或者使用复杂的结构。例如一个文章展示的页面结构可以这样写：
 
-![](https://tcs-devops.aliyuncs.com/storage/1127c60aa9462e1e2dec9709a960a83b8e52?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjdjNjBhYTk0NjJlMWUyZGVjOTcwOWE5NjBhODNiOGU1MiJ9.meiyfmVL1VZTT_hewNbaypnE_eGXXEnleMUM68ho1qY&download=image.png "")
+![](/images/auto/如何做SEO/image1.png)
 
 ```text
 <body>
@@ -114,7 +114,7 @@
 
 - 关键词密度：一般2%~8%左右适宜
 
-![](https://tcs-devops.aliyuncs.com/storage/1127711345a194fd4784f91e339054b127fc?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc3MTEzNDVhMTk0ZmQ0Nzg0ZjkxZTMzOTA1NGIxMjdmYyJ9.T7sWLdOzOg8aXpVBMrWtGIyN-3enQEawcDx6mmfKNB4&download=image.png "")
+![](/images/auto/如何做SEO/image2.png)
 
 **（5）合理设置Robot.txt文件**
 
@@ -139,9 +139,9 @@ Allow:/images/
 
 截几张官网代码截图，大家参考一下:
 
-![](https://tcs-devops.aliyuncs.com/storage/112711390196f20214aaff2704e78fedf5ad?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjcxMTM5MDE5NmYyMDIxNGFhZmYyNzA0ZTc4ZmVkZjVhZCJ9.7HLqa9PppqR5aTv3NwFkGDqghKUKklhKPxGplT4F6TU&download=image.png "")
+![](/images/auto/如何做SEO/image3.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112718a11414a320da64c01ca307e463b4eb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjcxOGExMTQxNGEzMjBkYTY0YzAxY2EzMDdlNDYzYjRlYiJ9.J6Z-gEU-f7vO3HG6Mt2lp7IzopqDjrR-WseqA65A8ZA&download=image.png "")
+![](/images/auto/如何做SEO/image4.png)
 
 - 在华为这个官网里面，用了大量的`meta`标签，提炼出精确的关键词用`meta`去描述他的网站，让搜索引擎的爬虫去爬取。这些是我们开发网站时经常忽略的点。
 
@@ -155,9 +155,9 @@ Allow:/images/
 
 同样以huawei.com 为例，查询结果如下图：
 
-![](https://tcs-devops.aliyuncs.com/storage/112729b3785d18ba9cce37a2d3b508f0510d?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjcyOWIzNzg1ZDE4YmE5Y2NlMzdhMmQzYjUwOGYwNTEwZCJ9.eAxsmquLJ3GNOpPDs0WmslyOgNSxUrdOyX9pDV8Nc34&download=image.png "")
+![](/images/auto/如何做SEO/image5.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112787b1ae8b02fb6311758ddea7bfbd5984?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYxNywiaWF0IjoxNjUxODk2ODE3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjc4N2IxYWU4YjAyZmI2MzExNzU4ZGRlYTdiZmJkNTk4NCJ9.-Gnl0-bVYPFwm_EfdaAz4uvZitRWt0OAuYyDLpFVXwU&download=image.png "")
+![](/images/auto/如何做SEO/image6.png)
 
 可以检测出网站的描述、流量、PC端和移动端的关键词数量，以及各搜索引擎收录的关键词数据。
 

@@ -124,9 +124,9 @@ function() {
 
 瀑布流更适合那些随意浏览，不带目的性的使用场景，就像是在逛街一样，边走边看，同时被街边琳琅满目的商品吸引着，所以比较适合的图片、小说、资讯类的场景，以现有的成功案例来说，以 UGC 为主的相关网站很多在使用瀑布流进行承载。
 
-![](https://tcs-devops.aliyuncs.com/storage/112b6959c813268bbe10c04ec2644b3375f7?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTM1NSwiaWF0IjoxNjUxODk2NTU1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmI2OTU5YzgxMzI2OGJiZTEwYzA0ZWMyNjQ0YjMzNzVmNyJ9.XSKeSt6PiyssIqk3CtkHHl1i8Frwd3VpzTc1LIqKXSQ&download=001LhvRkzy7yqD1BozJ8f.jpg "")
+![](/images/auto/CSS%20%E5%B8%83%E5%B1%80/image1.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112b54d2720421341797cf34327f495a12b5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTM1NSwiaWF0IjoxNjUxODk2NTU1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmI1NGQyNzIwNDIxMzQxNzk3Y2YzNDMyN2Y0OTVhMTJiNSJ9.8Ulez7Oz-8vBHBNfc6KEQdXpCFMB6RMf0VMvKyh02ug&download=001LhvRkzy7yqAYoKNpaf.jpg "")
+![](/images/auto/CSS%20%E5%B8%83%E5%B1%80/image2.png)
 
 
 

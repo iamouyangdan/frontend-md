@@ -53,7 +53,7 @@ zip：
 
 ```
 
-![](https://tcs-devops.aliyuncs.com/storage/112g35f92fa4cda387c8a304b2af2a14d7ca?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmczNWY5MmZhNGNkYTM4N2M4YTMwNGIyYWYyYTE0ZDdjYSJ9.VPGxUelYuwA0NVBs1yxjhgqY85UKfp9dyL1rSwGhKOk&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image1.png)
 
 
 
@@ -67,7 +67,7 @@ zip：
 
 可以在 src/App.vue 文件全局引入。
 
-![](https://tcs-devops.aliyuncs.com/storage/112ga174563f9c15dce6bf18e9cf515380c0?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdhMTc0NTYzZjljMTVkY2U2YmYxOGU5Y2Y1MTUzODBjMCJ9.J0PWCyv-hXzHJamOW_iO_aBETfbxI3temQ0pZoQLMvY&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image2.png)
 
  
 
@@ -77,11 +77,11 @@ zip：
 
 **命名规范**：组件命名符合easycom规范，无需引入即可使用。命名需要符合easycom规范，组件可能是由多个文件组成，但是对外暴露的文件必须是与文件目录同名。地址：[https://uniapp.dcloud.io/collocation/pages?id=easycom](https://uniapp.dcloud.io/collocation/pages?id=easycom)
 
-![](https://tcs-devops.aliyuncs.com/storage/112g99bb01b46a2ba99306d5c5eac8106045?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc5OWJiMDFiNDZhMmJhOTkzMDZkNWM1ZWFjODEwNjA0NSJ9.SZeBVg8l7TmCtQmFbKSh-M-jnSz6uElhJDN2KMe4iT8&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image3.png)
 
 **easycom配置**：组件可以在 src/page.json 中配置easycom规范，可以统一配置组件的前缀
 
-![](https://tcs-devops.aliyuncs.com/storage/112gf7071109e209dca1d581bd56b562fa79?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdmNzA3MTEwOWUyMDlkY2ExZDU4MWJkNTZiNTYyZmE3OSJ9.PX_j9j350u9OqusOFo3JsVnlvCYhoLwrJrwYnpBk3Z0&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image4.png)
 
 **注意**：在components下的组件加上‘l-’前缀进行引用，检索时去掉‘l-’再进行搜索
 
@@ -105,7 +105,7 @@ zip：
 
 一般此类组件各大ui框架（如：uview）已经实现，没有特殊情况可以直接使用无需修改。这样可以在UI库更新时跟随UI库更新。如需封装此类组件， 尽量减少组件内部固定的值，可以设置变量（变量包含默认值）支持用户传入修改。
 
-![](https://tcs-devops.aliyuncs.com/storage/112gd748d49d669f255a9595a58c3afc679b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdkNzQ4ZDQ5ZDY2OWYyNTVhOTU5NWE1OGMzYWZjNjc5YiJ9.x67aXDDjy3gZ0zT1ZWt46rYNKROt7ucsYlBKcOVpLaw&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image5.png)
 
 
 
@@ -133,13 +133,13 @@ zip：
 
 2、配置菜单。打开docs/.vuepress/config.js 在sidebar中配置菜单
 
-![](https://tcs-devops.aliyuncs.com/storage/112gc49b82c44ccdca9b317777bf062f9aae?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmdjNDliODJjNDRjY2RjYTliMzE3Nzc3YmYwNjJmOWFhZSJ9.-fbcCGrqOmfFfWJvtw5Vxw3xF1AaWlahsuDUxRmCKr0&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image6.png)
 
 3、编写组件文档markdown文件
 
 4、运行查看效果。使用指令`npm run docs:dev`运行文档
 
-![](https://tcs-devops.aliyuncs.com/storage/112g6a8470a1324672fb3b487b23c9ee7739?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc2YTg0NzBhMTMyNDY3MmZiM2I0ODdiMjNjOWVlNzczOSJ9.e2OFEUxJPRhQIqb0cVb8qZtbCOesuF2F2wGD2Jp1Txs&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image7.png)
 
 ## **3、页面包与子包**
 
@@ -205,11 +205,11 @@ zip：
 
 应用：这两个页面公用一个store，product.js。商品列表数据存放在此 store 中，product.vue（商品列表）页面用结构的方法使用 productList， 在商品详情页编辑商品后，需要更新 productList 时只需调用store中的商品列表方法即可
 
-![](https://tcs-devops.aliyuncs.com/storage/112g14ecd8f5732e0438490f9163de1cbdb5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmcxNGVjZDhmNTczMmUwNDM4NDkwZjkxNjNkZTFjYmRiNSJ9.05m1tmYAG7rvqWmCV0v10_JG1al5n4f5wkn5NxxSGKE&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image8.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112g86401569e7be7b49ab1f5f0e4ddd630b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc4NjQwMTU2OWU3YmU3YjQ5YWIxZjVmMGU0ZGRkNjMwYiJ9.UjdDKKiWlX0JXi5cR0LhPfI9kh1PAK45Rv8hsjPYkjA&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image9.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112g639c305c3e8d41a5ef1e461d98a2eaec?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmc2MzljMzA1YzNlOGQ0MWE1ZWYxZTQ2MWQ5OGEyZWFlYyJ9.kYC9Txw2w1iJRf6gLlQwfasVxkBkDR73n7is6e_b2xU&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image10.png)
 
 
 
@@ -288,7 +288,7 @@ Vue.filter('过滤器名称', function(data) {
 
 ```
 
-![](https://tcs-devops.aliyuncs.com/storage/112g2359764cfcb07fa9461d6cdb83f420a6?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTMyNywiaWF0IjoxNjUxODk2NTI3LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmcyMzU5NzY0Y2ZjYjA3ZmE5NDYxZDZjZGI4M2Y0MjBhNiJ9.OgDwgPNMOrw1Mz2HKoPQ2LSLvi7iJ8f94T0awBwPlTU&download=image.png "")
+![](/images/auto/uni-app%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5%E8%BF%90%E7%94%A8/image11.png)
 
 
 

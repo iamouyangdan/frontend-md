@@ -15,7 +15,7 @@
 
 在**普通屏**，**1个css像素对应1个物理像素**；**2倍屏中**，**一个css像素对应4个物理像素**；三倍屏中则是9个。
 
-![](https://tcs-devops.aliyuncs.com/storage/112108287a54963e8c204ef0157aaecbf564?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjEwODI4N2E1NDk2M2U4YzIwNGVmMDE1N2FhZWNiZjU2NCJ9.UHToRHlRO4Og6lEqCx0IdgPdbf6B4TlAFXRZ8zwJBSA&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image1.png)
 
 按照这样的置换规则后一张相同的图片在不同的设备上才会显示相同的大小。
 
@@ -37,7 +37,7 @@
 
 这种方案本质上**border并没有变细**，但是boder被一分为二，**靠内侧的是透明的**。
 
-![](https://tcs-devops.aliyuncs.com/storage/11219d1818f16e53db674fa61f9ccf769e1c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE5ZDE4MThmMTZlNTNkYjY3NGZhNjFmOWNjZjc2OWUxYyJ9.TcnVReuQ-N5IOn5Z9sa9mgb-M6gtuOcso28hmNEMAlI&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image2.png)
 
 关键的样式代码是css中的svg生成函数。
 
@@ -72,7 +72,7 @@
 
 处理过后的样子
 
-![](https://tcs-devops.aliyuncs.com/storage/11214a34f719ed9d8215f7090c53722a8b9a?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE0YTM0ZjcxOWVkOWQ4MjE1ZjcwOTBjNTM3MjJhOGI5YSJ9.0zHHH4VJ42O1DVu9ZAdV2ikCXT_vPKsCNWzj-jhVYQA&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image3.png)
 
 **剩余完整代码**
 
@@ -144,7 +144,7 @@ SVG
 
 高清屏下效果如下。
 
-![](https://tcs-devops.aliyuncs.com/storage/11219888693b9253ab4c542c0fde56e0e35c?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE5ODg4NjkzYjkyNTNhYjRjNTQyYzBmZGU1NmUwZTM1YyJ9.yRJUSmhn6vqv2xUYOFAyYPfGu_IwRmlItv5vVPTSrLY&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image4.png)
 
 ```xml
 
@@ -170,17 +170,17 @@ svg中没有盒模型的概念，它的**stroke**画线并**不是对应css中�
 
 **而因为视口宽度正好等于矩形的大小，看到的线宽就只有一半了**。
 
-![](https://tcs-devops.aliyuncs.com/storage/112174778c37ac6ca2248067fcce5f66d23b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE3NDc3OGMzN2FjNmNhMjI0ODA2N2ZjY2U1ZjY2ZDIzYiJ9.WSG3BF2ZesqDj7wZAhlTkk5auticGBuLmFVtCE3J1P8&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image5.png)
 
 （用**svg**画一个100px大小+1px边宽的方形）
 
-![](https://tcs-devops.aliyuncs.com/storage/1121f0fa1c377e84a20b2f9b8ff33ee34f39?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjFmMGZhMWMzNzdlODRhMjBiMmY5YjhmZjMzZWUzNGYzOSJ9.uZWo58uUAz-etP53HAOJc0ESX2I9gcDwD0nY_dO5ijc&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image6.png)
 
 (用css画一个100px大小+1px边框的方形**border-box)**
 
 如果把矩形缩小一点，不占满视口，这时候看到的border是完整的，所以和没处理过的1px一样粗。
 
-![](https://tcs-devops.aliyuncs.com/storage/11211dd3991f78ed0aa3f5d769b6d8c0dfda?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjExZGQzOTkxZjc4ZWQwYWEzZjVkNzY5YjZkOGMwZGZkYSJ9.zTzLnjVO8b4bjn0_1R6oSxHfCOq3Og9b9EBw2H5zaBI&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image7.png)
 
 border-image
 
@@ -208,7 +208,7 @@ border-image必须配合border使用。最终**border宽度是border-width**。*
 
 
 
-![](https://tcs-devops.aliyuncs.com/storage/112196d77cb44b550b3e3043c9d9dd136072?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE5NmQ3N2NiNDRiNTUwYjNlMzA0M2M5ZDlkZDEzNjA3MiJ9.hlObfoSq22wDUAv2MPUiDQdWxtOOxqlrwDUGTvZ3Ppc&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image8.png)
 
 **完整代码**
 
@@ -292,7 +292,7 @@ border-image必须配合border使用。最终**border宽度是border-width**。*
 
 通过一个伪类选择器在retinaborder元素中加了一个子元素
 
-![](https://tcs-devops.aliyuncs.com/storage/11218a3b4a16aa4dc54929b2c44cf3d820cb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE4YTNiNGExNmFhNGRjNTQ5MjliMmM0NGNmM2Q4MjBjYiJ9.bnLo0V2IqxcrRE5GltSKfrVjbbgak6FiDByDv3JJDcM&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image9.png)
 
 `border-width: 1px`将边框的宽度设为1px。`width:200%`然后将**伪类元素的宽高都设置成父元素的2倍**。(**但是边框还是1px**)`transform:scale(0.5)`将**伪类元素的x，y轴方向都缩放到0.5倍。**通过两次尺寸的设置，使这个伪类子元素保持内容的大小还是和父元素一样，但是`border:0.5px`的效果。`pointer-events: none`当有元素的层级重叠时，鼠标点击是无法穿透的。即绝对定位的伪类元素的层级更高，它底下的元素（即文字：retina border)无法被事件触发。置为none时，**绝对定位的元素不触发事件，底下的那层才能被选中。**
 
@@ -308,11 +308,11 @@ border-image必须配合border使用。最终**border宽度是border-width**。*
 
 - 绝对定位的元素其top和right值是相对于padding+content的，默认值是从content开始，所以要规定都是0，否则当父元素有padding时，border就移位了
 
-![](https://tcs-devops.aliyuncs.com/storage/11211986343d5f444e4d64ac48610e43499e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjExOTg2MzQzZDVmNDQ0ZTRkNjRhYzQ4NjEwZTQzNDk5ZSJ9.jNqDZNJhCWBPZzs9-n3Nb7n6ADa0pyD2qHpaFCooKPM&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image10.png)
 
 （如果删去position：absolute）
 
-![](https://tcs-devops.aliyuncs.com/storage/112162b7b828e32d5622d5026b0a8ceb62d1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE2MmI3YjgyOGUzMmQ1NjIyZDUwMjZiMGE4Y2ViNjJkMSJ9.uyng-_fj-m0wqO7_45_SK50QI9HR6B9bfgZ2FHy8ktA&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image11.png)
 
 （如果删去position：absolute+display:block）
 
@@ -324,11 +324,11 @@ border-image必须配合border使用。最终**border宽度是border-width**。*
 
 svg方案经过postcss处理，最终会影响浏览器兼容性的是**border-image**属性
 
-![](https://tcs-devops.aliyuncs.com/storage/1121e3516b78fa1d154c27af8e9fc25bf51b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjFlMzUxNmI3OGZhMWQxNTRjMjdhZjhlOWZjMjViZjUxYiJ9._0010OMphApgMhMRtOi_VdpNJSK3pBl5PM49qr0jqM0&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image12.png)
 
 伪类元素元素：方案最终影响兼容性的是**transform**属性
 
-![](https://tcs-devops.aliyuncs.com/storage/112145375c3d22b47dac479b78536fa2141f?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTY0OCwiaWF0IjoxNjUxODk2ODQ4LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjE0NTM3NWMzZDIyYjQ3ZGFjNDc5Yjc4NTM2ZmEyMTQxZiJ9.A5k38YwWVb1BUnnnM11euEBVLxopczP4HJ7rQrHiBEw&download=image.png "")
+![](/images/auto/%E7%A7%BB%E5%8A%A8%E7%AB%AF%201px%20%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/image13.png)
 
 **结论：svg方案的兼容性更好**。
 

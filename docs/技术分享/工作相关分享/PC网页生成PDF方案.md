@@ -15,7 +15,7 @@ demo如下：
 
 ## 下载PDF
 
-![](https://tcs-devops.aliyuncs.com/storage/1126d4f060c7e396f83e7b53f6ef0c1baca0?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MzI5MzIyMywiaWF0IjoxNjUyNjg4NDIzLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMjZkNGYwNjBjN2UzOTZmODNlN2I1M2Y2ZWYwYzFiYWNhMCJ9.n_T4kRujd5JEdCm0a0BCYxUVsefjRqCIdF-0d0lzDAk&download=image.png "")
+![](/images/auto/PC%E7%BD%91%E9%A1%B5%E7%94%9F%E6%88%90PDF%E6%96%B9%E6%A1%88/image1.png)
 
  
 

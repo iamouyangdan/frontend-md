@@ -67,7 +67,7 @@ ctx.stroke()
 
 *注意：canvas的2D环境绘图坐标系统，原点（0，0）位于canvas元素的左上角顶点处，沿x轴向右为正值，沿y轴向下为正值*
 
-![](https://tcs-devops.aliyuncs.com/storage/112b89f5447bde2c4b431481fb0bd2a4237b?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU5NSwiaWF0IjoxNjUxODk2Nzk1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmI4OWY1NDQ3YmRlMmM0YjQzMTQ4MWZiMGJkMmE0MjM3YiJ9.o6SF-b8C5u3c6SYt93fA-chj0-eroc5vJ4mfxDGLgk8&download=image.png "")
+![](/images/auto/canvas相关技术分享/image1.png)
 
 ## **三、canvas的属性及方法**
 
@@ -395,7 +395,7 @@ drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
 
 ## 练习
 
-![](https://tcs-devops.aliyuncs.com/storage/112ba13232939dbf79f40cd168c59fdea1e1?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU5NSwiaWF0IjoxNjUxODk2Nzk1LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmJhMTMyMzI5MzlkYmY3OWY0MGNkMTY4YzU5ZmRlYTFlMSJ9.ODjXRTMx5bPoFei1xFtYmgYk1uol9HuJ4vnZ43h4GGg&download=0ede49d4de39696fe19790f63feaf08.png "")
+![](/images/auto/canvas相关技术分享/image2.png)
 
 
 

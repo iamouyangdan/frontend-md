@@ -139,7 +139,7 @@ methodsToPatch.forEach(function (method) {
 
 ### v2.6 $set方法
 
-![](https://tcs-devops.aliyuncs.com/storage/112a73ee6ed80f7d0202fddbff3afe258970?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYwMiwiaWF0IjoxNjUxODk2ODAyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmE3M2VlNmVkODBmN2QwMjAyZmRkYmZmM2FmZTI1ODk3MCJ9.2cRo_yKxUVkzOnElS3PL149kFfPoqd2ax-pCXkadbjY&download=image.png "")
+![](/images/auto/vue响应式原理/image1.png)
 
 src\core\observer\index.js
 
@@ -180,7 +180,7 @@ export function set (target: Array<any> | Object, key: any, val: any): any {
 
 ### v2.6 $forceUpdate方法
 
-![](https://tcs-devops.aliyuncs.com/storage/112aa4f82fee1e4158c497508dfdefc53fce?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTYwMiwiaWF0IjoxNjUxODk2ODAyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmFhNGY4MmZlZTFlNDE1OGM0OTc1MDhkZmRlZmM1M2ZjZSJ9.T4SFoHVhDzK7Ni3yTTRNMjEq1zB7HHX8H179tzXpE8A&download=image.png "")
+![](/images/auto/vue响应式原理/image2.png)
 
 src\core\instance\`lifecycle.js`
 

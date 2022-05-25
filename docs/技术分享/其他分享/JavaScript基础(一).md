@@ -31,7 +31,7 @@ JavaScript是一门弱类型语言。即**变量当前的类型由其值所决�
 
 ### typeof
 
-![](https://tcs-devops.aliyuncs.com/storage/112c253644f472f404f9c643b2a7a70d6977?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU4NCwiaWF0IjoxNjUxODk2Nzg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmMyNTM2NDRmNDcyZjQwNGY5YzY0M2IyYTdhNzBkNjk3NyJ9.PaogI9nsX22dxVxU17-vInQ1N4XHwc0XtXTDzN4R9gA&download=image.png "")
+![](/images/auto/JavaScript基础(一)/image1.png)
 
 ### instanceof
 
@@ -890,7 +890,7 @@ const fn = () =>{
 
 ## 三、数组
 
-![](https://tcs-devops.aliyuncs.com/storage/112c36797b8998a05c714e216ccd8e689f05?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTU4NCwiaWF0IjoxNjUxODk2Nzg0LCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmMzNjc5N2I4OTk4YTA1YzcxNGUyMTZjY2Q4ZTY4OWYwNSJ9.lviwHWhEbQaLNhlSq1jdUhzpvquaYR9jenm74OoP93I&download=image.png "")
+![](/images/auto/JavaScript基础(一)/image2.png)
 
 生成类似[1-100]这样的的数组：
 

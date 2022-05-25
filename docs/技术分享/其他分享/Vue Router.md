@@ -13,11 +13,11 @@
 
 1、定义router.js文件
 
-![](https://tcs-devops.aliyuncs.com/storage/112e3ef0c60bc51e32406e58775f690d10ca?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmUzZWYwYzYwYmM1MWUzMjQwNmU1ODc3NWY2OTBkMTBjYSJ9.K-DC8Bo48Idaiy1qDkWKQyr4ia9xrx5mDAqTkZ_ygls&download=image.png "")
+![](/images/auto/Vue%20Router/image1.png)
 
 2、在页面入口的 main.js 的 Vue 对象中引入 router
 
-![](https://tcs-devops.aliyuncs.com/storage/112e917cfdd2126b3b2e6ed6109a2e521beb?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmU5MTdjZmRkMjEyNmIzYjJlNmVkNjEwOWEyZTUyMWJlYiJ9.E8jjd7OL5FQW12TAOS8i9lUelmX5Scegf6io8ZcIA2E&download=image.png "")
+![](/images/auto/Vue%20Router/image2.png)
 
 
 
@@ -84,7 +84,7 @@ this.$router.params.id
 
 **注意**：使用此方法匹配 404 页面时，需要把此路由配置写在最后，否则会匹配到任意页面，所有页面都会跳转到 404
 
-![](https://tcs-devops.aliyuncs.com/storage/112ee27a3085bce166f5609ca6e71503e4e3?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmVlMjdhMzA4NWJjZTE2NmY1NjA5Y2E2ZTcxNTAzZTRlMyJ9.IQSS5yZ3Lbxxoy9g_EZL5IUem-ZMKoo5leLitcSnXXY&download=image.png "")
+![](/images/auto/Vue%20Router/image3.png)
 
 路由匹配语法可以参考：
 
@@ -128,11 +128,11 @@ this.$router.params.id
 
 2、使用时，需要在路由内容渲染子路由的地方加入 `<router-view></router-view>` 节点
 
-![](https://tcs-devops.aliyuncs.com/storage/112ecbd9baf2f3d0e7f0c7391cadcefb6997?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmVjYmQ5YmFmMmYzZDBlN2YwYzczOTFjYWRjZWZiNjk5NyJ9.VHaO1owUA575mux4PAaUvSKQo8qgVE1yjTAwdVumcto&download=image.png "")
+![](/images/auto/Vue%20Router/image4.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112eede7e0a04e0bc7887a6fdb49c871eb0e?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmVlZGU3ZTBhMDRlMGJjNzg4N2E2ZmRiNDljODcxZWIwZSJ9.vYKowlimE4M5X83J5RpMbF8_stC_Cb3dl16NCWaKS5Y&download=image.png "")
+![](/images/auto/Vue%20Router/image5.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112e6ba08fe57ec97be1ebc8d67ab773cf31?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmU2YmEwOGZlNTdlYzk3YmUxZWJjOGQ2N2FiNzczY2YzMSJ9.SF9u-TY3VDFmkbOKhvRF2H5bfJrUTfFP9QnkP415P0E&download=image.png "")
+![](/images/auto/Vue%20Router/image6.png)
 
 **注意：**除非一些非常特殊的场景，一般我们使用组件实现此功能。
 
@@ -146,15 +146,15 @@ this.$router.params.id
 
 **路由重定向：**可以在配置路由时使用`redirect` 来配置重定向的路由，例如以下配置，用户跳转到 `/home` 页面时，会被重定向到 `/` 页面
 
-![](https://tcs-devops.aliyuncs.com/storage/112e169bcb17fe3f619ccf6aeed6a47da854?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmUxNjliY2IxN2ZlM2Y2MTljY2Y2YWVlZDZhNDdkYTg1NCJ9.A403l3INeQ6JNz9bpfUID2s7i0llOjL0IhthXDfsTfs&download=image.png "")
+![](/images/auto/Vue%20Router/image7.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112ea3b22662a84ed4cf7c665fdb47f19509?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmVhM2IyMjY2MmE4NGVkNGNmN2M2NjVmZGI0N2YxOTUwOSJ9.bwLzVW92ilRMDvxvpQ5xhsDmysnZPyhh8S_Ogedahq4&download=image.png "")
+![](/images/auto/Vue%20Router/image8.png)
 
 
 
 **路由别名：**可以在配置路由时使用 `alias`  来配置路由别名，例如以下配置，将 `/` 别名为 `/home`，意味着当用户访问 `/home` 时，URL 仍然是 `/home`，但会被匹配为用户正在访问 `/`。
 
-![](https://tcs-devops.aliyuncs.com/storage/112e3a29dd605f93bf49705e51775e7c13d9?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmUzYTI5ZGQ2MDVmOTNiZjQ5NzA1ZTUxNzc1ZTdjMTNkOSJ9._Mm3nqRBrFGTUGBe4i176UvJ6WopfDm7eFCcsMSxUIg&download=image.png "")
+![](/images/auto/Vue%20Router/image9.png)
 
 ### 5、历史记录模式
 
@@ -281,7 +281,7 @@ const routes = [
 
 有时，你可能希望将任意信息附加到路由上，如过渡名称、谁可以访问路由等。这些事情可以通过接收属性对象的`meta`属性来实现，并且它可以在路由地址和导航守卫上都被访问到。定义路由的时候你可以这样配置 `meta` 字段：
 
-![](https://tcs-devops.aliyuncs.com/storage/112e6ea2df303179bf9b19c6863749d2ce25?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmU2ZWEyZGYzMDMxNzliZjliMTljNjg2Mzc0OWQyY2UyNSJ9.zxRrwXiCCdx2SFgUJt2HDghR2J7uX8C3i3PxF5Z47dE&download=image.png "")
+![](/images/auto/Vue%20Router/image10.png)
 
 获取参数：
 
@@ -310,11 +310,11 @@ keep-alive 包裹动态组件时，会缓存不活动的组件实例，而不是
 <router-view v-if="!$route.meta.keepAlive"></router-view>
 ```
 
-![](https://tcs-devops.aliyuncs.com/storage/112e9cec9dde0c3eb3bb51abfc86240519f5?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmU5Y2VjOWRkZTBjM2ViM2JiNTFhYmZjODYyNDA1MTlmNSJ9.1OvpIFoD4jV5coZPuMCwgjMphfIrAWsu_Edoqtd6ATU&download=image.png "")
+![](/images/auto/Vue%20Router/image11.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112e03679dd025d04f180e8f3e2e8cd33999?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmUwMzY3OWRkMDI1ZDA0ZjE4MGU4ZjNlMmU4Y2QzMzk5OSJ9.Q1gELDZLuQzA99tZb9zObYDaTMC0bvEftoUmBFQhvJM&download=image.png "")
+![](/images/auto/Vue%20Router/image12.png)
 
-![](https://tcs-devops.aliyuncs.com/storage/112e42d90d85f1cf2442cd2c09ca6eefcc05?Signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBcHBJRCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9hcHBJZCI6IjVlNzQ4MmQ2MjE1MjJiZDVjN2Y5YjMzNSIsIl9vcmdhbml6YXRpb25JZCI6IiIsImV4cCI6MTY1MjUwMTUzMiwiaWF0IjoxNjUxODk2NzMyLCJyZXNvdXJjZSI6Ii9zdG9yYWdlLzExMmU0MmQ5MGQ4NWYxY2YyNDQyY2QyYzA5Y2E2ZWVmY2MwNSJ9.86oweIWsRNFbBYHnRBZIPxRC7K1H9pjT9r_HxwSZFKY&download=image.png "")
+![](/images/auto/Vue%20Router/image13.png)
 
 
 
