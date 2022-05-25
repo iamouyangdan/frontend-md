@@ -99,22 +99,22 @@ Vue['#uiConfig'] = {
 Vue.use(LinkkapUi)
 ```
 
-![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image1.png)
+![](/images/auto/linkkap-ui的table组件介绍/image1.png)
 
-![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image2.png)
+![](/images/auto/linkkap-ui的table组件介绍/image2.png)
 
 ## 使用说明
 
-![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image3.png)
+![](/images/auto/linkkap-ui的table组件介绍/image3.png)
 
-![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image4.png)
+![](/images/auto/linkkap-ui的table组件介绍/image4.png)
 
 ## 
 项目地址
 
 https://codeup.aliyun.com/5f009f6e6a575d7f23661045/frontend/linkkap-ui/tree/develop
 
-![](/images/auto/linkkap-ui%20table%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D/image5.png)
+![](/images/auto/linkkap-ui的table组件介绍/image5.png)
 
 
 

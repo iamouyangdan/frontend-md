@@ -13,11 +13,11 @@
 
 1、定义router.js文件
 
-![](/images/auto/Vue%20Router/image1.png)
+![](/images/auto/VueRouter/image1.png)
 
 2、在页面入口的 main.js 的 Vue 对象中引入 router
 
-![](/images/auto/Vue%20Router/image2.png)
+![](/images/auto/VueRouter/image2.png)
 
 
 
@@ -84,7 +84,7 @@ this.$router.params.id
 
 **注意**：使用此方法匹配 404 页面时，需要把此路由配置写在最后，否则会匹配到任意页面，所有页面都会跳转到 404
 
-![](/images/auto/Vue%20Router/image3.png)
+![](/images/auto/VueRouter/image3.png)
 
 路由匹配语法可以参考：
 
@@ -128,11 +128,11 @@ this.$router.params.id
 
 2、使用时，需要在路由内容渲染子路由的地方加入 `<router-view></router-view>` 节点
 
-![](/images/auto/Vue%20Router/image4.png)
+![](/images/auto/VueRouter/image4.png)
 
-![](/images/auto/Vue%20Router/image5.png)
+![](/images/auto/VueRouter/image5.png)
 
-![](/images/auto/Vue%20Router/image6.png)
+![](/images/auto/VueRouter/image6.png)
 
 **注意：**除非一些非常特殊的场景，一般我们使用组件实现此功能。
 
@@ -146,15 +146,15 @@ this.$router.params.id
 
 **路由重定向：**可以在配置路由时使用`redirect` 来配置重定向的路由，例如以下配置，用户跳转到 `/home` 页面时，会被重定向到 `/` 页面
 
-![](/images/auto/Vue%20Router/image7.png)
+![](/images/auto/VueRouter/image7.png)
 
-![](/images/auto/Vue%20Router/image8.png)
+![](/images/auto/VueRouter/image8.png)
 
 
 
 **路由别名：**可以在配置路由时使用 `alias`  来配置路由别名，例如以下配置，将 `/` 别名为 `/home`，意味着当用户访问 `/home` 时，URL 仍然是 `/home`，但会被匹配为用户正在访问 `/`。
 
-![](/images/auto/Vue%20Router/image9.png)
+![](/images/auto/VueRouter/image9.png)
 
 ### 5、历史记录模式
 
@@ -281,7 +281,7 @@ const routes = [
 
 有时，你可能希望将任意信息附加到路由上，如过渡名称、谁可以访问路由等。这些事情可以通过接收属性对象的`meta`属性来实现，并且它可以在路由地址和导航守卫上都被访问到。定义路由的时候你可以这样配置 `meta` 字段：
 
-![](/images/auto/Vue%20Router/image10.png)
+![](/images/auto/VueRouter/image10.png)
 
 获取参数：
 
@@ -310,11 +310,11 @@ keep-alive 包裹动态组件时，会缓存不活动的组件实例，而不是
 <router-view v-if="!$route.meta.keepAlive"></router-view>
 ```
 
-![](/images/auto/Vue%20Router/image11.png)
+![](/images/auto/VueRouter/image11.png)
 
-![](/images/auto/Vue%20Router/image12.png)
+![](/images/auto/VueRouter/image12.png)
 
-![](/images/auto/Vue%20Router/image13.png)
+![](/images/auto/VueRouter/image13.png)
 
 
 

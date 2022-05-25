@@ -9,7 +9,7 @@ Babel 是一个 JavaScript 编译器，主要用于将采用 ECMAScript 2015+ �
 
 - 源码转换（codemods）
 
-![](/images/auto/babel%20%E6%96%87%E6%A1%A3/image1.png)
+![](/images/auto/babel%E6%96%87%E6%A1%A3/image1.png)
 
 要了解 Babel 的工作原理，那首先需要了解抽象语法树，因为 Babel 插件就是作用于抽象语法树：首先我们编写的代码在编译阶段被解析成抽象语法树（AST），然后经过一系列的遍历和转换，然后再将转换后的抽象语法树生成为常规的 js 代码。
 

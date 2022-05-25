@@ -21,7 +21,7 @@ Console 对象常见的两个用途：
 
 ## console对象方法
 
-![](https://cdn.nlark.com/yuque/0/2021/png/2181619/1635065434366-91d49914-03e7-4231-bd6a-6433369872e5.png "")
+![](https://cdn.nlark.com/yuque/0/2021/png/2181619/1635065434366-91d49914-03e7-4231-bd6a-6433369872e5.png)
 
 
 

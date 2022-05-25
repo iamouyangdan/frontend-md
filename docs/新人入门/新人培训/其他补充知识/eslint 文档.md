@@ -25,7 +25,7 @@ npm install eslint --save-dev
 ./node_modules/.bin/eslint --init
 ```
 
-![](/images/auto/eslint%20%E6%96%87%E6%A1%A3/image1.png)
+![](/images/auto/eslint%E6%96%87%E6%A1%A3/image1.png)
 
 可以运行 ESLint 在任何文件或目录如下: `./node_modules/.bin/eslint index.js`。
 
@@ -59,7 +59,7 @@ eslint index.js
 
 **那么我想在我一边写代码的时候就能直接看到错误，然后就能直接随手改正错误，这要怎么做呢？**这时 eslint 的 vscode 插件诞生了。
 
-![](/images/auto/eslint%20%E6%96%87%E6%A1%A3/image2.png)
+![](/images/auto/eslint%E6%96%87%E6%A1%A3/image2.png)
 
 配置保存时自动修复：打开 vscode 的 setting.json 文件，添加如下语句。
 

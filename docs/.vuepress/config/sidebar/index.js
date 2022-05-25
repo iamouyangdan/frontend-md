@@ -90,7 +90,6 @@ module.exports = {
         "/技术分享/其他分享/JavaScript基础(一).md",
         "/技术分享/其他分享/JavaScript基础(三).md",
         "/技术分享/其他分享/JavaScript基础(二).md",
-        "/技术分享/其他分享/PC网页生成PDF方案.md",
         "/技术分享/其他分享/TypeScript基础.md",
         "/技术分享/其他分享/Typescript基础与进阶.md",
         "/技术分享/其他分享/Vue Router.md",

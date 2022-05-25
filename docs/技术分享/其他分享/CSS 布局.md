@@ -124,9 +124,9 @@ function() {
 
 瀑布流更适合那些随意浏览，不带目的性的使用场景，就像是在逛街一样，边走边看，同时被街边琳琅满目的商品吸引着，所以比较适合的图片、小说、资讯类的场景，以现有的成功案例来说，以 UGC 为主的相关网站很多在使用瀑布流进行承载。
 
-![](/images/auto/CSS%20%E5%B8%83%E5%B1%80/image1.png)
+![](/images/auto/CSS%E5%B8%83%E5%B1%80/image1.png)
 
-![](/images/auto/CSS%20%E5%B8%83%E5%B1%80/image2.png)
+![](/images/auto/CSS%E5%B8%83%E5%B1%80/image2.png)
 
 
 
