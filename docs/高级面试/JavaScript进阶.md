@@ -34,3 +34,9 @@ autoSort: -7
 ## 模块化
 
 -[你不容错过的JavaScript高级语法(模块化)](https://juejin.cn/post/7055967081166012446)
+
+
+## 浏览器缓存
+问：请求时浏览器缓存 from memory cache 和 from disk cache 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache中？
+
+[深入理解浏览器的缓存机制](https://www.jianshu.com/p/54cc04190252)
