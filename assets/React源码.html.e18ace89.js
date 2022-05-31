@@ -1,0 +1,47 @@
+import { _ as _export_sfc, r as resolveComponent, o as openBlock, c as createElementBlock, a as createBaseVNode, b as createVNode, F as Fragment, d as createTextVNode, e as createStaticVNode } from "./app.050d295a.js";
+const _sfc_main = {};
+const _hoisted_1 = /* @__PURE__ */ createBaseVNode("h1", {
+  id: "react\u6E90\u7801",
+  tabindex: "-1"
+}, [
+  /* @__PURE__ */ createBaseVNode("a", {
+    class: "header-anchor",
+    href: "#react\u6E90\u7801",
+    "aria-hidden": "true"
+  }, "#"),
+  /* @__PURE__ */ createTextVNode(" React\u6E90\u7801")
+], -1);
+const _hoisted_2 = /* @__PURE__ */ createBaseVNode("h2", {
+  id: "react\u6027\u80FD\u4F18\u5316",
+  tabindex: "-1"
+}, [
+  /* @__PURE__ */ createBaseVNode("a", {
+    class: "header-anchor",
+    href: "#react\u6027\u80FD\u4F18\u5316",
+    "aria-hidden": "true"
+  }, "#"),
+  /* @__PURE__ */ createTextVNode(" React\u6027\u80FD\u4F18\u5316")
+], -1);
+const _hoisted_3 = {
+  href: "https://juejin.cn/post/6935584878071119885",
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
+const _hoisted_4 = /* @__PURE__ */ createTextVNode("React\u6027\u80FD\u4F18\u5316");
+const _hoisted_5 = /* @__PURE__ */ createStaticVNode('<h2 id="redux" tabindex="-1"><a class="header-anchor" href="#redux" aria-hidden="true">#</a> Redux</h2><p>\u95EE\uFF1ARedux \u7684 reducer \u4E2D\u4E0D\u80FD\u505A\u5F02\u6B65\u64CD\u4F5C\uFF1F</p><blockquote><p>\u4E0B\u9762\u89E3\u91CA\u4E00\u4E0B\u4E3A\u4EC0\u4E48Redux\u7684reducer\u91CC\u4E0D\u80FD\u6709\u5F02\u6B65\u64CD\u4F5C\u3002</p></blockquote><blockquote><p>\u5148\u4ECERedux\u7684\u8BBE\u8BA1\u5C42\u9762\u6765\u89E3\u91CA\u4E3A\u4EC0\u4E48Reducer\u5FC5\u987B\u662F\u7EAF\u51FD\u6570 \u5982\u679C\u4F60\u7ECF\u5E38\u7528React+Redux\u5F00\u53D1\uFF0C\u90A3\u4E48\u5C31\u5E94\u8BE5\u4E86\u89E3Redux\u7684\u8BBE\u8BA1\u521D\u8877\u3002Redux\u7684\u8BBE\u8BA1\u53C2\u8003\u4E86Flux\u7684\u6A21\u5F0F\uFF0C\u4F5C\u8005\u5E0C\u671B\u4EE5\u6B64\u6765\u5B9E\u73B0\u65F6\u95F4\u65C5\u884C\uFF0C\u4FDD\u5B58\u5E94\u7528\u7684\u5386\u53F2\u72B6\u6001\uFF0C\u5B9E\u73B0\u5E94\u7528\u72B6\u6001\u7684\u53EF\u9884\u6D4B\u3002\u6240\u4EE5\u6574\u4E2ARedux\u90FD\u662F\u51FD\u6570\u5F0F\u7F16\u7A0B\u7684\u8303\u5F0F\uFF0C\u8981\u6C42reducer\u662F\u7EAF\u51FD\u6570\u4E5F\u662F\u81EA\u7136\u800C\u7136\u7684\u4E8B\u60C5\uFF0C\u4F7F\u7528\u7EAF\u51FD\u6570\u624D\u80FD\u4FDD\u8BC1\u76F8\u540C\u7684\u8F93\u5165\u5F97\u5230\u76F8\u540C\u7684\u8F93\u5165\uFF0C\u4FDD\u8BC1\u72B6\u6001\u7684\u53EF\u9884\u6D4B\u3002\u6240\u4EE5Redux\u6709\u4E09\u5927\u539F\u5219\uFF1A</p></blockquote><blockquote><p>\u5355\u4E00\u6570\u636E\u6E90\uFF0C\u4E5F\u5C31\u662Fstate state \u662F\u53EA\u8BFB\uFF0CRedux\u5E76\u6CA1\u6709\u66B4\u9732\u51FA\u76F4\u63A5\u4FEE\u6539state\u7684\u63A5\u53E3\uFF0C\u5FC5\u987B\u901A\u8FC7action\u6765\u89E6\u53D1\u4FEE\u6539 \u4F7F\u7528\u7EAF\u51FD\u6570\u6765\u4FEE\u6539state\uFF0Creducer\u5FC5\u987B\u662F\u7EAF\u51FD\u6570 \u4E0B\u9762\u5728\u4ECE\u4EE3\u7801\u5C42\u9762\u6765\u89E3\u91CA\u4E3A\u4EC0\u4E48reducer\u5FC5\u987B\u662F\u7EAF\u51FD\u6570 \u90A3\u4E48reducer\u5230\u5E95\u5E72\u4E86\u4EF6\u4EC0\u4E48\u4E8B\uFF0C\u5728Redux\u7684\u6E90\u7801\u4E2D\u53EA\u7528\u4E86\u4E00\u884C\u6765\u8868\u793A\uFF1A</p></blockquote><blockquote><p>currentState = currentReducer(currentState, action) \u8FD9\u4E00\u884C\u7B80\u5355\u7C97\u66B4\u7684\u5728\u4EE3\u7801\u5C42\u9762\u89E3\u91CA\u4E86\u4E3A\u4EC0\u4E48currentReducer\u5FC5\u987B\u662F\u7EAF\u51FD\u6570\u3002currentReducer\u5C31\u662F\u6211\u4EEC\u5728createStore\u4E2D\u4F20\u5165\u7684reducer\uFF08\u81F3\u4E8E\u4E3A\u4EC0\u4E48\u4F1A\u52A0\u4E2Acurrent\u6709\u5174\u8DA3\u7684\u53EF\u4EE5\u81EA\u5DF1\u53BB\u770B\u6E90\u7801\uFF09\uFF0Creducer\u662F\u7528\u6765\u8BA1\u7B97state\u7684\uFF0C\u6240\u4EE5\u5B83\u7684\u8FD4\u56DE\u503C\u5FC5\u987B\u662Fstate\uFF0C\u4E5F\u5C31\u662F\u6211\u4EEC\u6574\u4E2A\u5E94\u7528\u7684\u72B6\u6001\uFF0C\u800C\u4E0D\u80FD\u662Fpromise\u4E4B\u7C7B\u7684\u3002</p></blockquote><blockquote><p>\u8981\u5728reducer\u4E2D\u52A0\u5165\u5F02\u6B65\u7684\u64CD\u4F5C\uFF0C\u5982\u679C\u4F60\u53EA\u662F\u5355\u7EAF\u60F3\u6267\u884C\u5F02\u6B65\u64CD\u4F5C\uFF0C\u4E0D\u4F1A\u7B49\u5F85\u5F02\u6B65\u7684\u8FD4\u56DE\uFF0C\u90A3\u4E48\u5728reducer\u4E2D\u6267\u884C\u7684\u610F\u4E49\u662F\u4EC0\u4E48\u3002\u5982\u679C\u60F3\u628A\u5F02\u6B65\u64CD\u4F5C\u7684\u7ED3\u679C\u53CD\u5E94\u5728state\u4E2D\uFF0C\u9996\u5148\u6574\u4E2A\u5E94\u7528\u7684\u72B6\u6001\u5C06\u53D8\u7684\u4E0D\u53EF\u9884\u6D4B\uFF0C\u8FDD\u80CCRedux\u7684\u8BBE\u8BA1\u539F\u5219\uFF0C\u5176\u6B21\uFF0C\u6B64\u65F6\u7684currentState\u5C06\u4F1A\u662Fpromise\u4E4B\u7C7B\u800C\u4E0D\u662F\u6211\u4EEC\u60F3\u8981\u7684\u5E94\u7528\u72B6\u6001\uFF0C\u6839\u672C\u662F\u884C\u4E0D\u901A\u7684\u3002</p></blockquote><blockquote><p>\u5176\u5B9E\u8FD9\u4E2A\u95EE\u9898\u5E94\u8BE5\u662FRedux\u4E2D\u4E3A\u4EC0\u4E48\u4E0D\u80FD\u6709\u526F\u4F5C\u7528\u7684\u64CD\u4F5C\u66F4\u5408\u9002\u3002</p></blockquote>', 8);
+function _sfc_render(_ctx, _cache) {
+  const _component_ExternalLinkIcon = resolveComponent("ExternalLinkIcon");
+  return openBlock(), createElementBlock(Fragment, null, [
+    _hoisted_1,
+    _hoisted_2,
+    createBaseVNode("p", null, [
+      createBaseVNode("a", _hoisted_3, [
+        _hoisted_4,
+        createVNode(_component_ExternalLinkIcon)
+      ])
+    ]),
+    _hoisted_5
+  ], 64);
+}
+var React___html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "React\u6E90\u7801.html.vue"]]);
+export { React___html as default };

@@ -1,0 +1,32 @@
+import { _ as _export_sfc, o as openBlock, c as createElementBlock, F as Fragment, a as createBaseVNode, d as createTextVNode } from "./app.050d295a.js";
+const _sfc_main = {};
+const _hoisted_1 = /* @__PURE__ */ createBaseVNode("h1", {
+  id: "\u81EA\u6211\u4ECB\u7ECD",
+  tabindex: "-1"
+}, [
+  /* @__PURE__ */ createBaseVNode("a", {
+    class: "header-anchor",
+    href: "#\u81EA\u6211\u4ECB\u7ECD",
+    "aria-hidden": "true"
+  }, "#"),
+  /* @__PURE__ */ createTextVNode(" \u81EA\u6211\u4ECB\u7ECD")
+], -1);
+const _hoisted_2 = /* @__PURE__ */ createBaseVNode("p", null, "\u4F60\u597D\uFF0C\u6211\u662F\u6B27\u9633\u4E39\uFF0C\u6211\u6BD5\u4E1A\u4E8E\u5E7F\u4E1C\u5DE5\u4E1A\u5927\u5B66\u8BA1\u7B97\u673A\u79D1\u5B66\u4E0E\u6280\u672F\u4E13\u4E1A\uFF0C\u4E4B\u524D\u6709\u5728\u505Asaas\u670D\u52A1\u548C\u80A1\u6743\u6FC0\u52B1\u4E1A\u52A1\u7684\u516C\u53F8\u4ECE\u4E8B\u524D\u7AEF\u5F00\u53D1\uFF0C\u76EE\u524D\u5DF2\u7ECF\u67093\u5E74\u524D\u7AEF\u5F00\u53D1+2\u5E74\u524D\u7AEF\u8D1F\u8D23\u4EBA\u7684\u7ECF\u5386\u3002", -1);
+const _hoisted_3 = /* @__PURE__ */ createBaseVNode("p", null, "\u6211\u4E3B\u5BFC\u5E76\u4E0A\u7EBF\u4E8610\u4E2A\u4EE5\u4E0A\u7684\u4F01\u4E1A\u9879\u76EE\uFF0C\u5176\u4E2D\u5305\u62ECPC\u7AEF\u3001\u5C0F\u7A0B\u5E8F\u7AEF\u3001\u8DE8\u7AEFAPP\u3001Windows\u5BA2\u6237\u7AEF\u3001nodejs\u540E\u7AEF\u5F00\u53D1\u7B49\u3002\u6211\u7684\u9879\u76EE\u7ECF\u5386\u57FA\u672C\u6DB5\u76D6\u4E86\u6574\u4E2A\u524D\u7AEF\u4F53\u7CFB\u3002", -1);
+const _hoisted_4 = /* @__PURE__ */ createBaseVNode("p", null, "\u6280\u672F\u65B9\u9762\uFF0C\u6211\u505A\u8FC7\u6700\u6210\u529F\u7684\u9879\u76EE\u662F\u95E8\u5E97\u6536\u94F6\u7CFB\u7EDF\uFF0C\u5728\u4E00\u5E74\u5DE6\u53F3\u7684\u65F6\u95F4\u91CC\uFF0C\u95E8\u5E97\u6570\u91CF\u7531300\u591A\u5BB6\u589E\u52A0\u52305000\u591A\u5BB6\u3002Bug\u6570\u91CF\u7531\u4E4B\u524D\u4E00\u4E2A\u661F\u671F30+\u51CF\u5C11\u5230\u4E00\u4E2A\u661F\u671F5\u4E2A\u4EE5\u4E0B\u3002", -1);
+const _hoisted_5 = /* @__PURE__ */ createBaseVNode("p", null, "\u7BA1\u7406\u65B9\u9762\uFF0C\u6211\u5584\u4E8E\u5229\u7528\u81EA\u5DF1\u7684\u6280\u80FD\u5E2E\u52A9\u5176\u4ED6\u540C\u4E8B\u63D0\u5347\u5DE5\u4F5C\u6548\u7387\u3002\u4F8B\u5982\u57FA\u4E8Eant-design-vue\u5C01\u88C5\u516C\u53F8\u81EA\u5DF1\u7684\u901A\u7528\u7EC4\u4EF6\u5E93\uFF0C\u642D\u5EFA\u516C\u53F8\u7684\u6280\u672F\u6587\u6863\u5E93\u4EE5\u53CA\u5229\u7528ESLint\u548CVSCode\u63D2\u4EF6\u7EDF\u4E00\u7F16\u7801\u89C4\u8303\u7B49\u3002", -1);
+const _hoisted_6 = /* @__PURE__ */ createBaseVNode("p", null, "\u6211\u89C9\u5F97\u6211\u7684\u7ECF\u5386\u4E0E\u516C\u53F8\u9AD8\u7EA7\u524D\u7AEF\u5F00\u53D1\u7684\u5C97\u4F4D\u8981\u6C42\u662F\u6BD4\u8F83\u5339\u914D\u7684", -1);
+const _hoisted_7 = /* @__PURE__ */ createBaseVNode("p", null, "\u4EE5\u4E0A\u5C31\u662F\u6211\u7684\u81EA\u6211\u4ECB\u7ECD\uFF0C\u8C22\u8C22\u3002", -1);
+function _sfc_render(_ctx, _cache) {
+  return openBlock(), createElementBlock(Fragment, null, [
+    _hoisted_1,
+    _hoisted_2,
+    _hoisted_3,
+    _hoisted_4,
+    _hoisted_5,
+    _hoisted_6,
+    _hoisted_7
+  ], 64);
+}
+var _____html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "\u81EA\u6211\u4ECB\u7ECD.html.vue"]]);
+export { _____html as default };
