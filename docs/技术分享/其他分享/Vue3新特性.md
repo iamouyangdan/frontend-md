@@ -137,7 +137,7 @@ setup函数中的this修改成了 undefined
 
 5、[Vue3的优势](https://zhuanlan.zhihu.com/p/351445575)
 
-6、
+6、[整理的一些 Vue3 知识点](https://mp.weixin.qq.com/s/P-UxHqnl9SvU7qlIPPbNTg)
 
 
 

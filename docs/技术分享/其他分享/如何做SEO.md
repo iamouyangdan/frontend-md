@@ -1,4 +1,6 @@
 # 如何做SEO
+
+[如何做SEO](https://thoughts.aliyun.com/share/6295f2aa461636001ac25374#title=如何做SEO)
 ## 1、SEO是什么？
 
 **全称：**Search English Optimization，搜索引擎优化。自从有了搜索引擎，SEO便诞生了。

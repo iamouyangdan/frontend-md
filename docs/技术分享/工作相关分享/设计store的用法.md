@@ -296,7 +296,7 @@ created() {
 
 ### 源码导读：
 
-
+[原文档](https://thoughts.aliyun.com/share/61b190895cce86001ac4da09#title=设计store的用法)
 
 
 

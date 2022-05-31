@@ -616,10 +616,15 @@ exports.cluster = {
 };
 ```
 
+## 参考资料
+
+[eggjs](https://www.eggjs.org/zh-CN)
+
+[node-mysql中防止SQL注入](https://blog.csdn.net/lin_tuer/article/details/54809330)
 
 
 
 
 
 
-[__https://meeting.tencent.com/user-center/shared-record-info?id=b275a084-c409-489c-a2ae-5d928c20a5d2&click_source_for_middle_login=2__](https://meeting.tencent.com/user-center/shared-record-info?id=b275a084-c409-489c-a2ae-5d928c20a5d2&click_source_for_middle_login=2)
+[技术分享记录](https://meeting.tencent.com/user-center/shared-record-info?id=b275a084-c409-489c-a2ae-5d928c20a5d2&click_source_for_middle_login=2)

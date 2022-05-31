@@ -2,7 +2,7 @@
 
 ## Typescript基础
 
-
+[Typescript基础](./TypeScript%E5%9F%BA%E7%A1%80.md)
 
 ## Typescript进阶
 
@@ -908,8 +908,8 @@ interface Alarm {
 
 ## 学习资料
 
+[2021 typescript史上最强学习入门文章(2w字)](https://juejin.cn/post/7018805943710253086)
 
-
-
+[TypeScript语法总结+项目(Vue.js+TS)实战](https://juejin.cn/post/6861525441786675208)
 
 Typescript在线平台： [__https://www.typescriptlang.org/play__](https://www.typescriptlang.org/play)

@@ -1,10 +1,11 @@
 # vue响应式原理
 简单实现的例子
 
-
+[code.zip](/code.zip)
 
 v2.6源码
 
+[vue-2.6.zip](/vue-2.6.zip)
 
 
 ## Vue 数据双向绑定
@@ -86,12 +87,13 @@ obj.age = 20
 ### 简单实现
 
 
-
+[简单实现](https://thoughts.aliyun.com/share/616e22c6fb3343001a2f685b#title=vue响应式原理)
 
 
 ### v2.6源码-数据响应简单介绍
 
 src\core\observer
+
 
 ### v2.6数组方法重写
 
@@ -227,8 +229,11 @@ obj2.name = '王五'
 
 ## 参考文献
 
+[深入响应式原理](https://cn.vuejs.org/v2/guide/reactivity.html)
 
+[0 到 1 掌握：Vue 核心之数据双向绑定](https://juejin.cn/post/6844903903822086151)
 
+[五分钟看懂Vue3-数据绑定](https://juejin.cn/post/6844903960046731277)
 
 
 

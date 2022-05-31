@@ -57,7 +57,8 @@ eslint index.js
 
 如果每次做项目都要先`eslint . --fix`统一格式，再提交代码。或者是把指令添加到package.json 文件中，执行`npm run lint`，再提交。这样就很麻烦，并且也不够直观，因为错误问题只有在你执行了指令后才能看到。
 
-**那么我想在我一边写代码的时候就能直接看到错误，然后就能直接随手改正错误，这要怎么做呢？**这时 eslint 的 vscode 插件诞生了。
+**那么我想在我一边写代码的时候就能直接看到错误，然后就能直接随手改正错误，这要怎么做呢？**
+这时 eslint 的 vscode 插件诞生了。
 
 ![](/images/auto/eslint%E6%96%87%E6%A1%A3/image2.png)
 
@@ -322,7 +323,7 @@ rules:
   plugin1/rule1: error
 ```
 
-**注意：从插件中指定规则时，请确保省略eslint-plugin-。ESLint在内部仅使用前缀名来查找规则。 **
+**注意**：从插件中指定规则时，请确保省略eslint-plugin-。ESLint在内部仅使用前缀名来查找规则。 
 
 4、
 
@@ -406,7 +407,7 @@ eslint --no-ignore file.js
 
 ## 六、规则表解释
 
-
+[官方rules文档](http://eslint.cn/docs/rules/)
 
 ```javascript
 {
@@ -971,9 +972,7 @@ eslint --no-ignore file.js
 }
 ```
 
-
-
-相关资料
-
+## 相关资料
+[http://eslint.cn/](http://eslint.cn/)
 
 

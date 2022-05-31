@@ -21,7 +21,7 @@ Console 对象常见的两个用途：
 
 ## console对象方法
 
-![](https://cdn.nlark.com/yuque/0/2021/png/2181619/1635065434366-91d49914-03e7-4231-bd6a-6433369872e5.png)
+![](/images/技术分享/console技巧/image.png)
 
 
 
@@ -60,7 +60,8 @@ console.clear()
 
 ## context()
 
-**描述：**打印出所有的console对象的方法(除了本身console.text()不会被打印出来)
+**描述：**
+打印出所有的console对象的方法(除了本身console.text()不会被打印出来)
 
 ## count()
 
@@ -100,7 +101,8 @@ console.countReset('count')
 
 ## debug()
 
-**描述：**输出“调试”级别的消息且仅仅控制台配置为显示调试输出时才显示该消息。
+**描述：**
+输出“调试”级别的消息且仅仅控制台配置为显示调试输出时才显示该消息。
 
 
 
@@ -118,7 +120,8 @@ console.dir(document)
 
 ## dirxml()
 
-**描述：**显示一个明确的XML/HTML元素的包括所有后代元素的交互树。 如果无法作为一个element被显示，那么会以JavaScript对象的形式作为替代。 它的输出是一个继承的扩展的节点列表，可以让你看到子节点的内容。
+**描述：**
+显示一个明确的XML/HTML元素的包括所有后代元素的交互树。 如果无法作为一个element被显示，那么会以JavaScript对象的形式作为替代。 它的输出是一个继承的扩展的节点列表，可以让你看到子节点的内容。
 
 **实例：**
 
@@ -128,7 +131,8 @@ console.dirxml(document)
 
 ## error()
 
-**描述：**输出信息时，在最前面加一个红色的叉，表示出错，同时会显示错误发生的堆栈。
+**描述：**
+输出信息时，在最前面加一个红色的叉，表示出错，同时会显示错误发生的堆栈。
 
 **实例：**
 
@@ -140,7 +144,8 @@ console.error("Error")
 
 ## group()
 
-**描述：**用于将显示的信息分组，可以把信息进行折叠和展开。
+**描述：**
+用于将显示的信息分组，可以把信息进行折叠和展开。
 
 **实例：**
 
@@ -182,21 +187,25 @@ console.groupEnd();
 
 ## groupEnd()
 
-**描述：**结束内联分组
+**描述：**
+结束内联分组
 
 ## info()
 
-**描述：**console.log 别名，输出信息
+**描述：**
+console.log 别名，输出信息
 
 
 
 ## log()
 
-**描述：**输出信息
+**描述：**
+输出信息
 
 ## memory()
 
-**描述：**查看浏览器内存信息，以字节计算（Byte）
+**描述：**
+查看浏览器内存信息，以字节计算（Byte）
 
 jsHeapSizeLimit: 内存大小限制
 
@@ -210,7 +219,8 @@ ps: 1Byte = 8bit  1KB = 1024Bytes  1MB = 1024KB  1GB = 1024MB  1TB = 1024GB
 
 ## table()
 
-**描述：**将复合类型的数据转为表格显示。
+**描述：**
+将复合类型的数据转为表格显示。
 
 **实例：**
 
@@ -235,7 +245,8 @@ console.table(obj);
 
 ## time()
 
-**描述：**计时开始
+**描述：**
+计时开始
 
 **实例：**
 
@@ -256,15 +267,18 @@ console.timeEnd('计时器2');
 
 ## timeEnd()
 
-**描述：**计时结束
+**描述：**
+计时结束
 
 ## timeLog()
 
-**描述：**在控制台输出计时器的值，该计时器必须已经通过 [console.time()](https://developer.mozilla.org/zh-CN/docs/Web/API/Console/time) 启动。
+**描述：**
+在控制台输出计时器的值，该计时器必须已经通过 [console.time()](https://developer.mozilla.org/zh-CN/docs/Web/API/Console/time) 启动。
 
 ## trace()
 
-**描述：**追踪函数的调用过程
+**描述：**
+追踪函数的调用过程
 
 **实例：**
 
@@ -284,7 +298,8 @@ var a = b('123');
 
 ## warn()
 
-**描述：**输出警告信息
+**描述：**
+输出警告信息
 
 **实例：**
 
@@ -344,21 +359,23 @@ console.dirxml()
 
 适合看源码之类的比较复杂的代码，不复杂的代码调试还是console.log()方便
 
+[谷歌浏览器开发调试工具中Sources面板 js调试等 完全介绍](https://www.cnblogs.com/grimm/p/7068563.html)
 
+[Chrome浏览器 Source面板](https://www.qdtalk.com/2019/10/24/chrome%E6%B5%8F%E8%A7%88%E5%99%A8-sources%E9%9D%A2%E6%9D%BF/)
 
 
 
 **移动端调试**
 
-**vconsole**
+[vconsole](https://blog.csdn.net/weixin_42881744/article/details/85785920)
 
 
 
-**weinre**
+[**weinre**](https://segmentfault.com/a/1190000010017457)
 
 
 
-**通过USB、手机端加电脑端浏览器进行调试**
+[**通过USB、手机端加电脑端浏览器进行调试**](https://www.jianshu.com/p/bb5cf162975a)
 
 
 
@@ -366,11 +383,15 @@ console.dirxml()
 
 ## 资料
 
+[vue--生产环境清除console.log、console.info等浏览器控制台输出数据](https://blog.csdn.net/she_jw/article/details/103895618)
 
+[console](https://developer.mozilla.org/zh-CN/docs/Web/API/Console)
 
+[javascript-console-object](https://www.runoob.com/w3cnote/javascript-console-object.html)
 
+[avascript调试命令——你只会Console.log() ?](https://segmentfault.com/a/1190000012957199)
 
-
+[Node.js console控制台](http://nodejs.cn/api/console.html#)
 
 
 

@@ -364,7 +364,7 @@ console.log(num);
 
 使用`babel.config.js`配置之后构建的`lib/index.js`:
 
-```text
+```javascript
 "use strict";
 
 const fn = () => 1; // ES6箭头函数, 返回值为1
@@ -413,7 +413,7 @@ module.exports = { presets };
 
 保存重新运行`npm run build`, 你就会发现`lib/index.js`现在有所改变了:
 
-```text
+```javascript
 "use strict";
 
 var fn = function fn() {
@@ -544,11 +544,11 @@ console.log(hasTwo);
 
 
 
-相关资料
+## 相关资料
 
+[什么是babel](https://babel.docschina.org/docs/en/)
 
-
-
+[深入Babel，这一篇就够了](https://juejin.cn/post/6844903746804137991)
 
 
 

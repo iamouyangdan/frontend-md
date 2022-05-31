@@ -1,7 +1,13 @@
 # Vue Router
 ## 一、Vue Router（路由）介绍
 
-官网介绍：
+[axios源码浅析](./axios%E6%BA%90%E7%A0%81%E6%B5%85%E8%AF%BB%E4%B8%8Easync_await%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md#axios%E7%AE%80%E4%BB%8B)
+
+[Vue响应式原理](./vue%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86.md)
+
+[router.zip](/router.zip)
+
+[官网介绍](https://router.vuejs.org/zh/introduction.html)
 
 
 
@@ -88,7 +94,7 @@ this.$router.params.id
 
 路由匹配语法可以参考：
 
-
+[路由的匹配语法](https://router.vuejs.org/zh/guide/essentials/route-matching-syntax.html)
 
 
 
@@ -134,7 +140,7 @@ this.$router.params.id
 
 ![](/images/auto/VueRouter/image6.png)
 
-**注意：**除非一些非常特殊的场景，一般我们使用组件实现此功能。
+**注意**：除非一些非常特殊的场景，一般我们使用组件实现此功能。
 
 与组件对比的缺点：
 
@@ -144,7 +150,7 @@ this.$router.params.id
 
 ### 4、路由重定向与别名
 
-**路由重定向：**可以在配置路由时使用`redirect` 来配置重定向的路由，例如以下配置，用户跳转到 `/home` 页面时，会被重定向到 `/` 页面
+**路由重定向**：可以在配置路由时使用`redirect` 来配置重定向的路由，例如以下配置，用户跳转到 `/home` 页面时，会被重定向到 `/` 页面
 
 ![](/images/auto/VueRouter/image7.png)
 
@@ -152,7 +158,7 @@ this.$router.params.id
 
 
 
-**路由别名：**可以在配置路由时使用 `alias`  来配置路由别名，例如以下配置，将 `/` 别名为 `/home`，意味着当用户访问 `/home` 时，URL 仍然是 `/home`，但会被匹配为用户正在访问 `/`。
+**路由别名**：可以在配置路由时使用 `alias`  来配置路由别名，例如以下配置，将 `/` 别名为 `/home`，意味着当用户访问 `/home` 时，URL 仍然是 `/home`，但会被匹配为用户正在访问 `/`。
 
 ![](/images/auto/VueRouter/image9.png)
 
@@ -293,7 +299,7 @@ this.$route.meta
 
 ### 9、keep-alive
 
-
+[keep-alive](https://cn.vuejs.org/v2/api/#keep-alive)
 
 keep-alive 包裹动态组件时，会缓存不活动的组件实例，而不是销毁它们。
 
@@ -318,10 +324,10 @@ keep-alive 包裹动态组件时，会缓存不活动的组件实例，而不是
 
 
 
-视频链接
+## 视频链接
 
 主题 :前端分享
 
 日期 :2022-02-16 19:00:33
 
-录制文件：https://meeting.tencent.com/wework/cloud-record/share?id=c12a6550-bc63-4a47-9919-99cfe5bdd664&hide_more_btn=true&from=qywx
+[录制文件](https://meeting.tencent.com/wework/cloud-record/share?id=c12a6550-bc63-4a47-9919-99cfe5bdd664&hide_more_btn=true&from=qywx)

@@ -13,7 +13,7 @@
 
 ![](/images/auto/JavaScript基础(二)/image1.png)
 
-```text
+```vue
 <div class="red">
   <div class="green">
     <div class="blue">
@@ -49,13 +49,13 @@
 
 ## 二、原型与原型链
 
-### 1、prototype
+### 1、`prototype`
 
 在JavaScript中，每个函数都有一个prototype属性，这个属性指向函数的原型对象。
 
 例如： 有小黑和小白两条狗，他们都属于狗，所以他们都会有狗的特性，如：汪汪汪。
 
-```text
+```js
 function Dog(name) {
     this.name = name
 }
@@ -78,7 +78,7 @@ console.log(whiteDog.wang())  // 汪汪汪
 
 
 
-### 2、__proto__
+### 2、`__proto__`
 
 这是每个对象(除null外)都会有的属性，叫做__proto__，这个属性会指向该对象的原型。
 
@@ -180,7 +180,7 @@ Object.prototype.__proto__ 的值为 null ， 或者说 Object.prototype 没有�
 
 ### 参考文献:
 
-原型与原型链：
+[原型与原型链](https://www.cnblogs.com/loveyaxin/p/11151586.html)
 
 
 
@@ -192,4 +192,4 @@ Object.prototype.__proto__ 的值为 null ， 或者说 Object.prototype 没有�
 
 日期 :2021-12-08 19:01:52
 
-录制文件：https://meeting.tencent.com/v2/cloud-record/share?id=cda8734e-b888-443b-90ae-393b6196ec30&from=3&is-single=true
+[录制文件](https://meeting.tencent.com/v2/cloud-record/share?id=cda8734e-b888-443b-90ae-393b6196ec30&from=3&is-single=true)

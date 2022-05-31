@@ -1,5 +1,6 @@
 # TypeScript基础
 
+[typescript.zip](/typescript.zip)
 ### 1、什么是TypeScript
 
 （1）JavaScript的超集，完全兼容JavaScript，不会修改JavaScript运行时的特性
@@ -317,9 +318,11 @@ interface Math {
 
 ### 4、参考文献
 
+[什么是 TypeScript](http://ts.xcatliu.com/introduction/what-is-typescript.html)
 
+[TypeScript Handbook（中文版）](https://zhongsp.gitbooks.io/typescript-handbook/content/)
 
-
+[基础类型](https://www.tslang.cn/docs/handbook/basic-types.html)
 
 
 

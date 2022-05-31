@@ -366,7 +366,7 @@ test(); // 连续打印 10 个 10
 
 ### 闭包的应用
 
-```text
+```js
 function personInfo() {
   var name = '张三'
   return function() {
@@ -393,7 +393,7 @@ console.info('这是一个' + animal.introduce())
 
 在数学和计算机科学中，柯里化是一种将使用多个参数的一个函数转换成一系列使用一个参数的函数的技术
 
-```text
+```js
 function animalAction(action, animalName) {
   console.log(animalName + '在' + action)
 }
@@ -403,7 +403,7 @@ animalAction('跑', '小猫')
 animalAction('睡觉', '小猫')
 ```
 
-```text
+```js
 var actionFun = _curry(animalAction)
 var run = actionFun('跑')
 var sleep = actionFun('睡觉')
@@ -426,7 +426,7 @@ run('小兔')
 
 1. 在调用柯里化工具函数时，手动指定所需的参数个数
 
-```text
+```js
 const curry = (fn, ...args) => 
     // 函数的参数个数可以直接通过函数数的.length属性来访问
     args.length >= fn.length // 这个判断很关键！！！
@@ -448,14 +448,19 @@ console.log(add(1, 2)(3));
 console.log(add(1)(2, 3));
 ```
 
+## 参考资料
 
+[嗨，你真的懂this吗？](https://juejin.cn/post/6844903805587619854)
 
+[深入理解JavaScript作用域和作用域链](https://juejin.cn/post/6844903797135769614)
 
+[我从来不理解JavaScript闭包，直到有人这样向我解释它](https://juejin.cn/post/6844903858636849159)
 
+[avaScript 浮点数之迷：0.1 + 0.2 为什么不等于 0.3？](https://zhuanlan.zhihu.com/p/103254614)
 
+[[译] 理解 JavaScript 中的执行上下文和执行栈](https://juejin.cn/post/6844903682283143181)
 
-
-
+[JavaScript 闭包](https://segmentfault.com/a/1190000006875662)
 
 
 

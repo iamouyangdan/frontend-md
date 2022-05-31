@@ -1,4 +1,6 @@
 # CSS动画
+
+[animation.zip](/animation.zip)
 ## 一、animation
 
 | 值                         | 描述                                            |
@@ -184,10 +186,13 @@ transition: property duration timing-function delay;
 原点` transform-origin(x,y)` x，y可以用百分比来表示
 
 
+## 参考资料
 
+[https://www.w3school.com.cn/css/css3_animations.asp](https://www.w3school.com.cn/css/css3_animations.asp)
 
+[https://www.w3school.com.cn/cssref/pr_transition.asp](https://www.w3school.com.cn/cssref/pr_transition.asp)
 
-
+[https://animate.style/](https://animate.style/)
 
 
 

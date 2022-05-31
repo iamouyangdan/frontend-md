@@ -50,7 +50,10 @@
 - ios使用自动布局（`Masonry` ）可以相对降低切图复杂度，但某些元素（例如列表里的元素）的大小仍然需要自行控制
 
 
+## 参考资料
+[ios-layer](https://www.jianshu.com/p/1d6db37577dd)
 
+[iOS自动布局 - Masonry](https://www.jianshu.com/p/e1d60416f518)
 
 
 
